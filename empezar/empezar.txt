@@ -1,0 +1,9 @@
+¿Qué es Tailwind CSS?
+
+Tailwind CSS es un framework CSS que permite un desarrollo ágil, basado en clases de utilidad que se pueden aplicar con facilidad en el código HTML y unos flujos de desarrollo que permiten optimizar mucho el peso del código CSS.
+
+Tailwind CSS es una potente herramienta para el desarrollo frontend. Está dentro de la clasificación de los frameworks CSS o también llamados frameworks de diseño. Permite a los desarrolladores y diseñadores aplicar estilos a los sitios web de una manera ágil y optimizada.
+
+Las hermosas interfaces de usuario personalizadas se pueden construir de manera efectiva usando CSS sin realmente poner mucho esfuerzo de codificación. Al ser un framework utility-first, Tailwind CSS ofrece la ventaja de diseñar cada componente de manera distintiva, de la manera que desees.
+
+Adaptando la form follow function o “función de seguimiento de formulario”, el nombre de la clase de utilidad predice la función exacta de esa clase para facilitar el diseño. Tailwind combina las propiedades CSS más críticas que se pueden personalizar y ampliar de acuerdo con los requisitos del proyecto.
