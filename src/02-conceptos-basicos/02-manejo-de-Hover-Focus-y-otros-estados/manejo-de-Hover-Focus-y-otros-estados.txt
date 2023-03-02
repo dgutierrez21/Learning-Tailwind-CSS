@@ -1,0 +1,27 @@
+Manejo de Hover, Focus y otros estados
+
+Usar utilidades para aplicar estilo a los elementos al hacer hover, focus y más.
+
+Cada clase de utilidad en Tailwind se puede aplicar condicionalmente agregando un modificador al principio del nombre de clase que describe la condición a la que desea apuntar.
+
+Por ejemplo, para aplicar la clase bg-sky-700 al pasar el puntero, use la clase hover:bg-sky-700 bg-sky-700
+
+...
+
+Tailwind incluye modificadores para casi todo lo que necesitarás, incluyendo:
+
+    ---Pseudoclases, como ::hover, ::focus, ::first-child y :required
+
+    ---Pseudoelementos, como ::::before, ::::after, :::placeholder y :::selection
+
+    ---Consultas de medios y características, como puntos de interrupción sensibles, modo oscuro y prefers-reduced-motion
+
+    ---Selectores de atributos, como [[dir="rtl"]] y [open]
+
+Estos modificadores incluso se pueden apilar para apuntar a situaciones más específicas, por ejemplo, cambiar el color de fondo en modo oscuro, en el punto de interrupción medio, al pasar el ratón:
+
+<button class="dark:md:hover:bg-fuchsia-600 ...">
+  Save changes
+</button>
+
+En esta guía, aprenderá sobre todos los modificadores disponibles en el marco, cómo usarlos con sus propias clases personalizadas e incluso cómo crear las suyas propias.
