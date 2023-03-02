@@ -13,3 +13,23 @@ Adaptando la form follow function o “función de seguimiento de formulario”,
 Hay muchas cosas que suceden en el desarrollo web. Por tanto,  a veces, esto puede convertirse en una tarea demasiado complicada. Mapear el impacto del estilo puede volverse tedioso y llevar mucho tiempo, lo que obstaculiza el progreso de la aplicación o sitio web.
 
 La implementación de Tailwind CSS elimina todos los problemas mencionados anteriormente. Tailwind CSS crea pequeñas utilidades con un conjunto definido de opciones que permiten una fácil integración de clases existentes directamente en el código HTML. Se puede proporcionar un estilo personalizado a los componentes con la ayuda de este marco de trabajo.
+
+Ventajas de usar Tailwind CSS
+Ahora que estás familiarizado con el qué y el por qué de Tailwind CSS, echemos un vistazo a algunas de sus ventajas más destacadas:
+
+ventajas de usar Tailwind CSS
+
+1. Es altamente personalizable
+Tailwind CSS es un framework altamente personalizable. Aunque viene con una configuración predeterminada, es simple sobre-escribirla gracias al fichero de configuración tailwind.config.js. Este archivo de configuración permite una fácil personalización de paletas de colores, estilizado, espaciado, temas, etc. Tailwind combina las utilidades perfectas que facilitan la gestión de proyectos y obtienen el máximo CSAT (Customer Satisfaction Score) o índice de satisfacción del cliente.
+
+2. Tiene patrones de utilidad comunes
+Elimina la molestia de nombrar clases con Tailwind CSS. La disponibilidad de patrones de utilidad comunes resuelve numerosos problemas como especificar clases, organizarlas, ponerlas en cascada y mucho más. Las clases de utilidades simplifican el proceso de creación de componentes personalizados. No es necesario codificar con Tailwind CSS. Puede aplicar la función theme() para extraer valores de los archivos de configuración.
+
+3. Se puede optimizar usando PurgeCSS
+Una ventaja importante de Tailwind CSS es que la optimización se puede realizar usando PurgeCSS. PurgeCSS puede reducir considerablemente el tamaño del archivo analizando el HTML y eliminando las clases no utilizadas. Es fácil configurar PurgeCSS en combinación con Tailwind CSS y es muy recomendable hacerlo antes de implementar el sitio. A medida que aumenta el tamaño del proyecto, también aumenta el tamaño del archivo CSS. Sin embargo, esto no sucede cuando se usa Tailwind. El uso de un conjunto estandarizado de clases mantiene el tamaño del archivo pequeño mientras el proyecto permanezca activo.
+
+4. Permite la creación de diseños complejos y responsive de forma libre
+El framework Tailwind CSS utiliza un enfoque predeterminado de dispositivos móviles. La disponibilidad de clases de utilidades facilita la creación de diseños complejos con capacidad de respuesta de manera libre. Las clases de utilidades se pueden usar en una variedad de puntos de interrupción de manera condicional, lo que ayuda a crear diseños complejos y responsive sin problemas.
+
+5. Facilita la interacción fluida con la comunidad
+¿Atascado con un problema aparentemente sin solución? La comunidad Tailwind CSS puede ser la solución perfecta. Forme parte de esta comunidad y obtenga asistencia integral de otros usuarios cuando sea necesario. Encuentre respuestas a todas sus consultas relacionadas con CSS sobre la marcha y cree aplicaciones y sitios web excepcionales sin ningún obstáculo. El equipo de Tailwind CSS ofrece soluciones rápidas para la resolución de problemas.
