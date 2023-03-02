@@ -1,0 +1,41 @@
+Fundamentos de Utility-First
+
+Tradicionalmente, cada vez que necesitas diseñar algo en la web, escribes CSS.
+
+❌ Uso de un enfoque tradicional donde los diseños personalizados requieren CSS personalizado
+
+...
+
+✅ Con Tailwind, puede aplicar estilos a los elementos aplicando clases preexistentes directamente en su HTML.
+
+Uso de clases de utilidad para crear diseños personalizados sin escribir CSS
+
+...
+
+En el ejemplo anterior, hemos usado:
+
+    ---Utilidades flexbox y de relleno de Tailwind (flex, shrink-0 y p-6) para controlar el diseño general de la tarjeta
+
+    ---Las utilidades max-width y margin (max-w-sm y mx-auto) para restringir el ancho de la tarjeta y centrarlo horizontalmente mx-auto
+
+    ---El color de fondo, el radio del borde y las utilidades de sombra de cuadro (bg-white, rounded-xl) para aplicar estilo a la apariencia bg-white la tarjeta shadow-lg
+
+    ---Las utilidades de ancho y alto (w-12 y w-12) para dimensionar la imagen del logotipo h-12
+
+    ---Las utilidades de espacio entre (space-x-4) para manejar el espaciado entre el logotipo y el texto
+
+    ---El tamaño de fuente, el color del texto y las utilidades de grosor de fuente (text-xl, text-black, text-xl, etc.) para aplicar estilo al texto de la tarjeta font-medium
+
+Este enfoque nos permite implementar un diseño de componentes completamente personalizado sin escribir una sola línea de CSS personalizado.
+
+Ahora sé lo que estás pensando, "esto es una atrocidad, ¡qué desastre tan horrible!" y tienes razón, es un poco feo. De hecho, es casi imposible pensar que esta es una buena idea la primera vez que la ves, tienes que probarla..
+
+Pero una vez que haya construido algo de esta manera, notará rápidamente algunos beneficios realmente importantes:
+
+    ---No estás desperdiciando energía inventando nombres de clase. No más agregar nombres de clase tontos como sidebar-inner-wrapper solo para poder diseñar algo, y no más agonizantes sobre el nombre abstracto perfecto para algo que en realidad es solo un contenedor flexible.
+
+    ---Tu CSS deja de crecer. Usando un enfoque tradicional, sus archivos CSS se hacen más grandes cada vez que agrega una nueva característica. Con las utilidades, todo es reutilizable, por lo que rara vez necesita escribir un nuevo CSS.
+
+    ---Hacer cambios se siente más seguro. CSS es global y nunca sabes lo que estás rompiendo cuando haces un cambio. Las clases en su HTML son locales, por lo que puede cambiarlas sin preocuparse de que algo más se rompa.
+
+Cuando te das cuenta de lo productivo que puedes ser trabajando exclusivamente en HTML con clases de utilidad predefinidas, trabajar de cualquier otra manera se sentirá como una tortura.
