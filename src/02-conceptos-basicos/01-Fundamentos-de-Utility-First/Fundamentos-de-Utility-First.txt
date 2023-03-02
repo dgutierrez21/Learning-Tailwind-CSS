@@ -39,3 +39,20 @@ Pero una vez que haya construido algo de esta manera, notará rápidamente algun
     ---Hacer cambios se siente más seguro. CSS es global y nunca sabes lo que estás rompiendo cuando haces un cambio. Las clases en su HTML son locales, por lo que puede cambiarlas sin preocuparse de que algo más se rompa.
 
 Cuando te das cuenta de lo productivo que puedes ser trabajando exclusivamente en HTML con clases de utilidad predefinidas, trabajar de cualquier otra manera se sentirá como una tortura.
+
+¿Por qué no usar estilos en línea?
+Una reacción común a este enfoque es preguntarse: "¿no son solo estilos en línea?" y de alguna manera lo es: está aplicando estilos directamente a los elementos en lugar de asignarles un nombre de clase y luego diseñar esa clase.
+
+Pero el uso de clases de utilidad tiene algunas ventajas importantes sobre los estilos en línea:
+
+    ---Diseñar con restricciones. Usando estilos en línea, cada valor es un número mágico. Con las utilidades, está eligiendo estilos de un sistema de diseño predefinido, lo que hace que sea mucho más fácil crear interfaces de usuario visualmente consistentes.
+
+    ---Diseño responsivo. No puede usar consultas de medios en estilos en línea, pero puede usar las utilidades receptivas de Tailwind para crear interfaces totalmente receptivas fácilmente.
+
+    ---Desplazarse, enfocarse y otros estados. Los estilos en línea no pueden apuntar a estados como el desplazamiento o el enfoque, pero las variantes de estado de Tailwind facilitan el estilo de esos estados con clases de utilidad.
+
+Ejemplo: 
+
+Este componente es totalmente sensible e incluye un botón con estilos de desplazamiento y enfoque, y está construido completamente con clases de utilidad:
+
+...
