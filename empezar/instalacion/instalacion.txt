@@ -1,0 +1,58 @@
+Instalación
+
+La forma más sencilla y rápida de ponerse en marcha con Tailwind CSS desde cero es con la herramienta Tailwind CLI.
+
+1. Instalar Tailwind CSS
+Instale tailwindcss a través de npm y cree su tailwind.config.js archivo.
+
+
+npm install -D tailwindcss
+npx tailwindcss init
+
+2. Configurar las rutas de acceso de la plantilla
+Agregue las rutas de acceso a todos los archivos de plantilla en el archivo 
+tailwind.config.js
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+3. Añade las directivas Tailwind a tu CSS
+Agregue las directivas @tailwind para cada una de las capas de Tailwind a su archivo CSS principal.
+
+src/entrada.css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+4. Iniciar el proceso de compilación de la CLI de Tailwind
+Ejecute la herramienta CLI para analizar los archivos de plantilla en busca de clases y compilar el CSS.
+
+Terminal
+
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+5. Empieza a usar Tailwind en tu HTML
+Agregue su archivo CSS compilado al <head> y comience a usar las clases de utilidad de Tailwind para diseñar su contenido.
+
+src/index.html
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html>
