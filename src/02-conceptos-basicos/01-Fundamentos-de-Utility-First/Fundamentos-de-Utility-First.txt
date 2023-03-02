@@ -56,3 +56,17 @@ Ejemplo:
 Este componente es totalmente sensible e incluye un botón con estilos de desplazamiento y enfoque, y está construido completamente con clases de utilidad:
 
 ...
+
+Problemas de mantenimiento
+La mayor preocupación de mantenimiento cuando se utiliza un enfoque de Utility-First es administrar combinaciones de utilidades comúnmente repetidas.
+
+Esto se resuelve fácilmente extrayendo componentes y parciales, y utilizando funciones de editor y lenguaje como edición de múltiples cursores y bucles simples.
+
+<!-- PrimaryButton.vue -->
+<template>
+  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    <slot/>
+  </button>
+</template>
+
+Aparte de eso, mantener un proyecto CSS de Utility-First resulta ser mucho más fácil que mantener una gran base de código CSS, simplemente porque HTML es mucho más fácil de mantener que CSS. Grandes empresas como GitHub, Netflix, Heroku, Kickstarter, Twitch, Segment y más están utilizando este enfoque con gran éxito.
