@@ -199,3 +199,10 @@ Aplique estilo al botón en las entradas de archivo utilizando el modificador de
 Tenga en cuenta que el restablecimiento del borde de Tailwind no se aplica a los botones de entrada de archivos. Esto significa que para agregar un borde a un botón de entrada de archivo, debe establecer explícitamente el estilo de borde utilizando una clase como file:border-solid junto con cualquier utilidad de ancho de borde:
 
 <input type="file" class="file:border file:border-solid ..." />
+
+Lista de marcadores
+Aplique estilo a los contadores o viñetas de las listas con el modificador de marker:
+
+...
+
+Hemos diseñado el modificador de marker para que sea heredable, por lo que, aunque puede usarlo directamente en un elemento <li>, también puede usarlo en un padre para evitar repetirse.
