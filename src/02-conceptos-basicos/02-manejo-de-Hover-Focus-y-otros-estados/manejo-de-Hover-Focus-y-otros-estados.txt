@@ -93,3 +93,26 @@ Coloca el cursor sobre la tarjeta para ver que ambos elementos de texto cambian 
 ...
 
 Este patrón funciona con todos los modificadores de pseudoclase, por ejemplo, group-focus, group-active o group-odd.
+
+Diferenciación de grupos anidados
+Al anidar grupos, puede aplicar estilos a algo basado en el estado de un grupo primario específico dándole a ese padre un nombre de grupo único usando una clase group/{name} e incluyendo ese nombre en modificadores usando clases como group-hover/{name} group/{name}:
+
+<ul role="list">
+  {#each people as person}
+    <li class="group/item hover:bg-slate-100 ...">
+      <img src="{person.imageUrl}" alt="" />
+      <div>
+        <a href="{person.url}">{person.name}</a>
+        <p>{person.title}</p>
+      </div>
+      <a class="group/edit invisible hover:bg-slate-200 group-hover/item:visible ..." href="tel:{person.phone}">
+        <span class="group-hover/edit:text-gray-700 ...">Call</span>
+        <svg class="group-hover/edit:translate-x-0.5 group-hover/edit:text-slate-500 ...">
+          <!-- ... -->
+        </svg>
+      </a>
+    </li>
+  {/each}
+</ul>
+
+Los grupos se pueden nombrar como quieras y no necesitan ser configurados de ninguna manera: simplemente nombra tus grupos directamente en tu marcado y Tailwind generará automáticamente el CSS necesario.
