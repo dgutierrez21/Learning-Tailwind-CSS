@@ -164,3 +164,24 @@ Para tener más control, puede usar el carácter & para marcar dónde debería t
       <div class="hidden peer-[:nth-of-type(3)_&]:block">
         <!-- ... -->
       </div>
+
+Pseudoelementos
+​
+after y before
+Aplique estilo a los pseudoelementos ::before y ::::after utilizando los modificadores before y after::before
+
+...
+
+Al usar estos modificadores, Tailwind agregará automáticamente contenido: '' de forma predeterminada para que no tenga que especificarlo a menos que desee un valor diferentecontent: ''
+
+...
+
+Vale la pena señalar que realmente no necesitas pseudo-elementos ::::before y :::after para la mayoría de las cosas en los proyectos Tailwind; por lo general, es más simple usar un elemento HTML real.
+
+Por ejemplo, aquí está el mismo diseño de arriba pero usando un <span> en lugar del pseudo-elemento ::before, que es un poco más fácil de leer y en realidad es menos código
+
+...
+
+Guarde before y after para situaciones en las que es importante que el contenido del pseudoelemento no esté realmente en el DOM y no pueda ser seleccionado por el usuario.
+
+Tenga en cuenta que si ha deshabilitado nuestros estilos base de comprobación previa, la propiedad content no se establecerá en una cadena vacía de forma predeterminada y deberá incluir content-[''] cada vez que use los modificadores before y after.
