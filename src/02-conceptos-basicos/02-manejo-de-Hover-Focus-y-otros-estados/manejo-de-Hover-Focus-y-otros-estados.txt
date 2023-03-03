@@ -185,3 +185,6 @@ Por ejemplo, aquí está el mismo diseño de arriba pero usando un <span> en lug
 Guarde before y after para situaciones en las que es importante que el contenido del pseudoelemento no esté realmente en el DOM y no pueda ser seleccionado por el usuario.
 
 Tenga en cuenta que si ha deshabilitado nuestros estilos base de comprobación previa, la propiedad content no se establecerá en una cadena vacía de forma predeterminada y deberá incluir content-[''] cada vez que use los modificadores before y after.
+
+Texto del placeholder
+Aplique estilo al texto del marcador de posición de cualquier entrada o área de texto mediante el modificador de placeholder:
