@@ -206,3 +206,21 @@ Aplique estilo a los contadores o viñetas de las listas con el modificador de m
 ...
 
 Hemos diseñado el modificador de marker para que sea heredable, por lo que, aunque puede usarlo directamente en un elemento <li>, también puede usarlo en un padre para evitar repetirse.
+
+Texto resaltado
+Aplique estilo a la selección de texto activa mediante el modificador de selection:
+
+...
+
+Hemos diseñado el modificador de selection para que sea heredable, por lo que puede agregarlo en cualquier lugar del árbol y se aplicará a todos los elementos descendientes.
+
+Esto facilita la configuración del color de selección para que coincida con su marca en todo el sitio:
+
+<html>
+<head>
+  <!-- ... -->
+</head>
+<body class="selection:bg-pink-300">
+  <!-- ... -->
+</body>
+</html>
