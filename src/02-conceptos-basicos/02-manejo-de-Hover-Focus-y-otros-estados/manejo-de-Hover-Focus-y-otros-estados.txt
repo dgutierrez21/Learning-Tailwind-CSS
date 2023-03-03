@@ -25,3 +25,15 @@ Estos modificadores incluso se pueden apilar para apuntar a situaciones más esp
 </button>
 
 En esta guía, aprenderá sobre todos los modificadores disponibles en el marco, cómo usarlos con sus propias clases personalizadas e incluso cómo crear las suyas propias.
+
+Pseudo-classes
+​
+Hover, focus, y active
+Aplicar estilo a los elementos al desplazar, enfocar y activar con los modificadores hover, focus y active:
+
+...
+
+Tailwind también incluye modificadores para otros estados interactivos como ::visited, ::focus-within y más. :focus-visible
+
+Consulte la referencia de pseudoclase para obtener una lista completa de los modificadores de pseudoclase disponibles. https://tailwindcss.com/docs/hover-focus-and-other-states#pseudo-class-reference
+
