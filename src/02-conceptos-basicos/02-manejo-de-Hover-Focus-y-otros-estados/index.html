@@ -309,5 +309,22 @@
         Su entrada será visible públicamente en su sitio.
       </div>
     </fieldset>
+
+    <form class="mt-5">
+      <label for="email">Email:</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        class="is-dirty peer border border-gray-600"
+        required
+      />
+      <div class="peer-[.is-dirty]:peer-required:block hidden">
+        This field is required.
+      </div>
+      <!-- ... -->
+    </form>
+
+    
   </body>
 </html>

@@ -151,3 +151,16 @@ Cuando se usan varios pares, puede aplicar estilo a algo en el estado de un par 
 ...
 
 Los pares se pueden nombrar como quieras y no necesitan configurarse de ninguna manera: simplemente nombra a tus pares directamente en tu marcado y Tailwind generará automáticamente el CSS necesario.
+
+Pares arbitrarios
+Puede crear modificadores peer-* únicos sobre la marcha proporcionando su propio selector como un valor arbitrario entre corchetes:
+
+...
+
+Para tener más control, puede usar el carácter & para marcar dónde debería terminar .peer en el selector final en relación con el selector que está pasando:
+
+<div>
+      <input type="text" class="peer" />
+      <div class="hidden peer-[:nth-of-type(3)_&]:block">
+        <!-- ... -->
+      </div>
