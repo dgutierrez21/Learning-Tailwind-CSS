@@ -72,3 +72,16 @@ También puedes aplicar estilo a un elemento cuando es un niño par o impar usan
 Tailwind también incluye modificadores para otras pseudoclases estructurales como ::only-child, ::first-of-type, :empty y más.
 
 Consulte la referencia de pseudoclase para obtener una lista completa de los modificadores de pseudoclase disponibles. https://tailwindcss.com/docs/hover-focus-and-other-states#pseudo-class-reference
+
+Estados del formulario
+Aplicar estilos a elementos de formulario en diferentes estados mediante modificadores como required, invalid y disabled:
+
+Intente hacer que la dirección de correo electrónico sea válida para ver cómo cambian los estilos
+
+...
+
+El uso de modificadores para este tipo de cosas puede reducir la cantidad de lógica condicional en sus plantillas, permitiéndole usar el mismo conjunto de clases independientemente del estado en el que se encuentre una entrada y permitiendo que el navegador aplique los estilos correctos para usted.
+
+Tailwind también incluye modificadores para otros estados de formulario como ::read-only, ::indeterminate, :checked, y más.
+
+Consulte la referencia de pseudoclase para obtener una lista completa de los modificadores de pseudoclase disponibles. https://tailwindcss.com/docs/hover-focus-and-other-states#disabled
