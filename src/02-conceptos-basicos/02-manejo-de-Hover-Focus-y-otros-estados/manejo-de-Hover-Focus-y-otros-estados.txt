@@ -188,3 +188,14 @@ Tenga en cuenta que si ha deshabilitado nuestros estilos base de comprobación p
 
 Texto del placeholder
 Aplique estilo al texto del marcador de posición de cualquier entrada o área de texto mediante el modificador de placeholder:
+
+...
+
+Botones de entrada de archivos
+Aplique estilo al botón en las entradas de archivo utilizando el modificador de file:
+
+...
+
+Tenga en cuenta que el restablecimiento del borde de Tailwind no se aplica a los botones de entrada de archivos. Esto significa que para agregar un borde a un botón de entrada de archivo, debe establecer explícitamente el estilo de borde utilizando una clase como file:border-solid junto con cualquier utilidad de ancho de borde:
+
+<input type="file" class="file:border file:border-solid ..." />
