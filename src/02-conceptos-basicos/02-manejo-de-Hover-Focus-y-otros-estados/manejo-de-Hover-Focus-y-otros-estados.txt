@@ -85,3 +85,11 @@ El uso de modificadores para este tipo de cosas puede reducir la cantidad de ló
 Tailwind también incluye modificadores para otros estados de formulario como ::read-only, ::indeterminate, :checked, y más.
 
 Consulte la referencia de pseudoclase para obtener una lista completa de los modificadores de pseudoclase disponibles. https://tailwindcss.com/docs/hover-focus-and-other-states#disabled
+
+Estilo basado en el estado primario (grupo-{modificador})
+Cuando necesite aplicar un estilo a un elemento basado en el estado de algún elemento padre, marque el elemento padre con la clase group y use modificadores group-* como group group-hover para aplicar estilo al elemento de destino:group-*
+Coloca el cursor sobre la tarjeta para ver que ambos elementos de texto cambian de color
+
+...
+
+Este patrón funciona con todos los modificadores de pseudoclase, por ejemplo, group-focus, group-active o group-odd.
