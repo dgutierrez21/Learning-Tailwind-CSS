@@ -125,3 +125,22 @@ Puede crear modificadores de group-* únicos sobre la marcha proporcionando su p
 Para tener más control, puede usar el carácter & para marcar dónde debe terminar .group en el selector final en relación con el selector que está pasando:
 
 ...
+
+Estilo basado en el estado del mismo nivel (par-{modificador})
+Cuando necesite aplicar estilo a un elemento basado en el estado de un elemento hermano, marque el elemento del mismo nivel con la clase peer y use modificadores peer-peer-* para aplicar estilo al elemento de destino:peer-invalid
+Intente hacer que la dirección de correo electrónico sea válida para ver desaparecer la advertencia
+
+...
+
+Esto hace posible hacer todo tipo de trucos geniales, como etiquetas flotantes, por ejemplo, sin ningún JS.
+
+Este patrón funciona con todos los modificadores de pseudoclase, por ejemplo, peer-required y peer-focuspeer-disabled.
+
+Es importante tener en cuenta que el marcador del peer solo se puede usar en hermanos anteriores debido a cómo funciona el combinador de hermanos generales en CSS.
+
+❌ No funcionará, solo los hermanos anteriores pueden ser marcados como compañeros
+
+<label>
+  <span class="peer-invalid:text-red-500 ...">Email</span>
+  <input type="email" class="peer ..."/>
+</label>
