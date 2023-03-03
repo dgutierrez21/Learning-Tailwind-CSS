@@ -276,5 +276,38 @@
         </div>
       </form>
     </div>
+
+    <fieldset>
+      <legend>Estado de publicación</legend>
+
+      <input
+        id="borrador"
+        class="peer/borrador"
+        type="radio"
+        name="estado"
+        checked
+      />
+      <label for="borrador" class="peer-checked/borrador:text-sky-500">
+        Borrador</label
+      >
+
+      <input
+        id="publicacion"
+        class="peer/publicacion"
+        type="radio"
+        name="estado"
+      />
+      <label for="publicacion" class="peer-checked/publicacion:text-sky-500"
+        >Publicación</label
+      >
+
+      <div class="hidden peer-checked/borrador:block">
+        Los borradores sólo son visibles para los administradores.
+      </div>
+
+      <div class="hidden peer-checked/publicacion:block">
+        Su entrada será visible públicamente en su sitio.
+      </div>
+    </fieldset>
   </body>
 </html>

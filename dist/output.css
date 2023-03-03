@@ -517,6 +517,10 @@ video {
   pointer-events: none;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .invisible {
   visibility: hidden;
 }
@@ -1268,6 +1272,26 @@ video {
 :nth-of-type(3) .group .group-\[\:nth-of-type\(3\)_\&\]\:bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+
+
+.peer\/borrador:checked ~ .peer-checked\/borrador\:block {
+  display: block;
+}
+
+.peer\/publicacion:checked ~ .peer-checked\/publicacion\:block {
+  display: block;
+}
+
+.peer\/borrador:checked ~ .peer-checked\/borrador\:text-sky-500 {
+  --tw-text-opacity: 1;
+  color: rgb(14 165 233 / var(--tw-text-opacity));
+}
+
+.peer\/publicacion:checked ~ .peer-checked\/publicacion\:text-sky-500 {
+  --tw-text-opacity: 1;
+  color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
 .peer:invalid ~ .peer-invalid\:visible {

@@ -144,3 +144,10 @@ Es importante tener en cuenta que el marcador del peer solo se puede usar en her
   <span class="peer-invalid:text-red-500 ...">Email</span>
   <input type="email" class="peer ..."/>
 </label>
+
+Diferenciar a los pares
+Cuando se usan varios pares, puede aplicar estilo a algo en el estado de un par específico dándole a ese par un nombre único usando una clase peer/{name}, e incluyendo ese nombre en modificadores usando clases como peer-checked/{name} peer/{name}:
+
+...
+
+Los pares se pueden nombrar como quieras y no necesitan configurarse de ninguna manera: simplemente nombra a tus pares directamente en tu marcado y Tailwind generará automáticamente el CSS necesario.
