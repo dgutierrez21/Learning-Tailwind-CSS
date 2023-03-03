@@ -116,3 +116,12 @@ Al anidar grupos, puede aplicar estilos a algo basado en el estado de un grupo p
 </ul>
 
 Los grupos se pueden nombrar como quieras y no necesitan ser configurados de ninguna manera: simplemente nombra tus grupos directamente en tu marcado y Tailwind generará automáticamente el CSS necesario.
+
+Grupos arbitrarios
+Puede crear modificadores de group-* únicos sobre la marcha proporcionando su propio selector como un valor arbitrario entre corchetes:
+
+...
+
+Para tener más control, puede usar el carácter & para marcar dónde debe terminar .group en el selector final en relación con el selector que está pasando:
+
+...
