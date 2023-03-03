@@ -37,3 +37,38 @@ Tailwind también incluye modificadores para otros estados interactivos como ::v
 
 Consulte la referencia de pseudoclase para obtener una lista completa de los modificadores de pseudoclase disponibles. https://tailwindcss.com/docs/hover-focus-and-other-states#pseudo-class-reference
 
+Primero, último, impar y par
+Aplicar estilo a un elemento cuando es el primer o el último hijo utilizando el first y last modificador:
+
+ <ul role="list" class="p-6 divide-y divide-slate-200">
+      {#each people as person}
+          <!-- Elimina el relleno superior/inferior del primer/último hijo -->
+      <li class="flex py-4 first:pt-0 last:pb-0">
+        <img class="h-10 w-10 rounded-full" src="{person.imageUrl}" alt="" />
+        <div class="ml-3 overflow-hidden">
+          <p class="text-sm font-medium text-slate-900">{person.name}</p>
+          <p class="text-sm text-slate-500 truncate">{person.email}</p>
+        </div>
+      </li>
+      {/each}
+    </ul>
+
+También puedes aplicar estilo a un elemento cuando es un niño par o impar usando even odd:
+
+<table>
+  <!-- ... -->
+  <tbody>
+    {#each people as person}
+         <!-- Utilice un fondo blanco para las filas impares, y pizarra-50 para las filas pares -->
+      <tr class="odd:bg-white even:bg-slate-50">
+        <td>{person.name}</td>
+        <td>{person.title}</td>
+        <td>{person.email}</td>
+      </tr>
+    {/each}
+  </tbody>
+</table>
+
+Tailwind también incluye modificadores para otras pseudoclases estructurales como ::only-child, ::first-of-type, :empty y más.
+
+Consulte la referencia de pseudoclase para obtener una lista completa de los modificadores de pseudoclase disponibles. https://tailwindcss.com/docs/hover-focus-and-other-states#pseudo-class-reference
