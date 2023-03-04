@@ -297,3 +297,18 @@ aria-pressed  | 	&[aria-pressed=“true”]
 aria-readonly  | 	&[aria-readonly=“true”]
 aria-required  | 	&[aria-required=“true”]
 aria-selected  | 	&[aria-selected=“true”]
+
+Atributos de datos
+Usar el modificador data-* para aplicar condicionalmente estilos basados en atributos de datos.
+
+Dado que no hay atributos data-* estándar por definición, de forma predeterminada solo admitimos valores arbitrarios listos para usar, por ejemplo:
+
+<!-- Will apply -->
+<div data-size="large" class="data-[size=large]:p-8">
+  <!-- ... -->
+</div>
+
+<!-- Will not apply -->
+<div data-size="medium" class="data-[size=large]:p-8">
+  <!-- ... -->
+</div>
