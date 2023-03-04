@@ -224,3 +224,8 @@ Esto facilita la configuración del color de selección para que coincida con su
   <!-- ... -->
 </body>
 </html>
+
+Primera línea y primera letra
+Aplique estilo a la primera línea de un bloque de contenido con el modificador de primera first-line y a la primera letra con el modificador first-letter:
+
+...
