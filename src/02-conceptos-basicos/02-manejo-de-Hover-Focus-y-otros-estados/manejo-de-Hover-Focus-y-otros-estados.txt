@@ -312,3 +312,8 @@ Dado que no hay atributos data-* estándar por definición, de forma predetermin
 <div data-size="medium" class="data-[size=large]:p-8">
   <!-- ... -->
 </div>
+
+Estado abierto/cerrado
+Utilice el modificador open para agregar estilos condicionalmente cuando un elemento <<details>> o <dialog> esté en estado abierto:
+
+...
