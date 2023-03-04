@@ -260,3 +260,18 @@ Utilice utilidades sin modificador para orientar el modo claro y utilice el modi
 ...
 
 Consulte la documentación del modo oscuro para obtener una visión en profundidad de cómo funciona esta función. https://tailwindcss.com/docs/dark-mode
+
+Orientación de la ventana gráfica
+Utilice los modificadores portrait y landscape para agregar estilos condicionalmente cuando la ventana gráfica esté en una orientación específica:
+
+<div>
+  <div class="portrait:hidden">
+    <!-- ... -->
+  </div>
+  <div class="landscape:hidden">
+    <p>
+      This experience is designed to be viewed in landscape. Please rotate your
+      device to view the site.
+    </p>
+  </div>
+</div>
