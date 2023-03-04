@@ -251,3 +251,12 @@ Por ejemplo, esto representará una cuadrícula de 3 columnas en dispositivos m�
 ...
 
 Consulte la documentación de diseño adaptable para obtener una visión en profundidad de cómo funcionan estas características. https://tailwindcss.com/docs/responsive-design
+
+Prefiere el esquema de color
+La consulta de medios prefers-color-scheme le indica si el usuario prefiere un tema claro u oscuro, y normalmente se configura en el nivel del sistema operativo.
+
+Utilice utilidades sin modificador para orientar el modo claro y utilice el modificador oscuro para proporcionar anulaciones para el modo dark:
+
+...
+
+Consulte la documentación del modo oscuro para obtener una visión en profundidad de cómo funciona esta función. https://tailwindcss.com/docs/dark-mode
