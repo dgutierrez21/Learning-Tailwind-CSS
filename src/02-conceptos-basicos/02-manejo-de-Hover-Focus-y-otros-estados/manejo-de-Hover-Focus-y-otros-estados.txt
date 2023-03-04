@@ -240,3 +240,14 @@ Aplique estilo al fondo de un elemento nativo <dialog> mediante el modificador d
 </dialog>
 
 Si usa elementos nativos <dialog> en el proyecto, es posible que también desee leer sobre cómo aplicar estilos a los estados abierto/cerrado con el modificador open.
+
+Consultas de medios y características
+​
+Puntos de interrupción responsivos
+Para aplicar estilo a un elemento en un punto de interrupción específico, use modificadores responsivos como md y lg.
+
+Por ejemplo, esto representará una cuadrícula de 3 columnas en dispositivos móviles, una cuadrícula de 4 columnas en pantallas de ancho medio y una cuadrícula de 6 columnas en pantallas de gran ancho:
+
+...
+
+Consulte la documentación de diseño adaptable para obtener una visión en profundidad de cómo funcionan estas características. https://tailwindcss.com/docs/responsive-design
