@@ -317,3 +317,12 @@ Estado abierto/cerrado
 Utilice el modificador open para agregar estilos condicionalmente cuando un elemento <<details>> o <dialog> esté en estado abierto:
 
 ...
+
+Modificadores personalizados
+​
+Uso de variantes arbitrarias
+Al igual que los valores arbitrarios le permiten usar valores personalizados con sus clases de utilidad, las variantes arbitrarias le permiten escribir modificadores de selector personalizados directamente en su HTML.
+
+Las variantes arbitrarias son solo cadenas de formato que representan el selector, envueltas entre corchetes. Por ejemplo, este modificador arbitrario selecciona un elemento sólo cuando es el tercer hijo:
+
+...
