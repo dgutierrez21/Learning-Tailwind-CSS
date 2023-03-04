@@ -229,3 +229,14 @@ Primera línea y primera letra
 Aplique estilo a la primera línea de un bloque de contenido con el modificador de primera first-line y a la primera letra con el modificador first-letter:
 
 ...
+
+Fondos de diálogo
+Aplique estilo al fondo de un elemento nativo <dialog> mediante el modificador de backdrop:
+
+<dialog class="backdrop:bg-gray-50">
+  <form method="dialog">
+    <!-- ... -->
+  </form>
+</dialog>
+
+Si usa elementos nativos <dialog> en el proyecto, es posible que también desee leer sobre cómo aplicar estilos a los estados abierto/cerrado con el modificador open.
