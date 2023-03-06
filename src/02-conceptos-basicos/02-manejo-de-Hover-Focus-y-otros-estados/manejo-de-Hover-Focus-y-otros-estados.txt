@@ -326,3 +326,10 @@ Al igual que los valores arbitrarios le permiten usar valores personalizados con
 Las variantes arbitrarias son solo cadenas de formato que representan el selector, envueltas entre corchetes. Por ejemplo, este modificador arbitrario selecciona un elemento sólo cuando es el tercer hijo:
 
 ...
+
+Temas avanzados
+​
+Uso con tus propias clases
+Todos los modificadores de Tailwind están disponibles para usar con sus propias clases personalizadas, siempre y cuando los haya definido en una de las capas de Tailwind o los haya agregado usando un complemento.:
+
+...

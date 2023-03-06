@@ -36,7 +36,7 @@ Ejecute la herramienta CLI para analizar los archivos de plantilla en busca de c
 
 Terminal
 
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+npx tailwindcss -i main.css -o ./dist/output.css --watch
 
 5. Empieza a usar Tailwind en tu HTML
 Agregue su archivo CSS compilado al <head> y comience a usar las clases de utilidad de Tailwind para diseñar su contenido.

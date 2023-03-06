@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .custom-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 255, 253);
+  }
+}
