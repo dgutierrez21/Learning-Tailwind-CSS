@@ -333,3 +333,42 @@ Uso con tus propias clases
 Todos los modificadores de Tailwind están disponibles para usar con sus propias clases personalizadas, siempre y cuando los haya definido en una de las capas de Tailwind o los haya agregado usando un complemento.:
 
 ...
+
+Ordenar modificadores apilados
+Al apilar modificadores, se aplican de adentro hacia afuera, como llamadas a funciones anidadas:
+
+// These modifiers:
+'dark:group-hover:focus:opacity-100'
+
+// ...are applied like this:
+dark(groupHover(focus('opacity-100')))
+
+En su mayor parte, esto en realidad no importa, pero hay algunas situaciones en las que el orden que usa realmente genera CSS significativamente diferente.
+
+Por ejemplo, si tiene darkMode configurado para class, la combinación de los modificadores dark y group-hover genera un resultado diferente en función del orden que utilice:
+
+/* dark:group-hover:opacity-100 */
+.dark .group:hover .dark\:group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+/* group-hover:dark:opacity-100 */
+.group:hover .dark .group-hover\:dark\:opacity-100 {
+  opacity: 1;
+}
+
+En el primer ejemplo, el elemento dark debe ser un elemento padre del elemento group, pero en el segundo ejemplo se invierte.
+
+Otro lugar donde esto es importante es cuando se usan modificadores como prose-headings que se incluyen con el complemento oficial de tipografía:
+
+/* prose-headings:hover:underline */
+.prose-headings\:hover\:underline:hover :is(:where(h1, h2, h3, h4, th)) {
+  text-decoration: underline;
+}
+
+/* hover:prose-headings:underline */
+.hover\:prose-headings\:underline :is(:where(h1, h2, h3, h4, th)):hover {
+  text-decoration: underline;
+}
+
+En el primer ejemplo, cada encabezado se subraya cuando pasa el cursor sobre el artículo en sí, mientras que en el segundo ejemplo, cada encabezado solo se subraya cuando pasa el cursor sobre ese encabezado.
