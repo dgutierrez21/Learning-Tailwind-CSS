@@ -450,3 +450,220 @@ data-[…]  	|   &[data-…]
 rtl	[dir=“rtl”]   |   &
 ltr	[dir=“ltr”]   |   &
 open  	|   &[open]
+
+Referencia de pseudoclase
+Esta es una lista completa de ejemplos para todos los modificadores de pseudo-clase incluidos en Tailwind para complementar la documentación de pseudo-clases al principio de esta guía.
+
+hover (:hover)
+Aplicar estilo a un elemento cuando el usuario se desplaza sobre él con el cursor del ratón mediante el modificador hover:
+
+<div class="bg-black hover:bg-white ...">
+  <!-- ... -->
+</div>
+​
+Focus (:foco)
+Aplicar estilo a un elemento cuando tiene el foco con el modificador de focus:
+
+<input class="border-gray-300 focus:border-blue-400 ..." />
+​
+foco-dentro (:foco-dentro)
+Aplicar estilo a un elemento cuando éste o uno de sus descendientes tiene el foco mediante el modificador focus-within:
+
+<div class="focus-within:shadow-lg ...">
+  <input type="text" />
+</div>
+​
+foco-visible (:foco-visible)
+Aplicar estilo a un elemento cuando se ha enfocado con el teclado mediante el modificador focus-visible:
+
+<button class="focus:outline-none focus-visible:ring ...">
+  Submit
+</button>
+​
+activo (:activo)
+Aplicar estilo a un elemento cuando se presiona con el modificador active:
+
+<button class="bg-blue-500 active:bg-blue-600 ...">
+  Submit
+</button>
+​
+visitado (:visitado)
+Aplicar estilo a un enlace cuando ya se ha visitado utilizando el modificador visited:
+
+<a href="https://seinfeldquotes.com" class="text-blue-600 visited:text-purple-600 ...">
+  Inspiration
+</a>
+​
+target (:target)
+Aplique estilo a un elemento si su ID coincide con el fragmento de URL actual mediante el modificador de target:
+
+<div id="about" class="target:shadow-lg ...">
+  <!-- ... -->
+</div>
+​
+Primero (:primer hijo)
+Aplicar estilo a un elemento si es el primer elemento secundario con el first modificador:
+
+<ul>
+  {#each people as person}
+    <li class="py-4 first:pt-0 ...">
+      <!-- ... -->
+    </li>
+  {/each}
+</ul>
+
+último (:último-hijo)
+Aplicar estilo a un elemento si es el último elemento secundario con el last modificador:
+
+<ul>
+  {#each people as person}
+    <li class="py-4 last:pb-0 ...">
+      <!-- ... -->
+    </li>
+  {/each}
+</ul>
+​
+solo (:only-child)
+Aplicar estilo a un elemento si es el único elemento secundario que usa el only modificador:
+
+<ul>
+  {#each people as person}
+    <li class="py-4 only:py-0 ...">
+      <!-- ... -->
+    </li>
+  {/each}
+</ul>
+​
+impar (:nth-child(odd))
+Aplica estilo a un elemento si es un hijo con números impares usando el modificador odd:
+
+<table>
+  {#each people as person}
+    <tr class="bg-white odd:bg-gray-100 ...">
+      <!-- ... -->
+    </tr>
+  {/each}
+</table>
+​
+par (:nth-niño(par))
+Aplica estilo a un elemento si es un hijo con números pares usando el modificador even:
+
+<table>
+  {#each people as person}
+    <tr class="bg-white even:bg-gray-100 ...">
+      <!-- ... -->
+    </tr>
+  {/each}
+</table>
+​
+Primero del tipo (:primero-del-tipo)
+Aplicar estilo a un elemento si es el primer elemento secundario de su tipo con el first-of-type:
+
+<nav>
+  <img src="/logo.svg" alt="Vandelay Industries" />
+  {#each links as link}
+    <a href="#" class="ml-2 first-of-type:ml-6 ...">
+      <!-- ... -->
+    </a>
+  {/each}
+</table>
+​
+last-of-type (:last-of-type)
+Aplicar estilo a un elemento si es el último elemento secundario de su tipo con el último modificador last-of-type:
+
+<nav>
+  <img src="/logo.svg" alt="Vandelay Industries" />
+  {#each links as link}
+    <a href="#" class="mr-2 last-of-type:mr-6 ...">
+      <!-- ... -->
+    </a>
+  {/each}
+  <button>More</button>
+</table>
+​
+only-of-type (:only-of-type)
+Aplicar estilo a un elemento si es el único elemento secundario de su tipo con el modificador only-of-type:
+
+<nav>
+  <img src="/logo.svg" alt="Vandelay Industries" />
+  {#each links as link}
+    <a href="#" class="mx-2 only-of-type:mx-6 ...">
+      <!-- ... -->
+    </a>
+  {/each}
+  <button>More</button>
+</table>
+​
+vacío (:vacío)
+Aplicar estilo a un elemento si no tiene contenido mediante el modificador empty:
+
+<ul>
+  {#each people as person}
+    <li class="empty:hidden ...">{person.hobby}</li>
+  {/each}
+</ul>
+
+deshabilitado (:d isabled)
+Aplicar estilo a una entrada cuando está deshabilitada con el modificador disabled:
+
+<input class="disabled:opacity-75 ..." />
+​
+habilitado (:enabled)
+Aplicar estilo a una entrada cuando está habilitada con el modificador enabled, más útil cuando solo desea aplicar otro estilo cuando un elemento no está deshabilitado:
+
+<input class="enabled:hover:border-gray-400 disabled:opacity-75 ..." />
+​
+comprobado (:checked)
+Aplicar estilo a una casilla de verificación o botón de opción cuando está marcada con el modificador checked:
+
+<input type="checkbox" class="appearance-none checked:bg-blue-500 ..." />
+​
+indeterminado (:indeterminado)
+Aplique estilo a una casilla de verificación o botón de opción en un estado indeterminado utilizando el modificador indeterminate:
+
+<input type="checkbox" class="appearance-none indeterminate:bg-gray-300 ..." />
+​
+Predeterminado (:d efault)
+Aplique estilo a una opción, casilla de verificación o botón de opción que era el valor predeterminado cuando la página se cargó inicialmente con el modificador default:
+
+<input type="checkbox" class="default:ring-2 ..." />
+​
+requerido (:requerido)
+Aplique estilo a una entrada cuando sea necesario utilizando el modificador required:
+
+<input class="required:border-red-500 ..." />
+​
+valid (:valid)
+Aplicar estilo a una entrada cuando sea válida con el modificador valid:
+
+<input class="valid:border-green-500 ..." />
+​
+invalid (:invalid)
+Aplicar estilo a una entrada cuando no es válida con el modificador no invalid:
+
+<input class="invalid:border-red-500 ..." />
+​
+En el rango (:in-range)
+Aplique estilo a una entrada cuando su valor esté dentro de un límite de rango especificado utilizando el modificador in-range:
+
+<input min="1" max="5" class="in-range:border-green-500 ..." />
+
+fuera de rango (:fuera de rango)
+Aplique estilo a una entrada cuando su valor esté fuera de un límite de rango especificado mediante el modificador out-of-range:
+
+<input min="1" max="5" class="out-of-range:border-red-500 ..." />
+​
+marcador de posición mostrado (:p laceholder-shown)
+Aplique estilo a una entrada cuando el marcador de posición se muestre con el modificador de placeholder-shown:
+
+<input class="placeholder-shown:border-gray-500 ..." placeholder="you@example.com" />
+​
+Autocompletar (:autorrelleno)
+Aplique estilo a una entrada cuando el navegador la haya rellenado automáticamente mediante el modificador de autofill:
+
+<input class="autofill:bg-yellow-200 ..." />
+​
+sólo lectura (:read-only)
+Aplicar estilo a una entrada cuando es de solo lectura con el modificador read-only:
+
+<input class="read-only:bg-gray-100 ..." />
