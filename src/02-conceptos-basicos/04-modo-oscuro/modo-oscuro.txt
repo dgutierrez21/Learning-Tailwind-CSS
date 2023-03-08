@@ -65,3 +65,14 @@ localStorage.theme = 'dark'
 localStorage.removeItem('theme')
 
 Una vez más, puede administrar esto como desee, incluso almacenar el lado del servidor de preferencias en una base de datos y representar la clase en el servidor, depende totalmente de usted.
+
+Personalización del nombre de la clase
+Algunos marcos (como NativeScript) tienen su propio enfoque para habilitar el modo oscuro y agregar un nombre de clase diferente cuando el modo oscuro está activo.
+
+Puede personalizar el nombre del selector de modo oscuro estableciendo darkMode en una matriz con su selector personalizado como segundo elemento:
+
+tailwind.config.js
+module.exports = {
+  darkMode: ['class', '[data-mode="dark"]'],
+  // ...
+}
