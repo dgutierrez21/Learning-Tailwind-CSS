@@ -52,3 +52,31 @@ Incluso podría reescribir el ejemplo de navegación usando un bucle o map si lo
 </nav>
 
 Cuando los elementos se representan en un bucle como este, la lista de clases real solo se escribe una vez, por lo que no hay ningún problema de duplicación real que resolver.
+
+Extracción de componentes y parciales
+Si necesita reutilizar algunos estilos en varios archivos, la mejor estrategia es crear un componente si está utilizando un marco front-end como React, Svelte o Vue, o una plantilla parcial si está utilizando un lenguaje de plantillas como Blade, ERB, Twig o Nunjucks.
+
+VacationCard.vue
+
+<template>
+  <div>
+    <img class="rounded" :src="img" :alt="imgAlt">
+    <div class="mt-2">
+      <div>
+        <div class="text-xs text-slate-600 uppercase font-bold tracking-wider">{{ eyebrow }}</div>
+        <div class="font-bold text-slate-700 leading-snug">
+          <a :href="url" class="hover:underline">{{ title }}</a>
+        </div>
+        <div class="mt-2 text-sm text-slate-600">{{ pricing }}</div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+  export default {
+    props: ['img', 'imgAlt', 'eyebrow', 'title', 'pricing', 'url']
+  }
+</script>
+
+Ahora puede usar este componente en tantos lugares como desee, sin dejar de tener una única fuente de verdad para los estilos para que puedan actualizarse fácilmente juntos en un solo lugar.
