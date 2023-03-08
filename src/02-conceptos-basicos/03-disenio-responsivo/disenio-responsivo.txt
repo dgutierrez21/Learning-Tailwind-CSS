@@ -99,3 +99,10 @@ module.exports = {
     },
   }
 }
+
+Valores arbitrarios
+Si necesita usar un punto de interrupción único que no tiene sentido incluir en su tema, use los modificadores min o max para generar un punto de interrupción personalizado sobre la marcha utilizando cualquier valor arbitrario.
+
+<div class="min-[320px]:text-center max-[600px]:bg-sky-300">
+  <!-- ... -->
+</div>
