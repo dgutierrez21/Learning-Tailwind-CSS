@@ -38,3 +38,18 @@ Trabajar con dispositivos móviles primero
 De forma predeterminada, Tailwind utiliza un sistema de punto de interrupción móvil, similar al que podría estar acostumbrado en otros marcos como Bootstrap.
 
 Lo que esto significa es que las utilidades sin prefijo (como uppercase) surten efecto en todos los tamaños de pantalla, mientras que las utilidades prefijadas (como md:uppercase) solo surten efecto en el punto de interrupción especificado y superior..
+
+Segmentación de pantallas móviles
+Donde este enfoque sorprende a las personas con mayor frecuencia es que para diseñar algo para dispositivos móviles, debe usar la versión sin prefijo de una utilidad, no la versión sm: con prefijo. No pienses en sm: como "en pantallas pequeñas", piensa en ello como "en el pequeño punto de ruptura".
+
+❌ No usar sm: para orientar dispositivos móviles
+
+<!-- Esto sólo centrará el texto en pantallas de 640px o más, no en pantallas pequeñas. -->
+<div class="sm:text-center"></div>
+
+✅ Usar utilidades sin prefijo para orientar los dispositivos móviles y anularlas en puntos de interrupción más grandes
+
+<!-- Centrará el texto en los móviles y lo alineará a la izquierda en las pantallas de 640px o más. -->
+<div class="text-center sm:text-left"></div>
+
+Por esta razón, a menudo es una buena idea implementar primero el diseño móvil para un diseño, luego agregar cualquier cambio que tenga sentido para las pantallas sm, seguido de pantallas md, etc.
