@@ -2,3 +2,34 @@ Diseño responsivo
 Uso de variantes de utilidad adaptables para crear interfaces de usuario adaptables.
 
 Cada clase de utilidad en Tailwind se puede aplicar condicionalmente en diferentes puntos de interrupción, lo que hace que sea pan comido construir interfaces receptivas complejas sin salir de su HTML.
+
+Hay cinco puntos de interrupción de forma predeterminada, inspirados en las resoluciones comunes de los dispositivos:
+
+Prefijo de punto de interrupción  |	Anchura mínima  |  .CSS
+sm   |	640px	@media  |  (min-width: 640px) { ... }
+md   |	768px	@media  |  (min-width: 768px) { ... }
+lg   |	1024px	@media  |  (min-width: 1024px) { ... }
+xl   |	1280px	@media  |  (min-width: 1280px) { ... }
+2xl  |	1536px	@media  |  (min-width: 1536px) { ... }
+
+Para agregar una utilidad pero solo hacer que surta efecto en un determinado punto de interrupción, todo lo que necesita hacer es anteponer la utilidad con el nombre del punto de interrupción, seguido del carácter :
+
+<!-- Width of 16 by default, 32 on medium screens, and 48 on large screens -->
+<img class="w-16 md:w-32 lg:w-48" src="...">
+
+Esto funciona para todas las clases de utilidad en el marco, lo que significa que puede cambiar literalmente cualquier cosa en un punto de interrupción determinado, incluso cosas como el espaciado de letras o los estilos de cursor.
+
+Aquí hay un ejemplo simple de un componente de página de marketing que utiliza un diseño apilado en pantallas pequeñas y un diseño lado a lado en pantallas más grandes (cambie el tamaño de su navegador para verlo en acción):
+
+...
+
+Así es como funciona el ejemplo anterior:
+
+    ---De forma predeterminada, el div externo es display: block, pero al agregar la utilidad md:flex:flex, se convierte en display: flex en pantallas medianas y más grandes.display: block
+    
+    ---Cuando el padre es un contenedor flexible, queremos asegurarnos de que la imagen nunca se encoja, por lo que hemos agregado md:shrink-0 para evitar la reducción en pantallas medianas y más grandes. Técnicamente, podríamos haber usado shrink-0 ya que no haría nada en pantallas más pequeñas, pero como solo importa en pantallas md, es una buena idea dejarlo claro en el nombre de la clase.
+    
+    ---En pantallas pequeñas, la imagen es automáticamente de ancho completo por defecto. En pantallas medianas y superiores, hemos limitado el ancho a un tamaño fijo y nos hemos asegurado de que la imagen sea de altura completa usando md: md:h-full md:w-48.
+    
+
+Solo hemos usado un punto de interrupción en este ejemplo, pero también puede personalizar fácilmente este componente en otros tamaños utilizando los prefijos sm, lg, xl o 2xl.
