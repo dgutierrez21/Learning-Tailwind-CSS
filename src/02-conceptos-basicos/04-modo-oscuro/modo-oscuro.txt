@@ -41,3 +41,27 @@ Ahora, en lugar de que las clases dark:{class} se apliquen en función del prefe
 Si ha establecido un prefijo en su configuración de Tailwind, asegúrese de agregarlo a la clase dark. Por ejemplo, si tiene el prefijo tw-, deberá usar la clase tw- para habilitar tw-dark el modo oscuro.
 
 Cómo agregar la clase dark al elemento html depende de usted, pero un enfoque común es usar un poco de JS que lea una preferencia de algún lugar (como localStorage) y actualice el DOM en consecuencia.
+
+Compatibilidad con la preferencia del sistema y la selección manual
+La estrategia de class se puede utilizar para admitir tanto la preferencia del sistema del usuario como un modo seleccionado manualmente mediante la API Window.matchMedia().
+
+Aquí hay un ejemplo simple de cómo puede admitir el modo claro, el modo oscuro, así como respetar las preferencias del sistema operativo:
+
+espaguetis.js
+// Al cargar la página o al cambiar de tema, es mejor añadir en línea en `head` para evitar FOUC
+if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  document.documentElement.classList.add('dark')
+} else {
+  document.documentElement.classList.remove('dark')
+}
+
+// Siempre que el usuario elija explícitamente el modo luz
+localStorage.theme = 'light'
+
+// Siempre que el usuario elija explícitamente el modo oscuro
+localStorage.theme = 'dark'
+
+// Siempre que el usuario decida explícitamente respetar la preferencia del SO
+localStorage.removeItem('theme')
+
+Una vez más, puede administrar esto como desee, incluso almacenar el lado del servidor de preferencias en una base de datos y representar la clase en el servidor, depende totalmente de usted.
