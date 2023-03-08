@@ -78,3 +78,24 @@ Para apuntar a un solo punto de interrupción, apunte al rango para ese punto de
 <div class="md:max-lg:flex">
   <!-- ... -->
 </div>
+
+Uso de puntos de interrupción personalizados
+​
+Personalizar tu tema
+Puede personalizar completamente los puntos de interrupción en el archivo tailwind.config.js:
+
+tailwind.config.js
+module.exports = {
+  theme: {
+    screens: {
+      'tablet': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    },
+  }
+}
