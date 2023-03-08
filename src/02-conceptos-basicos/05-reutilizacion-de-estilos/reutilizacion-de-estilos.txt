@@ -15,3 +15,40 @@ Edición de varios cursores
 Cuando la duplicación se localiza en un grupo de elementos en un solo archivo, la forma más fácil de tratarla es usar la edición de varios cursores para seleccionar y editar rápidamente la lista de clases para cada elemento a la vez:
 
 Te sorprendería la frecuencia con la que esto termina siendo la mejor solución. Si puede editar rápidamente todas las listas de clases duplicadas simultáneamente, no hay ningún beneficio en introducir ninguna abstracción adicional.
+
+Bucles
+Antes de asumir que va a necesitar extraer un componente o crear una clase personalizada para algo, asegúrese de que realmente lo está usando más de una vez en su plantilla.
+
+Muchas veces, un elemento de diseño que aparece más de una vez en la página renderizada solo se crea una vez porque el marcado real se representa en un bucle.
+
+Por ejemplo, los avatares duplicados al principio de esta guía casi seguramente se representarían en un bucle en un proyecto real:
+
+<div>
+  <div class="flex items-center space-x-2 text-base">
+    <h4 class="font-semibold text-slate-900">Contributors</h4>
+    <span class="rounded-full bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-700">204</span>
+  </div>
+  <div class="mt-3 flex -space-x-2 overflow-hidden">
+    {#each contributors as user}
+      <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="{user.avatarUrl}" alt="{user.handle}"/>
+    {/each}
+  </div>
+  <div class="mt-3 text-sm font-medium">
+    <a href="#" class="text-blue-500">+ 198 others</a>
+  </div>
+</div>
+
+Incluso podría reescribir el ejemplo de navegación usando un bucle o map si lo prefiere:
+
+<nav className="flex sm:justify-center space-x-4">
+  {[
+    ['Home', '/dashboard'],
+    ['Team', '/team'],
+    ['Projects', '/projects'],
+    ['Reports', '/reports'],
+  ].map(([title, url]) => (
+    <a href={url} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">{title}</a>
+  ))}
+</nav>
+
+Cuando los elementos se representan en un bucle como este, la lista de clases real solo se escribe una vez, por lo que no hay ningún problema de duplicación real que resolver.
