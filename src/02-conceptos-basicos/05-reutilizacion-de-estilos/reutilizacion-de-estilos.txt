@@ -1,0 +1,12 @@
+Reutilización de estilos
+Gestionar la duplicación y crear abstracciones reutilizables.
+
+Tailwind fomenta un flujo de trabajo de utilidad primero, donde los diseños se implementan utilizando solo clases de utilidad de bajo nivel. Esta es una forma poderosa de evitar la abstracción prematura y los puntos débiles que la acompañan.
+
+Pero, por supuesto, a medida que un proyecto crece, inevitablemente te encontrarás repitiendo combinaciones de utilidades comunes para recrear el mismo diseño en muchos lugares diferentes.
+
+Por ejemplo, en la siguiente plantilla puede ver que las clases de utilidad para cada imagen de avatar se repiten cinco veces separadas:
+
+...
+
+¡Que no cunda el pánico! En esta guía, aprenderá sobre diferentes estrategias para reutilizar estilos en su proyecto, así como las mejores prácticas para cuándo emplear cada uno.
