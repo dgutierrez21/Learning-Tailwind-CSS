@@ -71,3 +71,10 @@ max-md   |	@media not all and (min-width: 768px) { ... }
 max-lg   |	@media not all and (min-width: 1024px) { ... }
 max-xl   |	@media not all and (min-width: 1280px) { ... }
 max-2xl  |	@media not all and (min-width: 1536px) { ... }
+
+Apuntar a un único punto de interrupción
+Para apuntar a un solo punto de interrupción, apunte al rango para ese punto de interrupción apilando un modificador de respuesta como md con el modificador max-* para el siguiente punto de interrupción:
+
+<div class="md:max-lg:flex">
+  <!-- ... -->
+</div>
