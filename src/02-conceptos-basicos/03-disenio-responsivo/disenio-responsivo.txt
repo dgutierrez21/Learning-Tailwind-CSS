@@ -1,0 +1,4 @@
+Diseño responsivo
+Uso de variantes de utilidad adaptables para crear interfaces de usuario adaptables.
+
+Cada clase de utilidad en Tailwind se puede aplicar condicionalmente en diferentes puntos de interrupción, lo que hace que sea pan comido construir interfaces receptivas complejas sin salir de su HTML.
