@@ -5,3 +5,39 @@ Uso básico
 Ahora que el modo oscuro es una característica de primera clase de muchos sistemas operativos, cada vez es más común diseñar una versión oscura de su sitio web para que vaya junto con el diseño predeterminado.
 
 Para que esto sea lo más fácil posible, Tailwind incluye una variante dark que le permite diseñar su sitio de manera diferente cuando el modo oscuro está habilitado:
+
+...
+
+Alternar el modo oscuro manualmente
+Si desea admitir la alternancia manual del modo oscuro en lugar de depender de las preferencias del sistema operativo, utilice la estrategia de class en lugar media multimedia:
+
+tailwind.config.js
+module.exports = {
+  darkMode: 'class',
+  // ...
+}
+Ahora, en lugar de que las clases dark:{class} se apliquen en función del prefers-color-scheme, se aplicarán siempre que la clase dark esté presente anteriormente en el árbol HTML.
+
+<!-- Dark mode not enabled -->
+<html>
+<body>
+  <!-- Will be white -->
+  <div class="bg-white dark:bg-black">
+    <!-- ... -->
+  </div>
+</body>
+</html>
+
+<!-- Dark mode enabled -->
+<html class="dark">
+<body>
+  <!-- Will be black -->
+  <div class="bg-white dark:bg-black">
+    <!-- ... -->
+  </div>
+</body>
+</html>
+
+Si ha establecido un prefijo en su configuración de Tailwind, asegúrese de agregarlo a la clase dark. Por ejemplo, si tiene el prefijo tw-, deberá usar la clase tw- para habilitar tw-dark el modo oscuro.
+
+Cómo agregar la clase dark al elemento html depende de usted, pero un enfoque común es usar un poco de JS que lea una preferencia de algún lugar (como localStorage) y actualice el DOM en consecuencia.

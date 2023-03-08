@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../../../dist/output.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="p-5">
     <div
@@ -16,9 +22,8 @@
         <span
           class="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg"
         >
-         <i class="fa-solid fa-pen-to-square text-2xl text-white"></i>
-            <!-- ... -->
-          </svg>
+          <i class="fa-solid fa-pen-to-square text-2xl text-white"></i>
+          <!-- ... -->
         </span>
       </div>
       <h3
@@ -31,5 +36,18 @@
         orientación, incluso al revés. Incluso funciona en el espacio exterior.
       </p>
     </div>
+
+    <button
+      onclick="cambiarTema()"
+      type="button"
+      class="mt-5 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+    >
+      Cambiar Tema
+    </button>
   </body>
+  <script>
+    function cambiarTema() {
+      document.querySelector("html").classList.toggle("dark");
+    }
+  </script>
 </html>
