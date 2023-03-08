@@ -53,3 +53,21 @@ Donde este enfoque sorprende a las personas con mayor frecuencia es que para dis
 <div class="text-center sm:text-left"></div>
 
 Por esta razón, a menudo es una buena idea implementar primero el diseño móvil para un diseño, luego agregar cualquier cambio que tenga sentido para las pantallas sm, seguido de pantallas md, etc.
+
+Segmentación de un intervalo de puntos de interrupción
+De forma predeterminada, los estilos aplicados por reglas como md:flex se aplicarán en ese punto de interrupción y permanecerán aplicados en puntos de interrupción más grandes.
+
+Si desea aplicar una utilidad solo cuando un rango de punto de interrupción específico está activo, apile un modificador de respuesta como md con un modificador max-* para limitar ese estilo a un rango específico:
+
+<div class="md:max-xl:flex">
+  <!-- ... -->
+</div>
+
+Tailwind genera un modificador max-* correspondiente para cada punto de interrupción, por lo que están disponibles los siguientes modificadores:
+
+Modificador  |	Consulta de medios
+max-sm   |	@media not all and (min-width: 640px) { ... }
+max-md   |	@media not all and (min-width: 768px) { ... }
+max-lg   |	@media not all and (min-width: 1024px) { ... }
+max-xl   |	@media not all and (min-width: 1280px) { ... }
+max-2xl  |	@media not all and (min-width: 1536px) { ... }
