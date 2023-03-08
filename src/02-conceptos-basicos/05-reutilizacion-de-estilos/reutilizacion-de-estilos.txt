@@ -10,3 +10,8 @@ Por ejemplo, en la siguiente plantilla puede ver que las clases de utilidad para
 ...
 
 ¡Que no cunda el pánico! En esta guía, aprenderá sobre diferentes estrategias para reutilizar estilos en su proyecto, así como las mejores prácticas para cuándo emplear cada uno.
+
+Edición de varios cursores
+Cuando la duplicación se localiza en un grupo de elementos en un solo archivo, la forma más fácil de tratarla es usar la edición de varios cursores para seleccionar y editar rápidamente la lista de clases para cada elemento a la vez:
+
+Te sorprendería la frecuencia con la que esto termina siendo la mejor solución. Si puede editar rápidamente todas las listas de clases duplicadas simultáneamente, no hay ningún beneficio en introducir ninguna abstracción adicional.
