@@ -87,3 +87,12 @@ Esto también puede ser útil para cosas como variables CSS, especialmente cuand
 <div class="[--scroll-offset:56px] lg:[--scroll-offset:44px]">
   <!-- ... -->
 </div>
+
+Variantes arbitrarias
+Las variantes arbitrarias son como valores arbitrarios, pero para realizar modificaciones de selector sobre la marcha, como puede hacerlo con variantes de pseudoclase integradas como hover:{utility} o variantes receptivas como md:{utility} pero usando la notación entre corchetes directamente en su HTML.hover:{utility}
+
+<ul role="list">
+  {#each items as item}
+    <li class="lg:[&:nth-child(3)]:hover:underline">{item}</li>
+  {/each}
+</ul>
