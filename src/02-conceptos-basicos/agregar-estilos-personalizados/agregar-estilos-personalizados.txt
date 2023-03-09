@@ -142,3 +142,30 @@ En estas situaciones, puede "sugerir" el tipo subyacente a Tailwind agregando un
 
 <!-- Will generate a color utility -->
 <div class="text-[color:var(--my-var)]">...</div>
+
+Uso de CSS y @layer
+Cuando necesite agregar reglas CSS verdaderamente personalizadas a un proyecto de Tailwind, el enfoque más fácil es simplemente agregar el CSS personalizado a su hoja de estilo:
+
+main.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-custom-style {
+  /* ... */
+}
+
+Para obtener más potencia, también puede usar la directiva @layer para agregar estilos a las capas base, components y utilities de Tailwind:
+
+main.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .my-custom-style {
+    /* ... */
+  }
+}
+
+La directiva @layer le ayuda a controlar el orden de la declaración al reubicar automáticamente sus estilos en la directiva @tailwind correspondiente, y también habilita características como modificadores y sacudidas de árboles para su propio CSS personalizado.
