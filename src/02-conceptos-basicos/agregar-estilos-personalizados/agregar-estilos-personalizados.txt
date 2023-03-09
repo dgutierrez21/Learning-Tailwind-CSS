@@ -169,3 +169,31 @@ main.css
 }
 
 La directiva @layer le ayuda a controlar el orden de la declaración al reubicar automáticamente sus estilos en la directiva @tailwind correspondiente, y también habilita características como modificadores y sacudidas de árboles para su propio CSS personalizado.
+
+Agregar estilos base
+Si solo desea establecer algunos valores predeterminados para la página (como el color del texto, el color de fondo o la familia de fuentes), la opción más fácil es simplemente agregar algunas clases a los elementos html o body:
+
+<!doctype html>
+<html lang="en" class="text-gray-900 bg-gray-100 font-serif">
+  <!-- ... -->
+</html>
+Esto mantiene sus decisiones de estilo base en su marcado junto con todos sus otros estilos, en lugar de ocultarlos en un archivo separado.
+
+Si desea agregar sus propios estilos base predeterminados para elementos HTML específicos, use la directiva @layer para agregar esos estilos a la capa base de Tailwind:
+
+main.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  /* ... */
+}
+
+Utilice la función theme tema o la directiva @apply al agregar estilos base personalizados si desea hacer referencia a cualquiera de los valores definidos en el tema.
