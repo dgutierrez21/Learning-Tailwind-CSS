@@ -80,3 +80,51 @@ VacationCard.vue
 </script>
 
 Ahora puede usar este componente en tantos lugares como desee, sin dejar de tener una única fuente de verdad para los estilos para que puedan actualizarse fácilmente juntos en un solo lugar.
+
+En comparación con las abstracciones CSS
+A menos que un componente sea un solo elemento HTML, la información necesaria para definirlo no se puede capturar solo en CSS. Para cualquier cosa, incluso remotamente compleja, la estructura HTML es tan importante como el CSS.
+
+❌ No confíe en las clases CSS para extraer componentes complejos
+
+<!-- Incluso con CSS personalizado, es necesario duplicar esta estructura HTML -->
+<div class="chat-notification">
+  <div class="chat-notification-logo-wrapper">
+    <img class="chat-notification-logo" src="/img/logo.svg" alt="ChitChat Logo">
+  </div>
+  <div class="chat-notification-content">
+    <h4 class="chat-notification-title">ChitChat</h4>
+    <p class="chat-notification-message">You have a new message!</p>
+  </div>
+</div>
+
+<style>
+  .chat-notification { /* ... */ }
+  .chat-notification-logo-wrapper { /* ... */ }
+  .chat-notification-logo { /* ... */ }
+  .chat-notification-content { /* ... */ }
+  .chat-notification-title { /* ... */ }
+  .chat-notification-message { /* ... */ }
+</style>
+
+Incluso si crea clases para los diferentes elementos de un componente como este, todavía tiene que duplicar el HTML cada vez que desee utilizar este componente. Seguro que puede actualizar el tamaño de fuente para cada instancia en un solo lugar, pero ¿qué pasa si necesita convertir el título en un enlace?
+
+Los componentes y los parciales de plantilla resuelven este problema mucho mejor que las abstracciones solo CSS porque un componente puede encapsular el HTML y los estilos. Cambiar el tamaño de fuente para cada instancia es tan fácil como lo es con CSS, pero ahora también puede convertir todos los títulos en enlaces en un solo lugar.
+
+✅ Crear una plantilla parcial o un componente JavaScript
+
+Notificación.jsx
+function Notification({ imageUrl, imageAlt, title, message }) {
+  return (
+    <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
+      <div className="shrink-0">
+        <img className="h-12 w-12" src={imageUrl.src} alt={imageAlt}>
+      </div>
+      <div>
+        <div className="text-xl font-medium text-black">{title}</div>
+        <p className="text-slate-500">{message}</p>
+      </div>
+    </div>
+  )
+}
+
+Cuando crea componentes y parciales de plantilla como este, no hay razón para usar otra cosa que no sean clases de utilidad porque ya tiene una única fuente de verdad para los estilos.
