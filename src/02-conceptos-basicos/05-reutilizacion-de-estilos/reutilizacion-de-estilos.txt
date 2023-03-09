@@ -156,3 +156,18 @@ Así es como se vería una clase btn-primary usando @apply para componerla a par
     @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
   }
 }
+
+Evitar la abstracción prematura
+Hagas lo que hagas, no uses @apply solo para hacer que las cosas se vean "más limpias". Sí, las plantillas HTML llenas de clases de Tailwind son un poco feas. Hacer cambios en un proyecto que tiene toneladas de CSS personalizado es peor.
+
+Si comienzas a usar @apply para todo, básicamente estás escribiendo CSS nuevamente y desechando todas las ventajas de flujo de trabajo y mantenibilidad que Tailwind te brinda, por ejemplo:
+
+    ---Tienes que pensar en nombres de clase todo el tiempo: nada te ralentizará o agotará tu energía como encontrar un nombre de clase para algo que no merece ser nombrado.
+    
+    ---Tienes que saltar entre varios archivos para hacer cambios, lo cual es un asesino de flujo de trabajo mucho más grande de lo que piensas antes de coubicar todo junto.
+    
+    ---Cambiar estilos es más aterrador: CSS es global, ¿está seguro de que puede cambiar el valor de ancho mínimo en esa clase sin romper algo en otra parte del sitio?
+    
+    ---Tu paquete CSS será más grande, oof.
+    
+Si va a usar @apply, úselo para cosas muy pequeñas y altamente reutilizables, como botones y controles de formulario, e incluso entonces solo si no está utilizando un marco como React, donde un componente sería una mejor opción.
