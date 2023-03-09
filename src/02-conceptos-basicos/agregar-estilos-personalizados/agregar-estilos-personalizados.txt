@@ -197,3 +197,54 @@ main.css
 }
 
 Utilice la función theme tema o la directiva @apply al agregar estilos base personalizados si desea hacer referencia a cualquiera de los valores definidos en el tema.
+
+Agregar clases de componente
+Utilice la capa de components para cualquier clase más complicada que desee agregar al proyecto y que aún desee poder reemplazar con clases de utilidad.
+
+Tradicionalmente, estas serían clases como card, btn, badge, ese tipo de cosas.
+
+main.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl');
+  }
+  /* ... */
+}
+
+Al definir clases de componentes en la capa de components, puede seguir utilizando clases de utilidad para reemplazarlas cuando sea necesario:
+
+<!-- Will look like a card, but with square corners -->
+<div class="card rounded-none">
+  <!-- ... -->
+</div>
+
+Usando Tailwind probablemente no necesites este tipo de clases tan a menudo como crees. Lea nuestra guía sobre la reutilización de estilos para ver nuestras recomendaciones.
+https://tailwindcss.com/docs/reusing-styles
+
+La capa de components también es un buen lugar para colocar estilos personalizados para cualquier componente de terceros que esté utilizando:
+
+main.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .select2-dropdown {
+    @apply rounded-b-lg shadow-md;
+  }
+  .select2-search {
+    @apply border border-gray-300 rounded;
+  }
+  .select2-results__group {
+    @apply text-lg font-bold text-gray-900;
+  }
+  /* ... */
+}
+Utilice la función theme tema o la directiva @apply al agregar estilos de componentes personalizados si desea hacer referencia a cualquiera de los valores definidos en el tema.
