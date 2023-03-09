@@ -121,3 +121,24 @@ Si usas algo como JSX, donde la barra diagonal inversa se elimina del HTML rende
 <div className={String.raw`before:content-['hello\_world']`}>
   <!-- ... -->
 </div>
+
+Resolución de ambigüedades
+Muchas utilidades en Tailwind comparten un espacio de nombres común pero se asignan a diferentes propiedades CSS. Por ejemplo, text-lg y text-black comparten el espacio de nombres text- pero uno es para font-size y el otro es para color.
+
+Cuando se usan valores arbitrarios, Tailwind generalmente puede manejar esta ambigüedad automáticamente en función del valor que se transmite:
+
+<!-- Will generate a font-size utility -->
+<div class="text-[22px]">...</div>
+
+<!-- Will generate a color utility -->
+<div class="text-[#bada55]">...</div>
+Sin embargo, a veces es realmente ambiguo, por ejemplo, cuando se usan variables CSS:
+
+<div class="text-[var(--my-var)]">...</div>
+En estas situaciones, puede "sugerir" el tipo subyacente a Tailwind agregando un tipo de datos CSS antes del valor:
+
+<!-- Will generate a font-size utility -->
+<div class="text-[length:var(--my-var)]">...</div>
+
+<!-- Will generate a color utility -->
+<div class="text-[color:var(--my-var)]">...</div>
