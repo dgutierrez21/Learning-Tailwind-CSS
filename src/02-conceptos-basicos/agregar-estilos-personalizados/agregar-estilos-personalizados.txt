@@ -6,3 +6,40 @@ A menudo, el mayor desafío cuando se trabaja con un marco es averiguar qué se 
 Tailwind ha sido diseñado desde cero para ser extensible y personalizable, de modo que no importa lo que estés construyendo, nunca sientas que estás luchando contra el marco.
 
 Esta guía cubre temas como personalizar sus tokens de diseño, cómo romper esas restricciones cuando sea necesario, agregar su propio CSS personalizado y ampliar el marco con complementos.
+
+Personalizar tu tema
+Si desea cambiar cosas como la paleta de colores, la escala de espaciado, la escala de tipografía o los puntos de interrupción, agregue las personalizaciones a la sección de theme del archivo tailwind.config.js:
+
+tailwind.config.js
+module.exports = {
+  theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    colors: {
+      'blue': '#1fb6ff',
+      'pink': '#ff49db',
+      'orange': '#ff7849',
+      'green': '#13ce66',
+      'gray-dark': '#273444',
+      'gray': '#8492a6',
+      'gray-light': '#d3dce6',
+    },
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
+    extend: {
+      spacing: {
+        '128': '32rem',
+        '144': '36rem',
+      },
+      borderRadius: {
+        '4xl': '2rem',
+      }
+    }
+  }
+}
