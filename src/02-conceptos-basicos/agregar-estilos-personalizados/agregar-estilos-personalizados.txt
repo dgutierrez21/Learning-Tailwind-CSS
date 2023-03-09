@@ -264,3 +264,22 @@ principal.css
 }
 
 Esto puede ser útil cuando hay una característica de CSS que le gustaría usar en su proyecto que Tailwind no incluye utilidades listas para usar.
+
+Uso de modificadores con CSS personalizado
+Cualquier estilo personalizado que agregues a Tailwind con @layer admitirá automáticamente la sintaxis del modificador de Tailwind para manejar cosas como estados de desplazamiento, puntos de interrupción receptivos, modo oscuro y más.
+
+.CSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .content-auto {
+    content-visibility: auto;
+  }
+}
+
+.HTML
+<div class="lg:dark:content-auto">
+  <!-- ... -->
+</div>
