@@ -128,3 +128,31 @@ function Notification({ imageUrl, imageAlt, title, message }) {
 }
 
 Cuando crea componentes y parciales de plantilla como este, no hay razón para usar otra cosa que no sean clases de utilidad porque ya tiene una única fuente de verdad para los estilos.
+
+Extracción de clases con @apply
+Si está utilizando un lenguaje de plantillas tradicional como ERB o Twig, crear una plantilla parcial para algo tan pequeño como un botón puede parecer excesivo en comparación con una clase CSS simple como btn.
+
+Si bien es muy recomendable que cree parciales de plantilla adecuados para componentes más complejos, puede usar la directiva @apply de Tailwind para extraer patrones de utilidad repetidos a clases CSS personalizadas cuando una plantilla parcial se siente pesada.
+
+Así es como se vería una clase btn-primary usando @apply para componerla a partir de utilidades existentes:
+
+.HTML
+<!-- Before extracting a custom class -->
+<button class="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
+  Save changes
+</button>
+
+<!-- After extracting a custom class -->
+<button class="btn-primary">
+  Save changes
+</button>
+.CSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+}
