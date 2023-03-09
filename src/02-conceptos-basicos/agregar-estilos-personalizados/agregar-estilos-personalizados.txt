@@ -283,3 +283,32 @@ Cualquier estilo personalizado que agregues a Tailwind con @layer admitirá auto
 <div class="lg:dark:content-auto">
   <!-- ... -->
 </div>
+
+Eliminación de CSS personalizado no utilizado
+Cualquier estilo personalizado que agregue a las capas base, components o utilities solo se incluirá en su CSS compilado si esos estilos se usan realmente en su HTML.
+
+main.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* This won't be included in your compiled CSS unless you actually use it */
+  .card {
+    /* ... */
+  }
+}
+
+Si desea agregar algún CSS personalizado que siempre debe incluirse, agréguelo a su hoja de estilo sin usar la directiva @layer:
+
+main.css
+@tailwind base;
+@tailwind components;
+
+/* This will always be included in your compiled CSS */
+.card {
+  /* ... */
+}
+
+@tailwind utilities;
+Asegúrese de colocar sus estilos personalizados donde deben ir para obtener el comportamiento de prioridad que desea. En el ejemplo anterior, hemos agregado la clase ..card antes de @tailwind utilidades para asegurarnos de que las @tailwind utilities aún puedan reemplazarla.
