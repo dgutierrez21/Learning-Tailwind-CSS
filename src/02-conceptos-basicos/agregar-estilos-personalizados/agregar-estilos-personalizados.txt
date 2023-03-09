@@ -96,3 +96,28 @@ Las variantes arbitrarias son como valores arbitrarios, pero para realizar modif
     <li class="lg:[&:nth-child(3)]:hover:underline">{item}</li>
   {/each}
 </ul>
+
+Manejo de espacios en blanco
+Cuando un valor arbitrario necesite contener un espacio, use un guión bajo (_) en su lugar y Tailwind lo convertirá automáticamente en un espacio en tiempo de compilación:
+
+<div class="grid grid-cols-[1fr_500px_2fr]">
+  <!-- ... -->
+</div>
+
+En situaciones en las que los guiones bajos son comunes pero los espacios no son válidos, Tailwind conservará el guión bajo en lugar de convertirlo en un espacio, por ejemplo, en las URL:
+
+<div class="bg-[url('/what_a_rush.png')]">
+  <!-- ... -->
+</div>
+
+En el raro caso de que realmente necesites usar un guión bajo, pero es ambiguo porque un espacio también es válido, escapa del guión bajo con una barra diagonal inversa y Tailwind no lo convertirá en un espacio:
+
+<div class="before:content-['hello\_world']">
+  <!-- ... -->
+</div>
+
+Si usas algo como JSX, donde la barra diagonal inversa se elimina del HTML renderizado, usa String.raw() para que la barra diagonal inversa no se trate como un carácter de escape de JavaScript:
+
+<div className={String.raw`before:content-['hello\_world']`}>
+  <!-- ... -->
+</div>
