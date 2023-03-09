@@ -325,3 +325,60 @@ module.exports = {
     autoprefixer: {},
   }
 }
+
+Capas y CSS por componente
+Los marcos de componentes como Vue y Svelte admiten agregar estilos por componente dentro de un bloque <style> que vive en cada archivo de componente.
+
+Si bien puede usar características como @apply y theme dentro de estilos de componentes como este, la directiva @layer no funcionará y verá un error sobre @layer que se usa @layer sin una directiva @tailwind coincidente:
+
+No use '@layer' en los estilos de componentes
+
+Card.svelte
+<div>
+  <slot></slot>
+</div>
+
+<style>
+  /* Won't work because this file is processed in isolation */
+  @layer components {
+    div {
+      background-color: theme('colors.white');
+      border-radius: theme('borderRadius.lg');
+      padding: theme('spacing.6');
+      box-shadow: theme('boxShadow.xl');
+    }
+  }
+</style>
+
+Esto se debe a que, bajo el capó, los marcos como Vue y Svelte procesan cada bloque <style> de forma independiente y ejecutan su cadena de complementos PostCSS contra cada uno de forma aislada.
+
+Eso significa que si tiene 10 componentes que tienen un bloque <style>, Tailwind se ejecuta 10 veces separadas y cada ejecución no tiene conocimiento sobre las otras carreras. Debido a esto, Tailwind no puede tomar los estilos que defina en una @layer y moverlos a la directiva @tailwind correspondiente, porque por lo que Tailwind puede decir, no hay una directiva @tailwind para moverlo.
+
+Una solución a esto es simplemente no usar @layer dentro de sus estilos de componentes:
+
+Añade tus estilos sin usar '@layer'
+
+Card.svelte
+<div>
+  <slot></slot>
+</div>
+
+<style>
+  div {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl');
+  }
+</style>
+
+Pierdes la capacidad de controlar la precedencia de tus estilos, pero desafortunadamente eso está totalmente fuera de nuestro control debido a cómo funcionan estas herramientas.
+
+Nuestra recomendación es que simplemente no use estilos de componentes como este en absoluto y, en su lugar, use Tailwind de la manera en que está destinado a ser utilizado: como una única hoja de estilo global donde usa las clases directamente en su HTML:
+
+Utilice las utilidades de Tailwind en lugar de los estilos de componentes
+
+Card.svelte
+<div class="bg-white rounded-lg p-6 shadow-xl">
+  <slot></slot>
+</div>
