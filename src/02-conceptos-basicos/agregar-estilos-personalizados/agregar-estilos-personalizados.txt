@@ -248,3 +248,19 @@ main.css
   /* ... */
 }
 Utilice la función theme tema o la directiva @apply al agregar estilos de componentes personalizados si desea hacer referencia a cualquiera de los valores definidos en el tema.
+
+Agregar utilidades personalizadas
+Agregue cualquiera de sus propias clases de utilidad personalizadas a la capa de utilities de Tailwind:
+
+principal.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .content-auto {
+    content-visibility: auto;
+  }
+}
+
+Esto puede ser útil cuando hay una característica de CSS que le gustaría usar en su proyecto que Tailwind no incluye utilidades listas para usar.
