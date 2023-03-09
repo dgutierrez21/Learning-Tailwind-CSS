@@ -70,3 +70,20 @@ Incluso es posible usar la función de theme para hacer referencia a los tokens 
 <div class="grid grid-cols-[fit-content(theme(spacing.32))]">
   <!-- ... -->
 </div>
+
+Propiedades arbitrarias
+Si alguna vez necesitas usar una propiedad CSS para la que Tailwind no incluye una utilidad, también puedes usar la notación entre corchetes para escribir CSS completamente arbitrario:
+
+<div class="[mask-type:luminance]">
+  <!-- ... -->
+</div>
+Esto es realmente como los estilos en línea, pero nuevamente con el beneficio de que puede usar modificadores:
+
+<div class="[mask-type:luminance] hover:[mask-type:alpha]">
+  <!-- ... -->
+</div>
+Esto también puede ser útil para cosas como variables CSS, especialmente cuando necesitan cambiar bajo diferentes condiciones:
+
+<div class="[--scroll-offset:56px] lg:[--scroll-offset:44px]">
+  <!-- ... -->
+</div>
