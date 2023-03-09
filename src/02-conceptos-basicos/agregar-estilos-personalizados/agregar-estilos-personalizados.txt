@@ -43,3 +43,30 @@ module.exports = {
     }
   }
 }
+
+Uso de valores arbitrarios
+Si bien generalmente puede construir la mayor parte de un diseño bien diseñado utilizando un conjunto restringido de tokens de diseño, de vez en cuando necesita salir de esas restricciones para obtener las cosas perfectas en píxeles.
+
+Cuando realmente necesites algo como top: 117px para obtener una imagen de fondo en el lugar correcto, usa la notación de corchetes de Tailwind para generar una clase sobre la marcha con cualquier valor arbitrario:
+
+<div class="top-[117px]">
+  <!-- ... -->
+</div>
+
+Esto es básicamente como estilos en línea, con el gran beneficio de que puede combinarlo con modificadores interactivos como hover y modificadores receptivos como lg:
+
+<div class="top-[117px] lg:top-[344px]">
+  <!-- ... -->
+</div>
+
+Esto funciona para todo en el marco, incluidas cosas como colores de fondo, tamaños de fuente, contenido de pseudoelementos y más:
+
+<div class="bg-[#bada55] text-[22px] before:content-['Festivus']">
+  <!-- ... -->
+</div>
+
+Incluso es posible usar la función de theme para hacer referencia a los tokens de diseño en su tailwind.config.js:
+
+<div class="grid grid-cols-[fit-content(theme(spacing.32))]">
+  <!-- ... -->
+</div>
