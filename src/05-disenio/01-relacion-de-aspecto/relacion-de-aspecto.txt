@@ -14,3 +14,8 @@ Utilice las utilidades aspect-{ratio} para establecer la relación de aspecto de
 ...
 
 Tailwind no incluye un gran conjunto de valores de relación de aspecto listos para usar, ya que es más fácil usar valores arbitrarios. Consulte la sección de valores arbitrarios para obtener más información.
+
+Desplazar, enfocar y otros estados
+Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estados mediante modificadores de variantes. Por ejemplo, use hover:aspect-squareaspect-square para aplicar solo la utilidad aspect-square al pasar el cursor.
+
+...
