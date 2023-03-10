@@ -187,3 +187,41 @@ module.exports = {
 De esta manera, cualquier archivo procesado por Tailwind que use este archivo de configuración tendrá acceso a esos estilos.
 
 Honestamente, la mejor solución es simplemente no hacer cosas raras como esta en absoluto. Use las utilidades de Tailwind directamente en su marcado de la manera en que están destinadas a ser utilizadas, y no abuse de la función @apply para hacer cosas como esta y tendrá una experiencia mucho mejor.
+
+@config
+Utilice la directiva @config para especificar qué archivo de configuración debe usar Tailwind al compilar ese archivo CSS. Esto es útil para proyectos que necesitan usar diferentes archivos de configuración para diferentes puntos de entrada CSS.
+
+
+sitio.css
+
+admin.css
+@config "./tailwind.site.config.js";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+La ruta que proporcione a la directiva @config es relativa a ese archivo CSS y tendrá prioridad sobre una ruta definida en su configuración de PostCSS o en la CLI de Tailwind.
+
+Tenga en cuenta que si está utilizando postcss-import, sus instrucciones @import deben aparecer antes @config para que las cosas funcionen correctamente, ya que postcss-import es estricto sobre seguir la especificación CSS que requiere que @import instrucciones precedan a cualquier otra regla en el archivo.postcss-import @import
+
+❌ No @config antes de tus @import
+
+admin.css
+@config "./tailwind.admin.config.js";
+
+@import "tailwindcss/base";
+@import "./custom-base.css";
+@import "tailwindcss/components";
+@import "./custom-components.css";
+@import "tailwindcss/utilities";
+
+✅ Anteponga sus @import a la directiva @config
+
+admin.css
+@import "tailwindcss/base";
+@import "./custom-base.css";
+@import "tailwindcss/components";
+@import "./custom-components.css";
+@import "tailwindcss/utilities";
+
+@config "./tailwind.admin.config.js";
