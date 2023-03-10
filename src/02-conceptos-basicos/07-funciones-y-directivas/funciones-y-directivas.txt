@@ -260,3 +260,16 @@ Usar notación de puntos para acceder a valores de color anidados
 .btn-blue {
   background-color: theme(colors.blue.500 / 75%);
 }   
+
+screen()
+La función de screen le permite crear consultas de medios que hacen referencia a sus puntos de interrupción por nombre en lugar de duplicar sus valores en su propio CSS.
+
+@media screen(sm) {
+  /* ... */
+}
+
+Esto se resolverá en el valor de pantalla subyacente en tiempo de compilación, generando una consulta de medios regular que coincida con el punto de interrupción especificado:
+
+@media (min-width: 640px) {
+  /* ... */
+}
