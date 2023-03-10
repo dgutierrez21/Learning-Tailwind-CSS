@@ -3,3 +3,33 @@ Una referencia para las funciones y directivas personalizadas que Tailwind expon
 
 Directivas
 Las directivas son reglas de referencia personalizadas específicas de Tailwind que puedes usar en tu CSS y que ofrecen una funcionalidad especial para los proyectos CSS de Tailwind.
+
+@tailwind
+Utiliza la directiva @tailwind para insertar la base, los componentes, utilities y components estilos de variants Tailwind en su CSS.
+
+/**
+ * Esto inyecta los estilos base de Tailwind y cualquier estilo base registrado por
+ * plugins.
+ */
+@tailwind base;
+
+/**
+ * Esto inyecta las clases componentes de Tailwind y cualquier clase componente
+ * registradas por plugins.
+ */
+ @tailwind components;
+
+/**
+ * Esto inyecta las clases de utilidad de Tailwind y cualquier clase de utilidad registrada por plugins.
+ * por plugins.
+ */
+ @tailwind utilities;
+
+/**
+ * Usa esta directiva para controlar donde Tailwind inyecta el hover, focus,
+ * responsive, dark mode, y otras variantes de cada clase.
+ *
+ * Si se omite, Tailwind añadirá estas clases al final de la hoja de estilo por defecto.
+ * su hoja de estilos por defecto.
+ */
+  @tailwind variants;
