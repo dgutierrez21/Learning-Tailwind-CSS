@@ -70,3 +70,61 @@ Tailwind moverá automáticamente cualquier CSS dentro de una directiva @layer a
 Cualquier CSS personalizado agregado a una capa solo se incluirá en la compilación final si ese CSS se usa realmente en su HTML, al igual que todas las clases integradas en Tailwind de forma predeterminada.
 
 Empaquetar cualquier CSS personalizado en una directiva @layer también permite usar modificadores con esas reglas, como hover:: y focus:: o modificadores receptivos como md:: y lg:.
+
+@apply
+Utilice @apply para insertar cualquier clase de utilidad existente en su propio CSS personalizado.
+
+Esto es útil cuando necesita escribir CSS personalizado (como anular los estilos en una biblioteca de terceros) pero aún desea trabajar con sus tokens de diseño y usar la misma sintaxis que está acostumbrado a usar en su HTML.
+
+.select2-dropdown {
+  @apply rounded-b-lg shadow-md;
+}
+.select2-search {
+  @apply border border-gray-300 rounded;
+}
+.select2-results__group {
+  @apply text-lg font-bold text-gray-900;
+}
+
+Cualquier regla alineada con @apply tendrá !important eliminado de forma predeterminada para evitar problemas de especificidad:
+
+/* Input */
+.foo {
+  color: blue !important;
+}
+
+.bar {
+  @apply foo;
+}
+
+/* Output */
+.foo {
+  color: blue !important;
+}
+
+.bar {
+  color: blue;
+}
+
+Si desea @apply una clase existente y hacerla !!important, simplemente agregue !important al final de la declaración:
+
+/* Input */
+.btn {
+  @apply font-bold py-2 px-4 rounded !important;
+}
+
+/* Output */
+.btn {
+  font-weight: 700 !important;
+  padding-top: .5rem !important;
+  padding-bottom: .5rem !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  border-radius: .25rem !important;
+}
+
+Tenga en cuenta que si está utilizando Sass / SCSS, deberá usar la función de interpolación de Sass para que esto funcione:
+
+.btn {
+  @apply font-bold py-2 px-4 rounded #{!important};
+}
