@@ -1,2 +1,5 @@
 Funciones y directivas
 Una referencia para las funciones y directivas personalizadas que Tailwind expone a su CSS.
+
+Directivas
+Las directivas son reglas de referencia personalizadas específicas de Tailwind que puedes usar en tu CSS y que ofrecen una funcionalidad especial para los proyectos CSS de Tailwind.
