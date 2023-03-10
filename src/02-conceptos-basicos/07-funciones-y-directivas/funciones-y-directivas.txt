@@ -1,0 +1,2 @@
+Funciones y directivas
+Una referencia para las funciones y directivas personalizadas que Tailwind expone a su CSS.
