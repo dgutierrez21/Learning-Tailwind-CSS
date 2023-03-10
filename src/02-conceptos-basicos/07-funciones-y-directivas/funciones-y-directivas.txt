@@ -225,3 +225,6 @@ admin.css
 @import "tailwindcss/utilities";
 
 @config "./tailwind.admin.config.js";
+
+Funciones
+Tailwind agrega algunas funciones personalizadas que puede usar en su CSS para acceder a los valores específicos de Tailwind. Estas funciones se evalúan en tiempo de compilación y se reemplazan por valores estáticos en su CSS final.
