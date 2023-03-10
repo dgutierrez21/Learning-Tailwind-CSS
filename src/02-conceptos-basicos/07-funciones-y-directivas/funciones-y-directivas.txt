@@ -128,3 +128,62 @@ Tenga en cuenta que si está utilizando Sass / SCSS, deberá usar la función de
 .btn {
   @apply font-bold py-2 px-4 rounded #{!important};
 }
+
+Uso de @apply con CSS por componente
+Los marcos de componentes como Vue y Svelte admiten agregar estilos por componente dentro de un bloque <style> que vive en cada archivo de componente.
+
+Si intentas @apply una clase personalizada que has definido en tu CSS global en uno de estos bloques <style> por componente, obtendrás un error sobre la clase que no existe:
+
+principal.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    background-color: theme(colors.white);
+    border-radius: theme(borderRadius.lg);
+    padding: theme(spacing.6);
+    box-shadow: theme(boxShadow.xl);
+  }
+}
+Card.svelte
+<div>
+  <slot></slot>
+</div>
+
+<style>
+  div {
+    /* Won't work because this file and main.css are processed separately */
+    @apply card;
+  }
+</style>
+
+Esto se debe a que, bajo el capó, los marcos como Vue y Svelte procesan cada bloque <style> de forma independiente y ejecutan su cadena de complementos PostCSS contra cada uno de forma aislada.
+
+Eso significa que si tiene 10 componentes que tienen un bloque <style>, Tailwind se ejecuta 10 veces separadas y cada ejecución no tiene conocimiento sobre las otras carreras. Debido a esto, cuando intenta @apply card tarjeta en Card.svelte falla, porque Tailwind no tiene idea de que la clase card existe ya que Svelte procesó Card.svelte y main.css en total aislamiento entre síCard.svelte
+
+La solución a este problema es definir cualquier estilo personalizado que desee @apply en sus componentes utilizando el sistema de complementos en su lugar:
+
+tailwind.config.js
+const plugin = require('tailwindcss/plugin')
+
+module.exports = {
+  // ...
+  plugins: [
+    plugin(function ({ addComponents, theme }) {
+      addComponents({
+        '.card': {
+          backgroundColor: theme('colors.white'),
+          borderRadius: theme('borderRadius.lg'),
+          padding: theme('spacing.6'),
+          boxShadow: theme('boxShadow.xl'),
+        }
+      })
+    })
+  ]
+}
+
+De esta manera, cualquier archivo procesado por Tailwind que use este archivo de configuración tendrá acceso a esos estilos.
+
+Honestamente, la mejor solución es simplemente no hacer cosas raras como esta en absoluto. Use las utilidades de Tailwind directamente en su marcado de la manera en que están destinadas a ser utilizadas, y no abuse de la función @apply para hacer cosas como esta y tendrá una experiencia mucho mejor.
