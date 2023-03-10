@@ -228,3 +228,35 @@ admin.css
 
 Funciones
 Tailwind agrega algunas funciones personalizadas que puede usar en su CSS para acceder a los valores específicos de Tailwind. Estas funciones se evalúan en tiempo de compilación y se reemplazan por valores estáticos en su CSS final.
+
+theme()
+Utilice la función theme() para acceder a los valores de configuración de Tailwind mediante la notación de puntos.
+
+.content-area {
+  height: calc(100vh - theme(spacing.12));
+}
+
+Si necesita acceder a un valor que contiene un punto (como el valor 2.5 en la escala de espaciado), puede usar la notación entre corchetes:
+
+.content-area {
+  height: calc(100vh - theme(spacing[2.5]));
+}
+
+Dado que Tailwind utiliza una sintaxis de objeto anidado para definir su paleta de colores predeterminada, asegúrese de utilizar la notación de puntos para acceder a los colores anidados.
+
+❌ No usar la sintaxis del guión al acceder a valores de color anidados
+
+.btn-blue {
+  background-color: theme(colors.blue-500);
+}
+Usar notación de puntos para acceder a valores de color anidados
+
+.btn-blue {
+  background-color: theme(colors.blue.500);
+}
+
+✅ Para ajustar la opacidad de un color recuperado con theme, use una barra diagonal seguida del valor de opacidad que desea usar:
+
+.btn-blue {
+  background-color: theme(colors.blue.500 / 75%);
+}   
