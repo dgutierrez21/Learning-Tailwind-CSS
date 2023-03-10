@@ -33,3 +33,8 @@ module.exports = {
     }
   }
 }
+
+Valores arbitrarios
+Si necesita usar un valor de aspect-ratio único que no tiene sentido incluir en su tema, use corchetes para generar una propiedad sobre la marcha utilizando cualquier valor arbitrario.
+
+<iframe class="w-full aspect-[4/3]" src="https://www.youtube.com/..."></iframe>
