@@ -7,3 +7,10 @@ Clase  |  Propiedades
 aspect-auto  |  aspect-ratio: auto;
 aspect-square  |  aspect-ratio: 1 / 1;
 aspect-video  |  aspect-ratio: 16 / 9;
+
+Configuración de la relación de aspecto
+Utilice las utilidades aspect-{ratio} para establecer la relación de aspecto deseada de un elemento.
+
+...
+
+Tailwind no incluye un gran conjunto de valores de relación de aspecto listos para usar, ya que es más fácil usar valores arbitrarios. Consulte la sección de valores arbitrarios para obtener más información.
