@@ -19,3 +19,17 @@ Desplazar, enfocar y otros estados
 Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estados mediante modificadores de variantes. Por ejemplo, use hover:aspect-squareaspect-square para aplicar solo la utilidad aspect-square al pasar el cursor.
 
 ...
+
+Personalizar tu tema
+De forma predeterminada, Tailwind proporciona un conjunto mínimo de utilidades aspect-ratio. Puede personalizar estos valores editando theme.aspectRatio o theme.extend.aspectRatio en el archivo tailwind.config.js theme.aspectRatio
+
+tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
+    }
+  }
+}
