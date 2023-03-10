@@ -33,3 +33,40 @@ Utiliza la directiva @tailwind para insertar la base, los componentes, utilities
  * su hoja de estilos por defecto.
  */
   @tailwind variants;
+
+@layer
+Use la directiva @layer para decirle a Tailwind a qué "cubo" pertenece un conjunto de estilos personalizados. Las capas válidas son base, components y utilities.
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+
+@layer components {
+  .btn-blue {
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+  }
+}
+
+@layer utilities {
+  .filter-none {
+    filter: none;
+  }
+  .filter-grayscale {
+    filter: grayscale(100%);
+  }
+}
+
+Tailwind moverá automáticamente cualquier CSS dentro de una directiva @layer al mismo lugar que la regla @tailwind correspondiente, por lo que no tiene que preocuparse por crear su CSS en un orden específico para evitar problemas de especificidad.
+
+Cualquier CSS personalizado agregado a una capa solo se incluirá en la compilación final si ese CSS se usa realmente en su HTML, al igual que todas las clases integradas en Tailwind de forma predeterminada.
+
+Empaquetar cualquier CSS personalizado en una directiva @layer también permite usar modificadores con esas reglas, como hover:: y focus:: o modificadores receptivos como md:: y lg:.
