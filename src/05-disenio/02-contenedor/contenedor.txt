@@ -37,3 +37,11 @@ Para agregar relleno horizontal, use las utilidades px-{size}:
 </div>
 
 Si desea centrar sus contenedores de forma predeterminada o incluir relleno horizontal predeterminado, consulte las opciones de personalización a continuación.
+
+Variantes responsivas
+La clase container también incluye variantes receptivas como md:container de forma predeterminada que le permiten hacer que algo se comporte como un contenedor solo en un determinado punto de interrupción y superior:
+
+<!-- Full-width fluid until the `md` breakpoint, then lock to container -->
+<div class="md:container md:mx-auto">
+  <!-- ... -->
+</div>
