@@ -1,0 +1,6 @@
+Ruptura de decoración de caja
+Utilidades para controlar cómo se deben representar los fragmentos de elementos en varias líneas, columnas o páginas.
+
+Clase | Propiedades
+box-decoration-clone  |  box-decoration-break: clone;
+box-decoration-slice  |  box-decoration-break: slice;
