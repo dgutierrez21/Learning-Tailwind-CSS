@@ -10,3 +10,8 @@ break-before-page  |  break-before: page;
 break-before-left  |  break-before: left;
 break-before-right  |  break-before: right;
 break-before-column  |  break-before: column;
+
+Configuración del comportamiento de interrupción
+Utilice las utilidades break-before-{value} para controlar cómo debe comportarse una columna o un salto de página antes de un elemento. Por ejemplo, utilice la utilidad salto antes de columna para forzar un break-before-column un elemento.
+
+...
