@@ -45,3 +45,15 @@ La clase container también incluye variantes receptivas como md:container de fo
 <div class="md:container md:mx-auto">
   <!-- ... -->
 </div>
+
+Centrado por defecto
+Para centrar los contenedores de forma predeterminada, establezca la opción center en true en la sección theme.container del archivo de configuración:
+
+tailwind.config.js
+module.exports = {
+  theme: {
+    container: {
+      center: true,
+    },
+  },
+}
