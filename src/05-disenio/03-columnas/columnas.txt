@@ -27,3 +27,12 @@ Configuración del espacio entre columnas
 Para especificar el ancho entre columnas, puede utilizar las utilidades gap-x:
 
 ...
+
+Desplazar, enfocar y otros estados
+Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estados mediante modificadores de variantes. Por ejemplo, use hover:columns-3columns-3 para aplicar solo la utilidad columns-3 al pasar el mouse.
+
+<div class="columns-2 hover:columns-3">
+  <!-- ... -->
+</div>
+
+Para obtener una lista completa de todos los modificadores de estado disponibles, consulte la documentación de Hover, Focus y otros estados.
