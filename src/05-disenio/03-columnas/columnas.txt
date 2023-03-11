@@ -22,3 +22,8 @@ Utilice las utilidades columns-{width} para establecer el ancho de columna ideal
 Esta escala de "camiseta" es la misma que la escala de ancho máximo, con la adición de 2xs, ya que las columnas más pequeñas pueden ser 3xs.
 
 ...
+
+Configuración del espacio entre columnas
+Para especificar el ancho entre columnas, puede utilizar las utilidades gap-x:
+
+...
