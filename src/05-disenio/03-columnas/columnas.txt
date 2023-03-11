@@ -43,3 +43,17 @@ También puede usar modificadores de variantes para orientar consultas de medios
 <div class="columns-2 md:columns-3">
   <!-- ... -->
 </div>
+
+Personalizar tu tema
+De forma predeterminada, Tailwind proporciona una escala de recuento de columnas de 1-12, así como una escala de camiseta de columna de 3xs-7xl. Puede personalizar estos valores editando theme.columns o theme.extend.columns en el archivo tailwind.config.js theme.columns
+
+tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      columns: {
+        '4xs': '14rem',
+      }
+    },
+  }
+}
