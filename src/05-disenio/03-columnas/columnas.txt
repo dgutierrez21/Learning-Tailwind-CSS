@@ -36,3 +36,10 @@ Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estad
 </div>
 
 Para obtener una lista completa de todos los modificadores de estado disponibles, consulte la documentación de Hover, Focus y otros estados.
+
+Puntos de interrupción y consultas de medios
+También puede usar modificadores de variantes para orientar consultas de medios, como puntos de interrupción sensibles, modo oscuro, movimiento reducido preferido y más. Por ejemplo, utilice md:columns-3columns-3 para aplicar la utilidad columns-3 sólo en tamaños de pantalla medianos y superiores.
+
+<div class="columns-2 md:columns-3">
+  <!-- ... -->
+</div>
