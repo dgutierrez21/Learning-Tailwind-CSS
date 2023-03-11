@@ -9,3 +9,31 @@ container  |  Ninguno |	width: 100%;
             lg (1024px)	|  max-width: 1024px;
             xl (1280px)	|  max-width: 1280px;
             2xl (1536px)	|  max-width: 1536px;
+
+Uso del contenedor
+La clase container establece el ancho max-width de un elemento para que coincida con el min-width del punto de interrupción actual. Esto es útil si prefiere diseñar para un conjunto fijo de tamaños de pantalla en lugar de tratar de acomodar una ventana gráfica completamente fluida.
+
+Cuando usamos la clase contenedor en un elemento, en lugar de un diseño fluido, ahora tenemos un diseño de ancho fijo. El ancho del contenedor cambia según el tamaño de la pantalla de la siguiente manera
+
+De forma predeterminada, obtendrá el siguiente ancho de contenedor en el rango de tamaño de pantalla
+
+Ancho del contenedor  |  Rango de tamaño de pantalla
+640px  |	640px a 767px
+768px  |	768px a 1023px
+1024px  |	1024px a 1279px
+1280px  |	1280px a 1536px
+
+Tenga en cuenta que, a diferencia de los contenedores que podría haber utilizado en otros marcos, el contenedor de Tailwind no se centra automáticamente y no tiene ningún relleno horizontal incorporado.
+Para centrar un contenedor, utilice la utilidad mx-auto:
+
+<div class="container mx-auto">
+  <!-- ... -->
+</div>
+
+Para agregar relleno horizontal, use las utilidades px-{size}:
+
+<div class="container mx-auto px-4">
+  <!-- ... -->
+</div>
+
+Si desea centrar sus contenedores de forma predeterminada o incluir relleno horizontal predeterminado, consulte las opciones de personalización a continuación.
