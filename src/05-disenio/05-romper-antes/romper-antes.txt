@@ -18,3 +18,10 @@ Utilice las utilidades break-before-{value} para controlar cómo debe comportars
 
 Desplazar, enfocar y otros estados
 Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estados mediante modificadores de variantes. Por ejemplo, use hover:break-before-column para aplicar únicamente la utilidad hover:break-before-column al pasar el cursor break-before-column.
+
+...
+
+Puntos de interrupción y consultas de medios
+También puede usar modificadores de variantes para orientar consultas de medios, como puntos de interrupción sensibles, modo oscuro, preferentes de movimiento reducido y más. Por ejemplo, utilice md:break-before-column para aplicar la utilidad md:break-before-column sólo en tamaños de pantalla medianos y superiores.break-before-column
+
+...
