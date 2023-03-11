@@ -16,3 +16,10 @@ Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estad
 <div class="box-decoration-clone hover:box-decoration-slice">
   <!-- ... -->
 </div>
+
+Puntos de interrupción y consultas de medios
+También puede usar modificadores de variantes para orientar consultas de medios, como puntos de interrupción sensibles, modo oscuro, movimiento reducido preferido y más. Por ejemplo, utilice md:box-decoration-slice para aplicar la utilidad box-decoration-slice sólo en tamaños de pantalla medianos y superiores.md:box-decoration-slice
+
+<div class="box-decoration-clone md:box-decoration-slice">
+  <!-- ... -->
+</div>
