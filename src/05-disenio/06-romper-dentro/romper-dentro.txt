@@ -25,3 +25,10 @@ Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estad
 <div class="hover:break-inside-avoid-column">
   <!-- ... -->
 </div>
+
+Puntos de interrupción y consultas de medios
+También puede usar modificadores de variantes para orientar consultas de medios, como puntos de interrupción sensibles, modo oscuro, preferentes de movimiento reducido y más. Por ejemplo, utilice md:break-inside-avoid-column para aplicar la utilidad md:break-inside-avoid-column solo en tamaños de pantalla medianos y superiores.break-inside-avoid-column
+
+<div class="md:break-inside-avoid-column">
+  <!-- ... -->
+</div>
