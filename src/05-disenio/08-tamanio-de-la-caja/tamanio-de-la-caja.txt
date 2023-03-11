@@ -1,0 +1,6 @@
+Tamaño de la caja
+Utilidades para controlar cómo el navegador debe calcular el tamaño total de un elemento.
+
+Clase |  Propiedades
+box-border	|  box-sizing: border-box;
+box-content	|  box-sizing: content-box;
