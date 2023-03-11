@@ -57,3 +57,32 @@ module.exports = {
     },
   },
 }
+
+Adición de relleno horizontal
+Para agregar relleno horizontal de forma predeterminada, especifique la cantidad de relleno que desea usar la opción de padding en la sección theme.container de su archivo de configuración:
+
+tailwind.config.js
+module.exports = {
+  theme: {
+    container: {
+      padding: '2rem',
+    },
+  },
+}
+
+Si desea especificar una cantidad de relleno diferente para cada punto de interrupción, utilice un objeto para proporcionar un valor default y cualquier anulación específica del punto de interrupción:
+
+tailwind.config.js
+module.exports = {
+  theme: {
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
+    },
+  },
+};
