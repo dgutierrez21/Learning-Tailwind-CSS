@@ -10,3 +10,8 @@ break-after-page  |  break-after: page;
 break-after-left  |  break-after: left;
 break-after-right  |  break-after: right;
 break-after-column  |  break-after: column;
+
+Configuración del comportamiento de interrupción
+Utilice las utilidades break-after-{value} para controlar cómo debe comportarse una columna o un salto de página después de un elemento. Por ejemplo, utilice la utilidad salto después de columna para forzar un break-after-column un elemento.
+
+...
