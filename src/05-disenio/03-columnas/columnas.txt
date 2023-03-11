@@ -13,3 +13,12 @@ columns-8  |  columns: 8;
 
 Agregar en función del recuento de columnas
 Utilice las utilidades columns-{count} para establecer el número de columnas que se deben crear para el contenido de un elemento. El ancho de columna se ajustará automáticamente para acomodar ese número.
+
+...
+
+Agregar en función del ancho de columna
+Utilice las utilidades columns-{width} para establecer el ancho de columna ideal para el contenido dentro de un elemento, con el número de columnas (el recuento) ajustándose automáticamente para acomodar ese valor.
+
+Esta escala de "camiseta" es la misma que la escala de ancho máximo, con la adición de 2xs, ya que las columnas más pequeñas pueden ser 3xs.
+
+...
