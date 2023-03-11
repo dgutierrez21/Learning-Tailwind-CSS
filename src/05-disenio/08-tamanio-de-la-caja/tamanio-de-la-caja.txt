@@ -10,3 +10,7 @@ Use box-border para establecer el box-sizing de un elemento en border-box, indic
 Esto significa que un elemento de 100px × 100px con un borde de 2px y 4px de relleno en todos los lados se representará como 100px × 100px, con un área de contenido interno de 88px × 88px.
 
 Tailwind hace que este sea el valor predeterminado para todos los elementos de nuestros estilos base de comprobación previa.
+
+Excluyendo bordes y relleno
+Use box-content para establecer el box-sizing de un elemento en box-content, diciéndole al navegador que agregue bordes y relleno sobre el ancho o alto especificado del elemento.content-box
+Esto significa que un elemento de 100px × 100px con un borde de 2px y 4px de relleno en todos los lados se renderizará como 112px × 112px, con un área de contenido interno de 100px × 100px.
