@@ -9,3 +9,10 @@ Configuración de la Ruptura de decoración de la caja
 Utilice las utilidades box-decoration-slice y box-decoration-clone para controlar si las propiedades como fondo, borde, borde de imagen, cuadro-sombra, box-decoration-slice, margen y relleno deben representarse como si el elemento fuera un fragmento continuo o bloques distintos.
 
 ...
+
+Desplazar, enfocar y otros estados
+Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estados mediante modificadores de variantes. Por ejemplo, use hover:box-decoration-slice para aplicar solo la utilidad box-decoration-slice al pasar el cursor hover:box-decoration-slice.
+
+<div class="box-decoration-clone hover:box-decoration-slice">
+  <!-- ... -->
+</div>
