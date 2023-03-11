@@ -15,3 +15,10 @@ Configuración del comportamiento de interrupción
 Utilice las utilidades break-after-{value} para controlar cómo debe comportarse una columna o un salto de página después de un elemento. Por ejemplo, utilice la utilidad salto después de columna para forzar un break-after-column un elemento.
 
 ...
+
+Desplazar, enfocar y otros estados
+Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estados mediante modificadores de variantes. Por ejemplo, use hover:break-after-column para aplicar únicamente la utilidad hover:break-after-column al pasar el cursor break-after-column.
+
+<div class="hover:break-after-column">
+  <!-- ... -->
+</div>
