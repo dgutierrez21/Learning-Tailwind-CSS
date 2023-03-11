@@ -8,3 +8,13 @@ break-inside-auto	|  break-inside: auto;
 break-inside-avoid	|  break-inside: avoid;
 break-inside-avoid-page	|  break-inside: avoid-page;
 break-inside-avoid-column	|  break-inside: avoid-column;
+
+Configuración del comportamiento de interrupción interna
+Utilice las utilidades break-inside-{value} para controlar cómo debe comportarse una columna o un salto de página dentro de un elemento. Por ejemplo, utilice la utilidad break-inside-avoid-column para evitar una ruptura de columna dentro de un elemento.
+
+<div class="columns-2">
+  <p>Well, let me tell you something, ...</p>
+  <p class="break-inside-avoid-column">Sure, go ahead, laugh...</p>
+  <p>Maybe we can live without...</p>
+  <p>Look. If you think this is...</p>
+</div>
