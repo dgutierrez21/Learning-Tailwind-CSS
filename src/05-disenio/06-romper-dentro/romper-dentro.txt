@@ -18,3 +18,10 @@ Utilice las utilidades break-inside-{value} para controlar cómo debe comportars
   <p>Maybe we can live without...</p>
   <p>Look. If you think this is...</p>
 </div>
+
+Desplazar, enfocar y otros estados
+Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estados mediante modificadores de variantes. Por ejemplo, use hover:break-inside-avoid-column para aplicar solo la utilidad hover:break-inside-avoid-column al pasar el cursor break-inside-avoid-column.
+
+<div class="hover:break-inside-avoid-column">
+  <!-- ... -->
+</div>
