@@ -27,3 +27,8 @@ Reducción de escala si es demasiado grande
 Mostrar el contenido de un elemento en su tamaño original, pero reducirlo para que se ajuste a su contenedor si es necesario mediante .object-scale-down.
 
 ...
+
+Usar el tamaño original de un elemento
+Mostrar el contenido de un elemento en su tamaño original ignorando el tamaño del contenedor mediante .object-none.
+
+...
