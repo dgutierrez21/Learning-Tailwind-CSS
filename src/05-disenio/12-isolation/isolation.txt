@@ -1,0 +1,6 @@
+Isolation
+Utilidades para controlar si un elemento debe crear explícitamente un nuevo contexto de apilamiento.
+
+Clase  |  Propiedades
+isolate  |  isolation: isolate;
+isolation-auto  |  isolation: auto;
