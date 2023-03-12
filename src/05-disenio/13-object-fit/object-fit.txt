@@ -12,3 +12,8 @@ Cambio de tamaño para cubrir un contenedor
 Cambiar el tamaño del contenido de un elemento para cubrir su contenedor mediante .object-cover.
 
 ...
+
+Contener un elemento
+Cambiar el tamaño del contenido de un elemento para que permanezca contenido dentro de su contenedor mediante .object-contain.
+
+...
