@@ -61,3 +61,8 @@ Use contents para crear un contenedor "fantasma" cuyos hijos actúen como hijos 
 
 Table
 Utilice las utilidades table, table-row, table-cell, table-caption, table-column, table-column-group, table-header-group, table-row-group y table-footer-group para crear elementos que se comporten como sus respectivos elementos de tabla.
+
+Hidden
+Use hidden para establecer un elemento para display: none y eliminarlo del diseño de página (comparar con .invisible de la documentación de visibilidad).
+
+...
