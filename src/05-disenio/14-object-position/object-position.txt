@@ -11,3 +11,8 @@ object-right  |  object-position: right;
 object-right-bottom  |  object-position: right bottom;
 object-right-top  |  object-position: right top;
 object-top  |  object-position: top;
+
+Colocación de un elemento reemplazado
+Utilice las utilidades object-{side} para especificar cómo se debe colocar el contenido de un elemento reemplazado dentro de su contenedor.
+
+...
