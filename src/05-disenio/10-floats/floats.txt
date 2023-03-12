@@ -1,0 +1,7 @@
+Floats
+Utilidades para controlar el ajuste de contenido alrededor de un elemento.
+
+Clase |  Propiedades
+float-right  |  float: right;
+float-left  |  float: left;
+float-none  |  float: none;
