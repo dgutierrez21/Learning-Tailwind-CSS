@@ -43,3 +43,8 @@ inline-flex
 Utilice inline-flex para crear un contenedor flexible en línea que fluya con texto.
 
 ...
+
+grid
+Utilice grid para crear un contenedor de cuadrícula.
+
+...
