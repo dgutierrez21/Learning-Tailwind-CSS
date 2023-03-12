@@ -20,3 +20,10 @@ Cambiar el tamaño del contenido de un elemento para que permanezca contenido de
 
 Estiramiento para adaptarse a un contenedor
 Estirar el contenido de un elemento para que se ajuste a su contenedor mediante .object-fill.
+
+...
+
+Reducción de escala si es demasiado grande
+Mostrar el contenido de un elemento en su tamaño original, pero reducirlo para que se ajuste a su contenedor si es necesario mediante .object-scale-down.
+
+...
