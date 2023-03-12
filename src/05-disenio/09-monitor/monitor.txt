@@ -31,3 +31,10 @@ Utilice en línea, bloque inline y inline-block para block controlar el flujo de
 
 Raíz de flujo
 Usar flow-root para crear un elemento de nivel de bloque con su propio contexto de formato de bloque.
+
+...
+
+Flex
+Utilice flex para crear un contenedor flex a nivel de bloque.
+
+...
