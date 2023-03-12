@@ -7,3 +7,8 @@ object-cover  |  object-fit: cover;
 object-fill  |  object-fit: fill;
 object-none  |  object-fit: none;
 object-scale-down  |  object-fit: scale-down;
+
+Cambio de tamaño para cubrir un contenedor
+Cambiar el tamaño del contenido de un elemento para cubrir su contenedor mediante .object-cover.
+
+...
