@@ -48,3 +48,8 @@ grid
 Utilice grid para crear un contenedor de cuadrícula.
 
 ...
+
+inline-grid
+Utilice inline-grid para crear un contenedor de cuadrícula en línea.
+
+...
