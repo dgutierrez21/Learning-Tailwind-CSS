@@ -16,3 +16,6 @@ Limpieza de elementos flotantes a la derecha
 Utilice clear-right para colocar un elemento debajo de cualquier elemento anterior flotado a la derecha.
 
 ...
+
+Limpieza de todos los elementos flotantes
+Utilice clear-both para colocar un elemento debajo de todos los elementos flotantes anteriore
