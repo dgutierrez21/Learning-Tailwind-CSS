@@ -38,3 +38,8 @@ Flex
 Utilice flex para crear un contenedor flex a nivel de bloque.
 
 ...
+
+inline-flex
+Utilice inline-flex para crear un contenedor flexible en línea que fluya con texto.
+
+...
