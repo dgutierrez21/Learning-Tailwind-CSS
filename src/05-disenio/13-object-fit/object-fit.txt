@@ -17,3 +17,6 @@ Contener un elemento
 Cambiar el tamaño del contenido de un elemento para que permanezca contenido dentro de su contenedor mediante .object-contain.
 
 ...
+
+Estiramiento para adaptarse a un contenedor
+Estirar el contenido de un elemento para que se ajuste a su contenedor mediante .object-fill.
