@@ -53,3 +53,8 @@ inline-grid
 Utilice inline-grid para crear un contenedor de cuadrícula en línea.
 
 ...
+
+Contents
+Use contents para crear un contenedor "fantasma" cuyos hijos actúen como hijos directos del padre.
+
+...
