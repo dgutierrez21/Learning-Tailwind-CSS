@@ -4,3 +4,10 @@ Utilidades para controlar si un elemento debe crear explícitamente un nuevo con
 Clase  |  Propiedades
 isolate  |  isolation: isolate;
 isolation-auto  |  isolation: auto;
+
+Configuración del contexto de apilamiento
+Utilice las utilidades isolate y isolation-auto para controlar si un elemento debe crear explícitamente un nuevo contexto de apilamiento.
+
+<div class="isolate ...">
+  <!-- ... -->
+</div>
