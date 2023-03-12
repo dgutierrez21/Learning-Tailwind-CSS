@@ -28,3 +28,6 @@ Bloque e inline
 Utilice en línea, bloque inline y inline-block para block controlar el flujo de texto y elementos.
 
 ...
+
+Raíz de flujo
+Usar flow-root para crear un elemento de nivel de bloque con su propio contexto de formato de bloque.
