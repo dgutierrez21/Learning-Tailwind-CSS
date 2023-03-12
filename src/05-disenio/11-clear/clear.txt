@@ -19,3 +19,8 @@ Utilice clear-right para colocar un elemento debajo de cualquier elemento anteri
 
 Limpieza de todos los elementos flotantes
 Utilice clear-both para colocar un elemento debajo de todos los elementos flotantes anteriore
+
+Desactivación de clear aplicados
+Utilice clear-none para restablecer los borrados que se aplican a un elemento. Este es el valor predeterminado de la propiedad clear.
+
+...
