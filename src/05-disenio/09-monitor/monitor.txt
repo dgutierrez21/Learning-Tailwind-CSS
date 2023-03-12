@@ -73,3 +73,10 @@ Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estad
 <div class="flex hover:inline-flex">
   <!-- ... -->
 </div>
+
+Puntos de interrupción y consultas de medios
+También puede usar modificadores de variantes para orientar consultas de medios, como puntos de interrupción sensibles, modo oscuro, preferentes de movimiento reducido y más. Por ejemplo, use md:inline-flex para aplicar la utilidad inline-flex solo en tamaños de pantalla medianos y superiores.
+
+<div class="flex md:inline-flex">
+  <!-- ... -->
+</div>
