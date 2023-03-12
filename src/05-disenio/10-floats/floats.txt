@@ -5,3 +5,30 @@ Clase |  Propiedades
 float-right  |  float: right;
 float-left  |  float: left;
 float-none  |  float: none;
+
+Elementos flotantes a la derecha
+Utilice float-right para hacer flotar un elemento a la derecha de su contenedor.
+
+...
+
+Elementos flotantes a la izquierda
+Utilice float-left para hacer flotar un elemento a la izquierda de su contenedor.
+
+...
+
+Desactivación de un flotador
+Utilice float-none para restablecer los flotadores que se aplican a un elemento. Este es el valor predeterminado de la propiedad float.
+
+...
+​
+Desplazar, enfocar y otros estados
+Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estados mediante modificadores de variantes. Por ejemplo, use hover:float-right para aplicar solo la utilidad float-right al pasar el cursor.
+
+<img class="float-right hover:float-left" src="path/to/image.jpg">
+Para obtener una lista completa de todos los modificadores de estado disponibles, consulte la documentación de Hover, Focus y otros estados.
+
+​
+Puntos de interrupción y consultas de medios
+También puede usar modificadores de variantes para orientar consultas de medios, como puntos de interrupción sensibles, modo oscuro, preferentes de movimiento reducido y más. Por ejemplo, use md:float-rightfloat-right para aplicar la utilidad float-right solo en tamaños de pantalla medianos y superiores.
+
+<img class="float-right md:float-left" src="path/to/image.jpg">
