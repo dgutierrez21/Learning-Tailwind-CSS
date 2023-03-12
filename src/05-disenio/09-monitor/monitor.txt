@@ -66,3 +66,10 @@ Hidden
 Use hidden para establecer un elemento para display: none y eliminarlo del diseño de página (comparar con .invisible de la documentación de visibilidad).
 
 ...
+
+hover, focus y otros estados
+Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estados mediante modificadores de variantes. Por ejemplo, use hover:inline-flex Para aplicar sólo la utilidad inline-flex en cernerse.
+
+<div class="flex hover:inline-flex">
+  <!-- ... -->
+</div>
