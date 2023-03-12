@@ -9,3 +9,10 @@ clear-none  |  clear: none;
 
 Limpieza de elementos flotantes a la izquierda
 Utilice clear-left para colocar un elemento debajo de cualquier elemento anterior flotado a la izquierda.
+
+...
+
+Limpieza de elementos flotantes a la derecha
+Utilice clear-right para colocar un elemento debajo de cualquier elemento anterior flotado a la derecha.
+
+...
