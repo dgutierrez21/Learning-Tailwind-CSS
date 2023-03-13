@@ -10,3 +10,10 @@ Hacer invisibles los elementos
 Use invisible para ocultar un elemento, pero aún así mantener su lugar en el DOM, lo que afecta el diseño de otros elementos (comparar con .hidden de la documentación de visualización)
 
 ...
+
+Elementos contraídos
+collapse para ocultar filas de tabla, grupos de filas, columnas y grupos de columnas como si estuvieran configurados para display: none, pero sin afectar al tamaño de otras filas y columnas.
+
+Esto permite alternar dinámicamente filas y columnas sin afectar el diseño de la tabla.
+
+...
