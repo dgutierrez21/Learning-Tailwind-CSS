@@ -35,3 +35,10 @@ Utilice fixed para colocar un elemento relativo a la ventana del navegador.
 Cualquier desplazamiento se calcula en relación con la ventana gráfica y el elemento actuará como referencia de posición para los hijos posicionados absolutamente.
 
 ...
+
+Elementos de posicionamiento adhesivos
+Use sticky para colocar un elemento como relative hasta que cruce un umbral especificado, luego trátelo como fijo hasta que su padre esté fuera de la pantalla.
+
+Cualquier desplazamiento se calcula en relación con la posición normal del elemento y el elemento actuará como referencia de posición para los hijos absolutamente posicionados.
+
+...
