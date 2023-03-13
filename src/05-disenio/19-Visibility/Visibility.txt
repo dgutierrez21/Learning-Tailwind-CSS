@@ -1,0 +1,7 @@
+Visibility
+Utilidades para controlar la visibilidad de un elemento.
+
+Clase  |  Propiedades
+visible  |  visibility: visible;
+invisible  |  visibility: hidden;
+collapse  |  visibility: collapse;
