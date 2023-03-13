@@ -21,3 +21,8 @@ Prevención del desplazamiento excesivo de los padres
 Utilice overscroll-contain para evitar que el desplazamiento en el área de destino desencadene el desplazamiento en el elemento primario, pero conserve los efectos de "rebote" al desplazarse más allá del final del contenedor en los sistemas operativos que lo admiten.
 
 ...
+
+Prevención del rebote de desplazamiento excesivo
+Utilice overscroll-none para evitar que el desplazamiento en el área de destino desencadene el desplazamiento en el elemento principal, y también evitar los efectos de "rebote" al desplazarse más allá del final del contenedor.
+
+...
