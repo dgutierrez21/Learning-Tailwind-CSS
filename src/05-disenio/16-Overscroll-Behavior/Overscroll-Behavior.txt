@@ -16,3 +16,8 @@ Uso del comportamiento de desplazamiento excesivo predeterminado
 Utilice overscroll-auto para que el usuario pueda continuar desplazándose por un área de desplazamiento principal cuando llegue al límite del área de desplazamiento principal.
 
 ...
+
+Prevención del desplazamiento excesivo de los padres
+Utilice overscroll-contain para evitar que el desplazamiento en el área de destino desencadene el desplazamiento en el elemento primario, pero conserve los efectos de "rebote" al desplazarse más allá del final del contenedor en los sistemas operativos que lo admiten.
+
+...
