@@ -22,3 +22,8 @@ Mostrar contenido que se desborda
 Utilice overflow-visible para evitar que se recorte el contenido de un elemento. Tenga en cuenta que cualquier contenido que desborde los límites del elemento será visible.
 
 ...
+
+Ocultar contenido que se desborda
+Utilice overflow-hidden para recortar cualquier contenido dentro de un elemento que desborde los límites de ese elemento.
+
+...
