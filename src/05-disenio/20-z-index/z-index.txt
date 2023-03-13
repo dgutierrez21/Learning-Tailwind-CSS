@@ -9,3 +9,8 @@ z-30  |  z-index: 30;
 z-40  |  z-index: 40;
 z-50  |  z-index: 50;
 z-auto  |  z-index: auto;
+
+Configuración del z-index
+Controle el orden de pila (o posicionamiento tridimensional) de un elemento en Tailwind, independientemente del orden en que se haya mostrado, utilizando las utilidades z-{index}.
+
+...
