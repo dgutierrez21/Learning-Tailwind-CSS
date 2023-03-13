@@ -7,7 +7,16 @@
     <link href="../../../dist/output.css" rel="stylesheet" />
     <title>Document</title>
   </head>
-  <body>
-    
+  <body class="p-10">
+    <div class="relative w-[600px] bg-slate-400 mx-auto p-10 rounded-lg">
+      <div
+        class="static my-5 mx-auto w-[500px] bg-slate-800 text-white h-32 p-5 rounded-lg uppercase font-bold"
+      >
+        padre estático
+        <div class="absolute bottom-0 left-0 bg-red-500 w-36 rounded-lg p-2">
+          Hijo Absoluto
+        </div>
+      </div>
+    </div>
   </body>
 </html>

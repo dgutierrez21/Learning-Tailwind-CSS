@@ -7,3 +7,10 @@ fixed  |  position: fixed;
 absolute  |  position: absolute;
 relative  |  position: relative;
 sticky  |  position: sticky;
+
+Elementos de posicionamiento estático
+Utilice static para posicionar un elemento de acuerdo con el flujo normal del documento.
+
+Cualquier desplazamiento será ignorado y el elemento no actuará como una referencia de posición para los niños absolutamente posicionados.
+
+...
