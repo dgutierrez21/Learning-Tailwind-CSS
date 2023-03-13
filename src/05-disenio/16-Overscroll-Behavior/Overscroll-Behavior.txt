@@ -11,3 +11,8 @@ overscroll-y-none  |  overscroll-behavior-y: none;
 overscroll-x-auto  |  overscroll-behavior-x: auto;
 overscroll-x-contain  |  overscroll-behavior-x: contain;
 overscroll-x-none  |  overscroll-behavior-x: none;
+
+Uso del comportamiento de desplazamiento excesivo predeterminado
+Utilice overscroll-auto para que el usuario pueda continuar desplazándose por un área de desplazamiento principal cuando llegue al límite del área de desplazamiento principal.
+
+...
