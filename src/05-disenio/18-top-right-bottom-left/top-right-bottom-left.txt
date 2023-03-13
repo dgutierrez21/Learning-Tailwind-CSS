@@ -7,3 +7,8 @@ Colocación de un elemento posicionado
 Utilice las utilidades {top|right|bottom|left|inset}-{size} para establecer la posición horizontal o vertical de un elemento posicionado.
 
 ...
+
+Uso de valores negativos
+Para usar un valor negativo superior/derecho/inferior/izquierdo, anteponga un guión al nombre de la clase para convertirlo en un valor negativo.
+
+...
