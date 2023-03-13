@@ -14,3 +14,10 @@ Utilice static para posicionar un elemento de acuerdo con el flujo normal del do
 Cualquier desplazamiento será ignorado y el elemento no actuará como una referencia de posición para los niños absolutamente posicionados.
 
 ...
+
+Elementos de posicionamiento relativo
+Utilice relative para posicionar un elemento de acuerdo con el flujo normal del documento.
+
+Cualquier desplazamiento se calcula en relación con la posición normal del elemento y el elemento actuará como referencia de posición para los hijos absolutamente posicionados.
+
+...
