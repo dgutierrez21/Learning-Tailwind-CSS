@@ -5,3 +5,8 @@ Clase  |  Propiedades
 visible  |  visibility: visible;
 invisible  |  visibility: hidden;
 collapse  |  visibility: collapse;
+
+Hacer invisibles los elementos
+Use invisible para ocultar un elemento, pero aún así mantener su lugar en el DOM, lo que afecta el diseño de otros elementos (comparar con .hidden de la documentación de visualización)
+
+...
