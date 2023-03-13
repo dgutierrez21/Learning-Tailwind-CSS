@@ -32,3 +32,8 @@ Desplazamiento si es necesario
 Utilice overflow-auto para agregar barras de desplazamiento a un elemento en caso de que su contenido desborde los límites de ese elemento. A diferencia overflow-scroll, que siempre muestra barras de desplazamiento, esta utilidad solo las mostrará si es necesario desplazarse
 
 ...
+
+Desplazamiento horizontal si es necesario
+Utilice overflow-x-auto para permitir el desplazamiento horizontal si es necesario.
+
+...
