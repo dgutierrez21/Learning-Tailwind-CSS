@@ -21,3 +21,10 @@ Utilice relative para posicionar un elemento de acuerdo con el flujo normal del 
 Cualquier desplazamiento se calcula en relación con la posición normal del elemento y el elemento actuará como referencia de posición para los hijos absolutamente posicionados.
 
 ...
+
+Elementos de posicionamiento absoluto
+Utilice absolute para posicionar un elemento fuera del flujo normal del documento, haciendo que los elementos vecinos actúen como si el elemento no existiera.
+
+Cualquier desplazamiento se calcula en relación con el elemento padre más cercano que tenga una posición distinta de la estática, y el elemento actuará como referencia de posición para otros elementos hijos posicionados de forma absoluta.
+
+...
