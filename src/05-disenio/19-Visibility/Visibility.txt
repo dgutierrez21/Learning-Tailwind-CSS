@@ -17,3 +17,8 @@ collapse para ocultar filas de tabla, grupos de filas, columnas y grupos de colu
 Esto permite alternar dinámicamente filas y columnas sin afectar el diseño de la tabla.
 
 ...
+
+Hacer visibles los elementos
+Utilice visible para hacer visible un elemento. Esto es principalmente útil para deshacer la utilidad invisible en diferentes tamaños de pantalla.
+
+...
