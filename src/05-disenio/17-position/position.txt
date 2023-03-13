@@ -28,3 +28,10 @@ Utilice absolute para posicionar un elemento fuera del flujo normal del document
 Cualquier desplazamiento se calcula en relación con el elemento padre más cercano que tenga una posición distinta de la estática, y el elemento actuará como referencia de posición para otros elementos hijos posicionados de forma absoluta.
 
 ...
+
+Elementos de posicionamiento fijos
+Utilice fixed para colocar un elemento relativo a la ventana del navegador.
+
+Cualquier desplazamiento se calcula en relación con la ventana gráfica y el elemento actuará como referencia de posición para los hijos posicionados absolutamente.
+
+...
