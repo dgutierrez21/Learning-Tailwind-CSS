@@ -17,3 +17,8 @@ overflow-x-visible	overflow  |  x: visible;
 overflow-y-visible	overflow  |  y: visible;
 overflow-x-scroll	overflow  |  x: scroll;
 overflow-y-scroll	overflow  |  y: scroll;
+
+Mostrar contenido que se desborda
+Utilice overflow-visible para evitar que se recorte el contenido de un elemento. Tenga en cuenta que cualquier contenido que desborde los límites del elemento será visible.
+
+...
