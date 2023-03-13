@@ -14,3 +14,10 @@ Configuración del z-index
 Controle el orden de pila (o posicionamiento tridimensional) de un elemento en Tailwind, independientemente del orden en que se haya mostrado, utilizando las utilidades z-{index}.
 
 ...
+
+Uso de valores negativos
+Para usar un valor de índice z negativo, anteponga un guión al nombre de la clase para convertirlo en un valor negativo.
+
+<div class="-z-50">
+  <!-- ... -->
+</div>
