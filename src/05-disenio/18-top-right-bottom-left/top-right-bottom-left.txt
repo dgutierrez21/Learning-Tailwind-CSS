@@ -1,0 +1,4 @@
+Top / Right / Bottom / Left
+Utilidades para controlar la colocación de elementos posicionados.
+
+ver tabla de clase y Propiedades en https://tailwindcss.com/docs/top-right-bottom-left
