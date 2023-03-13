@@ -2,3 +2,8 @@ Top / Right / Bottom / Left
 Utilidades para controlar la colocación de elementos posicionados.
 
 ver tabla de clase y Propiedades en https://tailwindcss.com/docs/top-right-bottom-left
+
+Colocación de un elemento posicionado
+Utilice las utilidades {top|right|bottom|left|inset}-{size} para establecer la posición horizontal o vertical de un elemento posicionado.
+
+...
