@@ -47,3 +47,9 @@ Desplazarse verticalmente siempre
 Utilice overflow-y-scroll permitir el desplazamiento vertical y mostrar siempre las barras de desplazamiento a menos que el sistema operativo deshabilite las barras de desplazamiento siempre visibles.
 
 ...
+
+Desplazamiento en todas las direcciones
+
+Utilice overflow-scroll para agregar barras de desplazamiento a un elemento. A diferencia de overflow-auto, que solo muestra las barras de desplazamiento si son necesarias, esta utilidad siempre las muestra. Tenga en cuenta que algunos sistemas operativos (como macOS) ocultan barras de desplazamiento innecesarias independientemente de esta configuración.
+
+...
