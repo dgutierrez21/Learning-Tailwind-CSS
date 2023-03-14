@@ -22,3 +22,8 @@ Ordering de artículos flexibles y de cuadrícula
 Utilice order-{order} para representar los elementos flexibles y de cuadrícula en un orden diferente al que aparecen en el DOM.
 
 ...
+
+Uso de valores negativos
+Para usar un valor de orden negativo, anteponga un guión al nombre de clase para convertirlo en un valor negativo.
+
+...
