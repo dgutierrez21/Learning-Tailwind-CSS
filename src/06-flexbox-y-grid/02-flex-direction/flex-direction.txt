@@ -21,3 +21,8 @@ Column
 Utilice flex-col para colocar los elementos flexibles verticalmente:
 
 ...
+
+Column-reverse
+Utilice flex-col-reverse para colocar los elementos flexibles verticalmente en la dirección opuesta:
+
+...
