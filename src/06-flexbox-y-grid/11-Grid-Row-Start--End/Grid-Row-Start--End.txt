@@ -26,3 +26,8 @@ row-end-5  |  grid-row-end: 5;
 row-end-6  |  grid-row-end: 6;
 row-end-7  |  grid-row-end: 7;
 row-end-auto  |  grid-row-end: auto;
+
+Row span
+Utilice las utilidades row-span-{n} para hacer que un elemento abarque n filas.
+
+...
