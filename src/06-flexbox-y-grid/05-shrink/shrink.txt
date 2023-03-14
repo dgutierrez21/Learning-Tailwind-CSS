@@ -1,0 +1,6 @@
+Shrink
+Utilice shrink para permitir que un elemento flexible se reduzca si es necesario:
+
+Clase  |  Propiedades
+shrink  |  flex-shrink: 1;
+shrink-0  |  flex-shrink: 0;
