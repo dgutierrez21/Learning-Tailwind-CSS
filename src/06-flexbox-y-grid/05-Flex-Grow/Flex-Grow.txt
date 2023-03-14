@@ -1,0 +1,6 @@
+Flex Grow
+Utilidades para controlar cómo crecen los artículos flexibles.
+
+Clase  |  Propiedades
+grow  |  flex-grow: 1;
+grow-0  |  flex-grow: 0;
