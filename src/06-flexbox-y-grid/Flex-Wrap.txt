@@ -10,3 +10,8 @@ flex-nowrap
 Use flex-nowrap para evitar que los artículos flexibles se envuelvan, lo que hace que los artículos inflexibles desborden el contenedor si es necesario:
 
 ...
+
+Flex-Wrap
+Use flex-wrap para permitir que los artículos flexibles se envuelvan:
+
+...
