@@ -5,3 +5,8 @@ Clase |  Propiedades
 flex-wrap  |  flex-wrap: wrap;
 flex-wrap-reverse  |  flex-wrap: wrap-reverse;
 flex-nowrap  |  flex-wrap: nowrap;
+
+flex-nowrap
+Use flex-nowrap para evitar que los artículos flexibles se envuelvan, lo que hace que los artículos inflexibles desborden el contenedor si es necesario:
+
+...
