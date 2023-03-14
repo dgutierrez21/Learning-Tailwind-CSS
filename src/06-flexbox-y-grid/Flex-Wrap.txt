@@ -15,3 +15,8 @@ Flex-Wrap
 Use flex-wrap para permitir que los artículos flexibles se envuelvan:
 
 ...
+
+Flex-wrap-reverse
+Utilice flex-wrap-reverse para envolver elementos flexibles en la dirección inversa:
+
+...
