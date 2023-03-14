@@ -21,3 +21,8 @@ Automático
 Utilice flex-auto para permitir que un elemento flexible crezca y se encoja, teniendo en cuenta su tamaño inicial:
 
 ...
+
+None
+Utilice flex-none para evitar que un elemento flexible crezca o se encoja:
+
+...
