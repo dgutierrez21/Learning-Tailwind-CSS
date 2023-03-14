@@ -9,3 +9,8 @@ Shrink
 Utilice shrink para permitir que un elemento flexible se reduzca si es necesario:
 
 ...
+
+shrink-0
+Utilice shrink-0 para evitar que un elemento flexible se contraiga:
+
+...
