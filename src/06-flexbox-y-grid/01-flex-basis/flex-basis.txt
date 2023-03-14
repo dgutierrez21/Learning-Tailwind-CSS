@@ -65,3 +65,8 @@ basis-9/12  |  flex-basis: 75%;
 basis-10/12  |  flex-basis: 83.333333%;
 basis-11/12  |  flex-basis: 91.666667%;
 basis-full  |  flex-basis: 100%;
+
+Establecer la base flexible
+Utilice las utilidades basis-{size} para establecer el tamaño inicial de los elementos flexibles.
+
+...
