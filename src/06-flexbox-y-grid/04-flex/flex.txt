@@ -6,3 +6,8 @@ flex-1  |  flex: 1 1 0%;
 flex-auto  |  flex: 1 1 auto;
 flex-initial  |  flex: 0 1 auto;
 flex-none  |  flex: none;
+
+Initial
+Utilice flex-initial para permitir que un elemento flexible se reduzca pero no crezca, teniendo en cuenta su tamaño inicial:
+
+...
