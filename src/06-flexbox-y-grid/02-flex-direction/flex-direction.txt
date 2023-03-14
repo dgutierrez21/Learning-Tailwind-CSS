@@ -1,0 +1,8 @@
+Flex Direction
+Utilidades para controlar la dirección de los elementos flexibles.
+
+Clase  |  Propiedades
+flex-row  |  flex-direction: row;
+flex-row-reverse  |  flex-direction: row-reverse;
+flex-col  |  flex-direction: column;
+flex-col-reverse  |  flex-direction: column-reverse;
