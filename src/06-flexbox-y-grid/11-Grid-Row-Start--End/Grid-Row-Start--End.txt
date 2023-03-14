@@ -31,3 +31,10 @@ Row span
 Utilice las utilidades row-span-{n} para hacer que un elemento abarque n filas.
 
 ...
+
+Líneas iniciales y finales
+Utilice las utilidades row-start-{n} y row-end-{n} para hacer que un elemento comience o termine en la enésima línea de cuadrícula.row-start-{n} Estos también se pueden combinar con las utilidades row-span-{n} para abarcar un número específico de filas.
+
+Tenga en cuenta que las líneas de cuadrícula CSS comienzan en 1, no en 0, por lo que un elemento de altura completa en una cuadrícula de 3 filas comenzaría en la línea 1 y terminaría en la línea 4.
+
+...
