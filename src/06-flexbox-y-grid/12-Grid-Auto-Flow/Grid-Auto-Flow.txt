@@ -7,3 +7,8 @@ grid-flow-col  |  grid-auto-flow: column;
 grid-flow-dense  |  grid-auto-flow: dense;
 grid-flow-row-dense  |  grid-auto-flow: row dense;
 grid-flow-col-dense  |  grid-auto-flow: column dense;
+
+Control de la colocación de elementos de cuadrícula
+Utilice las utilidades grid-flow-{keyword} para controlar cómo funciona el algoritmo de colocación automática para un diseño de cuadrícula.
+
+...
