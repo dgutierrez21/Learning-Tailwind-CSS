@@ -9,3 +9,8 @@ Grow
 Use grow para permitir que un elemento flexible crezca para llenar cualquier espacio disponible:
 
 ...
+
+Grow-0
+Utilice grow-0 para evitar que un elemento flexible crezca:
+
+...
