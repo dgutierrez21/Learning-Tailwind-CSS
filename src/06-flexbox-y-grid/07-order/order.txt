@@ -17,3 +17,8 @@ order-12  |  order: 12;
 order-first  |  order: -9999;
 order-last  |  order: 9999;
 order-none  |  order: 0;
+
+Ordering de artículos flexibles y de cuadrícula
+Utilice order-{order} para representar los elementos flexibles y de cuadrícula en un orden diferente al que aparecen en el DOM.
+
+...
