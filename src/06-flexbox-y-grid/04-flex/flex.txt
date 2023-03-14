@@ -16,3 +16,8 @@ Flex 1
 Utilice flex-1 para permitir que un elemento flexible crezca y se reduzca según sea necesario, ignorando su tamaño inicial:
 
 ...
+
+Automático
+Utilice flex-auto para permitir que un elemento flexible crezca y se encoja, teniendo en cuenta su tamaño inicial:
+
+...
