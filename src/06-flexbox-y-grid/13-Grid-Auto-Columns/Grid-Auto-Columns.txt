@@ -6,3 +6,8 @@ auto-cols-auto  |  grid-auto-columns: auto;
 auto-cols-min  |  grid-auto-columns: min-content;
 auto-cols-max  |  grid-auto-columns: max-content;
 auto-cols-fr  |  grid-auto-columns: minmax(0, 1fr);
+
+Ajustar el tamaño de las columnas de cuadrícula creadas implícitamente
+Utilice las utilidades auto-cols-{size} para controlar el tamaño de las columnas de cuadrícula creadas implícitamente.
+
+...
