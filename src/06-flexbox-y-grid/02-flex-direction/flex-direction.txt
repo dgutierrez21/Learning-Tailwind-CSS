@@ -11,3 +11,8 @@ Row
 Utilice flex-row para colocar los elementos flexibles horizontalmente en la misma dirección que el texto:
 
 ...
+
+row reverse
+Utilice flex-row-reverse para colocar los elementos flexibles horizontalmente en la dirección opuesta:
+
+...
