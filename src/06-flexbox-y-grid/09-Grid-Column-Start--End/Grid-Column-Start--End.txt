@@ -49,3 +49,10 @@ Col-span
 Utilice las utilidades col-span-{n} para hacer que un elemento abarque n columnas.
 
 ...
+
+Líneas iniciales y finales
+Utilice las utilidades col-start-{n} y col-end-{n} para hacer que un elemento comience o termine en la enésima línea de cuadrícula.col-start-{n} Estos también se pueden combinar con las utilidades col-span-{n} para abarcar un número específico de columnas.
+
+Tenga en cuenta que las líneas de cuadrícula CSS comienzan en 1, no en 0, por lo que un elemento de ancho completo en una cuadrícula de 6 columnas comenzaría en la línea 1 y terminaría en la línea 7.
+
+...
