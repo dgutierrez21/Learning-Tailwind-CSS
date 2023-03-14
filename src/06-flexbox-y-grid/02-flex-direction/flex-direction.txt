@@ -6,3 +6,8 @@ flex-row  |  flex-direction: row;
 flex-row-reverse  |  flex-direction: row-reverse;
 flex-col  |  flex-direction: column;
 flex-col-reverse  |  flex-direction: column-reverse;
+
+Row
+Utilice flex-row para colocar los elementos flexibles horizontalmente en la misma dirección que el texto:
+
+...
