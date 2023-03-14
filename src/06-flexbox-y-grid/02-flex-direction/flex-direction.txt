@@ -26,3 +26,19 @@ Column-reverse
 Utilice flex-col-reverse para colocar los elementos flexibles verticalmente en la dirección opuesta:
 
 ...
+
+Desplazar, enfocar y otros estados
+Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estados mediante modificadores de variantes. Por ejemplo, utilice hover:flex-row para aplicar únicamente la utilidad flex-row al pasar el cursor.
+
+<div class="flex flex-col hover:flex-row">
+  <!-- ... -->
+</div>
+Para obtener una lista completa de todos los modificadores de estado disponibles, consulte la documentación de Hover, Focus y otros estados.
+
+​
+Puntos de interrupción y consultas de medios
+También puede usar modificadores de variantes para orientar consultas de medios, como puntos de interrupción sensibles, modo oscuro, movimiento reducido preferido y más. Por ejemplo, utilice md:flex-rowflex-row para aplicar la utilidad flex-row sólo en tamaños de pantalla medianos y superiores.
+
+<div class="flex flex-col md:flex-row">
+  <!-- ... -->
+</div>
