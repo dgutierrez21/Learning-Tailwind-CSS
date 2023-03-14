@@ -11,3 +11,8 @@ Initial
 Utilice flex-initial para permitir que un elemento flexible se reduzca pero no crezca, teniendo en cuenta su tamaño inicial:
 
 ...
+
+Flex 1
+Utilice flex-1 para permitir que un elemento flexible crezca y se reduzca según sea necesario, ignorando su tamaño inicial:
+
+...
