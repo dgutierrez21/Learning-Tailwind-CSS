@@ -27,3 +27,8 @@ End
 Utilice items-end para alinear los elementos con el final del eje transversal del contenedor:
 
 ...
+
+Baseline
+Utilice items-baseline para alinear los elementos a lo largo del eje transversal del contenedor de forma que todas sus líneas base se alineen:
+
+...
