@@ -6,3 +6,8 @@ justify-items-start  |  justify-items: start;
 justify-items-end  |  justify-items: end;
 justify-items-center  |  justify-items: center;
 justify-items-stretch  |  justify-items: stretch;
+
+Start
+Utilice justify-items-start para justificar los elementos de la cuadrícula con respecto al inicio de su eje en línea:
+
+...
