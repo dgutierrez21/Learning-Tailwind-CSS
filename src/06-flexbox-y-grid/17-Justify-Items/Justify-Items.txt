@@ -16,3 +16,8 @@ End
 Utilice justify-items-end para justificar los elementos de la cuadrícula contra el final de su eje en línea:
 
 ...
+
+Center
+Utilice justify-items-center para justificar elementos de cuadrícula a lo largo de su eje en línea:
+
+...
