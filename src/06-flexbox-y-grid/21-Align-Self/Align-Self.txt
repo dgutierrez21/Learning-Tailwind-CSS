@@ -13,3 +13,8 @@ Automático
 Utilice la función automática automática para alinear un elemento en self-auto del valor de la propiedad align-items del contenedor:
 
 ...
+
+Start
+Utilice el inicio automático para alinear un elemento con el self-start del eje transversal del contenedor, a pesar del valor align-items del contenedor:
+
+...
