@@ -18,3 +18,8 @@ Center
 Utilice justify-center para justificar los elementos a lo largo del centro del eje principal del contenedor:
 
 ...
+
+End
+Utilice justify-end para justificar los artículos contra el extremo del eje principal del contenedor:
+
+...
