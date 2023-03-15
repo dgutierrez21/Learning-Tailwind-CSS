@@ -22,3 +22,8 @@ Center
 Utilice justify-self-center para alinear un elemento de cuadrícula a lo largo del centro de su eje en línea:
 
 ...
+
+End
+Utilice justify-self-end para alinear un elemento de cuadrícula con el final de su eje en línea:
+
+...
