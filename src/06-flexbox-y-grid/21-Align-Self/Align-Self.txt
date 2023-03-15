@@ -8,3 +8,8 @@ self-end  |  align-self: flex-end;
 self-center  |  align-self: center;
 self-stretch  |  align-self: stretch;
 self-baseline  |  align-self: baseline;
+
+Automático
+Utilice la función automática automática para alinear un elemento en self-auto del valor de la propiedad align-items del contenedor:
+
+...
