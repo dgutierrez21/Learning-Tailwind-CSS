@@ -24,3 +24,8 @@ End
 Utilice content-end para empaquetar filas en un contenedor contra el extremo del eje transversal:
 
 ...
+
+Space between
+Utilice content-between para distribuir las filas de un contenedor de forma que haya la misma cantidad de espacio entre cada línea:
+
+...
