@@ -13,3 +13,8 @@ Start
 Utilice justify-start para justificar los elementos contra el inicio del eje principal del contenedor:
 
 ...
+
+Center
+Utilice justify-center para justificar los elementos a lo largo del centro del eje principal del contenedor:
+
+...
