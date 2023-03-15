@@ -28,3 +28,8 @@ End
 Utilice el extremo automático para alinear un elemento con el self-end del eje transversal del contenedor, a pesar del valor align-items del contenedor:
 
 ...
+
+Stretch
+Utilice el self-stretch un elemento y rellenar el eje transversal del contenedor, a pesar del valor align-items del contenedor:
+
+...
