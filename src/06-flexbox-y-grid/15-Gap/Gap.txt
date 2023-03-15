@@ -112,3 +112,6 @@ Establecer la brecha entre los elementos
 Use gap-{size} para cambiar el espacio entre filas y columnas en diseños de cuadrícula y flexbox.
 
 ...
+
+Cambiar los espacios de fila y columna de forma independiente
+Use gap-x-{size} y gap-x-{size} para cambiar el espacio entre filas gap-y-{size} columnas de forma independiente.
