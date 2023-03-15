@@ -27,3 +27,8 @@ End
 Utilice justify-self-end para alinear un elemento de cuadrícula con el final de su eje en línea:
 
 ...
+
+Stretch
+Utilice justify-self-stretch para estirar un elemento de cuadrícula para rellenar el área de cuadrícula en su eje en línea:
+
+...
