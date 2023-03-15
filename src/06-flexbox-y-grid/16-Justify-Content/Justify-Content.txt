@@ -8,3 +8,8 @@ justify-center  |  justify-content: center;
 justify-between  |  justify-content: space-between;
 justify-around  |  justify-content: space-around;
 justify-evenly  |  justify-content: space-evenly;
+
+Start
+Utilice justify-start para justificar los elementos contra el inicio del eje principal del contenedor:
+
+...
