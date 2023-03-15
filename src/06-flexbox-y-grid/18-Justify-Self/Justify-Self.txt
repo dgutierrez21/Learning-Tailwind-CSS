@@ -17,3 +17,8 @@ Start
 Utilice justify-self-start para alinear un elemento de cuadrícula con el inicio de su eje en línea:
 
 ...
+
+Center
+Utilice justify-self-center para alinear un elemento de cuadrícula a lo largo del centro de su eje en línea:
+
+...
