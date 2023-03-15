@@ -7,3 +7,8 @@ items-end  |  align-items: flex-end;
 items-center  |  align-items: center;
 items-baseline  |  align-items: baseline;
 items-stretch  |  align-items: stretch;
+
+Stretch
+Use items-stretch para estirar artículos para llenar el eje transversal del contenedor:
+
+...
