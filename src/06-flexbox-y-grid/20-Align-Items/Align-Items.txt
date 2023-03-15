@@ -17,3 +17,8 @@ Start
 Utilice items-start para alinear los elementos con el inicio del eje transversal del contenedor:
 
 ...
+
+Center
+Utilice items-center para alinear los elementos a lo largo del centro del eje transversal del contenedor:
+
+...
