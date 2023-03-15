@@ -33,3 +33,9 @@ Space around
 Use justify-around para justificar los artículos a lo largo del eje principal del contenedor de modo que haya una cantidad igual de espacio a cada lado de cada artículo:
 
 ...
+
+Space evenly
+
+Use justify-evenly para justificar elementos a lo largo del eje principal del contenedor de modo que haya una cantidad igual de espacio alrededor de cada artículo, pero también teniendo en cuenta la duplicación del espacio que normalmente vería entre cada elemento cuando usa justify-around:
+
+...
