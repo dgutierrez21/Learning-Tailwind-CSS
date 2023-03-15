@@ -23,3 +23,8 @@ End
 Utilice justify-end para justificar los artículos contra el extremo del eje principal del contenedor:
 
 ...
+
+Space between
+Use justify-between para justificar los elementos a lo largo del eje principal del contenedor de tal manera que haya una cantidad igual de espacio entre cada artículo:
+
+...
