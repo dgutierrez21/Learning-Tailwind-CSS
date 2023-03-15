@@ -11,3 +11,8 @@ Start
 Utilice justify-items-start para justificar los elementos de la cuadrícula con respecto al inicio de su eje en línea:
 
 ...
+
+End
+Utilice justify-items-end para justificar los elementos de la cuadrícula contra el final de su eje en línea:
+
+...
