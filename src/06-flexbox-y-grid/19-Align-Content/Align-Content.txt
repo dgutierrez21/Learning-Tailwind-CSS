@@ -1,0 +1,11 @@
+Align-Content 
+Utilidades para controlar cómo se colocan las filas en contenedores flex y grid de varias filas.
+
+Clase  |  Propiedades
+content-center  |  align-content: center;
+content-start  |  align-content: flex-start;
+content-end  |  align-content: flex-end;
+content-between  |  align-content: space-between;
+content-around  |  align-content: space-around;
+content-evenly  |  align-content: space-evenly;
+content-baseline  |  align-content: baseline;
