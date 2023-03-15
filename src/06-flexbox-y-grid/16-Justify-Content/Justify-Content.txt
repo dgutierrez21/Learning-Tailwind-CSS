@@ -1,0 +1,10 @@
+Justify Content
+Utilidades para controlar cómo se colocan los elementos flexibles y de cuadrícula a lo largo del eje principal de un contenedor.
+
+Clase  |  Propiedades
+justify-start  |  justify-content: flex-start;
+justify-end  |  justify-content: flex-end;
+justify-center  |  justify-content: center;
+justify-between  |  justify-content: space-between;
+justify-around  |  justify-content: space-around;
+justify-evenly  |  justify-content: space-evenly;
