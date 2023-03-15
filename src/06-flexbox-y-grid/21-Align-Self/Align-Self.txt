@@ -18,3 +18,8 @@ Start
 Utilice el inicio automático para alinear un elemento con el self-start del eje transversal del contenedor, a pesar del valor align-items del contenedor:
 
 ...
+
+Center
+Utilice el self-center para alinear un elemento a lo largo del centro del eje transversal del contenedor, a pesar del valor align-items del contenedor:
+
+...
