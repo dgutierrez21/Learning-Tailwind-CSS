@@ -12,3 +12,8 @@ Auto
 Utilice justify-self-auto para alinear un elemento en función del valor de la propiedad justify-items de la cuadrícula:
 
 ...
+
+Start
+Utilice justify-self-start para alinear un elemento de cuadrícula con el inicio de su eje en línea:
+
+...
