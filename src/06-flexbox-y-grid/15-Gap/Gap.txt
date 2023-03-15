@@ -107,3 +107,8 @@ gap-y-80  |  row-gap: 20rem; /* 320px */
 gap-96  |  gap: 24rem; /* 384px */
 gap-x-96  |  column-gap: 24rem; /* 384px */
 gap-y-96  |  row-gap: 24rem; /* 384px */
+
+Establecer la brecha entre los elementos
+Use gap-{size} para cambiar el espacio entre filas y columnas en diseños de cuadrícula y flexbox.
+
+...
