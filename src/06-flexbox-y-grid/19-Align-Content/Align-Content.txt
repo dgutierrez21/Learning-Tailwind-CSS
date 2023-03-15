@@ -14,3 +14,8 @@ Start
 Utilice content-start para empaquetar filas en un contenedor contra el inicio del eje transversal:
 
 ...
+
+Center
+Utilice content-center para empaquetar filas en un contenedor en el centro del eje transversal:
+
+...
