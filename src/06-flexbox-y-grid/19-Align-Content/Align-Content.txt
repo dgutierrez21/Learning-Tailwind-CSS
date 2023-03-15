@@ -29,3 +29,8 @@ Space between
 Utilice content-between para distribuir las filas de un contenedor de forma que haya la misma cantidad de espacio entre cada línea:
 
 ...
+
+Space around
+Use content-around para distribuir filas en un contenedor de tal manera que haya una cantidad igual de espacio alrededor de cada línea:
+
+...
