@@ -21,3 +21,8 @@ Center
 Utilice justify-items-center para justificar elementos de cuadrícula a lo largo de su eje en línea:
 
 ...
+
+Stretch
+Utilice justify-items-stretch para estirar elementos a lo largo de su eje en línea:
+
+...
