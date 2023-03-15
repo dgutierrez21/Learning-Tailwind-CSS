@@ -12,3 +12,8 @@ Stretch
 Use items-stretch para estirar artículos para llenar el eje transversal del contenedor:
 
 ...
+
+Start
+Utilice items-start para alinear los elementos con el inicio del eje transversal del contenedor:
+
+...
