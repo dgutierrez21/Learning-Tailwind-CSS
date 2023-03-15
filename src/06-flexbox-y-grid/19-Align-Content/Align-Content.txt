@@ -34,3 +34,8 @@ Space around
 Use content-around para distribuir filas en un contenedor de tal manera que haya una cantidad igual de espacio alrededor de cada línea:
 
 ...
+
+Space evenly
+Use el contenido de content-evenly para distribuir filas en un contenedor de modo que haya una cantidad igual de espacio alrededor de cada elemento, pero también tenga en cuenta la duplicación del espacio que normalmente vería entre cada elemento cuando use content-around:
+
+...
