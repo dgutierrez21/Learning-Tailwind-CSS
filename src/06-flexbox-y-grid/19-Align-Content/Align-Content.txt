@@ -19,3 +19,8 @@ Center
 Utilice content-center para empaquetar filas en un contenedor en el centro del eje transversal:
 
 ...
+
+End
+Utilice content-end para empaquetar filas en un contenedor contra el extremo del eje transversal:
+
+...
