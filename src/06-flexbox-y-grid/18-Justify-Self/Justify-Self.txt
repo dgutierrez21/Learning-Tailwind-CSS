@@ -1,0 +1,9 @@
+Justify-Self 
+Utilidades para controlar cómo se alinea un elemento de cuadrícula individual a lo largo de su eje en línea.
+
+Clase  |  Propiedades
+justify-self-auto  |  justify-self: auto;
+justify-self-start  |  justify-self: start;
+justify-self-end  |  justify-self: end;
+justify-self-center  |  justify-self: center;
+justify-self-stretch  |  justify-self: stretch;
