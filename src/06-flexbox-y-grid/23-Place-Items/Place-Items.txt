@@ -12,3 +12,8 @@ Start
 Utilice place-items-start para colocar elementos de cuadrícula al principio de sus áreas de cuadrícula en ambos ejes:
 
 ...
+
+End
+Utilice place-items-end para colocar elementos de cuadrícula al final de sus áreas de cuadrícula en ambos ejes:
+
+...
