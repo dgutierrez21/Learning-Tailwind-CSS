@@ -27,3 +27,8 @@ End
 Utilice place-self-end para alinear un elemento con el final en ambos ejes:
 
 ...
+
+Stretch
+Utilice place-self-stretch para estirar un elemento en ambos ejes:
+
+...
