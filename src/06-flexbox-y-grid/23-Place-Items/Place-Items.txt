@@ -7,3 +7,8 @@ place-items-end  |  place-items: end;
 place-items-center  |  place-items: center;
 place-items-baseline  |  place-items: baseline;
 place-items-stretch  |  place-items: stretch;
+
+Start
+Utilice place-items-start para colocar elementos de cuadrícula al principio de sus áreas de cuadrícula en ambos ejes:
+
+...
