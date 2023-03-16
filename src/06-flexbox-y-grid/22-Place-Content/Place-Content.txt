@@ -35,3 +35,8 @@ Space around
 Utilice elementos de cuadrícula de distribución de place-content-around de modo que haya una cantidad igual de espacio alrededor de cada fila en el eje de bloques:
 
 ...
+
+Space evenly
+Utilice place-content-evenly para distribuir los elementos de la cuadrícula de modo que estén espaciados uniformemente en el eje de bloque:
+
+...
