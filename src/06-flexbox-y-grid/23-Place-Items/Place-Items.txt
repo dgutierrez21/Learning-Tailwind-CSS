@@ -17,3 +17,8 @@ End
 Utilice place-items-end para colocar elementos de cuadrícula al final de sus áreas de cuadrícula en ambos ejes:
 
 ...
+
+Center
+Utilice place-items-center para colocar elementos de cuadrícula en el centro de sus áreas de cuadrícula en ambos ejes:
+
+...
