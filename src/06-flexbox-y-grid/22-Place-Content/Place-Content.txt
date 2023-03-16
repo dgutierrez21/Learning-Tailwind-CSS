@@ -15,3 +15,8 @@ Center
 Utilice place-content-center para empaquetar elementos en el centro del eje de bloques:
 
 ...
+
+Start
+Utilice place-content-start para empaquetar elementos contra el inicio del eje de bloques:
+
+...
