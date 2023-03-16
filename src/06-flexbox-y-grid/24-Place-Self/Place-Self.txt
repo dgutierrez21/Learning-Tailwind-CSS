@@ -22,3 +22,8 @@ Center
 Utilice place-self-center para alinear un elemento en el centro en ambos ejes:
 
 ...
+
+End
+Utilice place-self-end para alinear un elemento con el final en ambos ejes:
+
+...
