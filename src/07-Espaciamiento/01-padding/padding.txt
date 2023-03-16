@@ -11,3 +11,10 @@ pt-0  |  padding-top: 0px;
 pr-0  |  padding-right: 0px;
 pb-0  |  padding-bottom: 0px;
 pl-0  |  padding-left: 0px;
+
+Agregar relleno a un solo lado
+Controle el relleno en un lado de un elemento usando las utilidades p{t|r|b|l}-{size}.
+
+Por ejemplo, pt-6 agregaría 1.5rem de relleno a la parte superior de un elemento, pr-4 agregaría 1rem de relleno a la derecha de un elemento, pb-8 agregaría 2rem de relleno a la parte inferior de un elemento, y pl-2 agregaría 0.5rem de relleno a la izquierda de un elemento1.5rem 1rem
+
+...
