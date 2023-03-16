@@ -30,3 +30,8 @@ Space between
 Utilice place-content-between para distribuir elementos de cuadrícula a lo largo del eje de bloques de modo que haya una cantidad igual de espacio entre cada fila en el eje de bloque.
 
 ...
+
+Space around
+Utilice elementos de cuadrícula de distribución de place-content-around de modo que haya una cantidad igual de espacio alrededor de cada fila en el eje de bloques:
+
+...
