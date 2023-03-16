@@ -22,3 +22,8 @@ Center
 Utilice place-items-center para colocar elementos de cuadrícula en el centro de sus áreas de cuadrícula en ambos ejes:
 
 ...
+
+Stretch
+Utilice place-items-stretch para estirar elementos a lo largo de sus áreas de cuadrícula en ambos ejes:
+
+...
