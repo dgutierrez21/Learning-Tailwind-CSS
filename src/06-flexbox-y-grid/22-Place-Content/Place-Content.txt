@@ -40,3 +40,8 @@ Space evenly
 Utilice place-content-evenly para distribuir los elementos de la cuadrícula de modo que estén espaciados uniformemente en el eje de bloque:
 
 ...
+
+Stretch
+Utilice place-content-stretch para estirar los elementos de la cuadrícula a lo largo de sus áreas de cuadrícula en el eje de bloques:
+
+...
