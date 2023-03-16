@@ -25,3 +25,8 @@ End
 Utilice place-content-end para empaquetar elementos contra el final del eje de bloques:
 
 ...
+
+Space between
+Utilice place-content-between para distribuir elementos de cuadrícula a lo largo del eje de bloques de modo que haya una cantidad igual de espacio entre cada fila en el eje de bloque.
+
+...
