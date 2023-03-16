@@ -20,3 +20,8 @@ Start
 Utilice place-content-start para empaquetar elementos contra el inicio del eje de bloques:
 
 ...
+
+End
+Utilice place-content-end para empaquetar elementos contra el final del eje de bloques:
+
+...
