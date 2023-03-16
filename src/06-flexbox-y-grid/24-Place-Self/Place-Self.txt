@@ -17,3 +17,8 @@ Start
 Utilice place-self-start para alinear un elemento con el inicio en ambos ejes:
 
 ...
+
+Center
+Utilice place-self-center para alinear un elemento en el centro en ambos ejes:
+
+...
