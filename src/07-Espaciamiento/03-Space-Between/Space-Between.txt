@@ -25,3 +25,8 @@ Invertir el orden de los niños
 Si los elementos están en orden inverso (por ejemplo, flex-row-reverse o flex-col-reverse), utilice las utilidades space-x-reverse o space-x-reverse para asegurarse de que el espacio se agrega al lado correcto de cada elemento.flex-row-reverse space-y-reverse
 
 ...
+
+Uso de valores negativos
+Para usar un valor de espacio negativo, anteponga un guión al nombre de la clase para convertirlo en un valor negativo.
+
+...
