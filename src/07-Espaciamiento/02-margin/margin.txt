@@ -33,3 +33,8 @@ Añadir margen a todos los lados
 Controle el margen en todos los lados de un elemento utilizando las utilidades m-{size}
 
 ...
+
+Uso de valores negativos
+Para usar un valor de margen negativo, anteponga un guión al nombre de la clase para convertirlo en un valor negativo.
+
+...
