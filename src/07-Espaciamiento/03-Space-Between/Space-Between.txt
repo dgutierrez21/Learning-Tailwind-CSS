@@ -30,3 +30,16 @@ Uso de valores negativos
 Para usar un valor de espacio negativo, anteponga un guión al nombre de la clase para convertirlo en un valor negativo.
 
 ...
+
+Limitaciones
+Estas utilidades son realmente solo un atajo para agregar margen a todos menos al primer elemento en un grupo, y no están diseñadas para manejar casos complejos como cuadrículas, diseños que se ajustan o situaciones en las que los hijos se representan en un orden personalizado complejo en lugar de su orden DOM natural.
+
+Para esas situaciones, es mejor usar las "gap utilities" cuando sea posible, o agregar margen a cada elemento con un margen negativo correspondiente en el padre:
+
+<div class="flow-root">
+  <div class="-m-2 flex flex-wrap">
+    <div class="m-2 ..."></div>
+    <div class="m-2 ..."></div>
+    <div class="m-2 ..."></div>
+  </div>
+</div>
