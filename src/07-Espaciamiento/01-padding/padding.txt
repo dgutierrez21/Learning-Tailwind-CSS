@@ -28,3 +28,8 @@ Agregar padding vertical
 Controle el relleno vertical de un elemento utilizando las utilidades py-{size}.
 
 ...
+
+Añadir padding a todos los lados
+Controle el relleno en todos los lados de un elemento utilizando las utilidades p-{size}.
+
+...
