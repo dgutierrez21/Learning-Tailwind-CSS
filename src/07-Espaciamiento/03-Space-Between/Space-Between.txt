@@ -1,0 +1,12 @@
+Space Between
+Utilidades para controlar el espacio entre elementos secundarios.
+
+Clase  |  Propiedades
+space-x-0 > * + *  |  margin-left: 0px;
+space-y-0 > * + *  |  margin-top: 0px;
+space-x-0.5 > * + *  |  margin-left: 0.125rem; /* 2px */
+space-y-0.5 > * + *  |  margin-top: 0.125rem; /* 2px */
+space-x-1 > * + *  |  margin-left: 0.25rem; /* 4px */
+space-y-1 > * + *  |  margin-top: 0.25rem; /* 4px */
+space-x-1.5 > * + *  |  margin-left: 0.375rem; /* 6px */
+space-y-1.5 > * + *  |  margin-top: 0.375rem; /* 6px */
