@@ -23,3 +23,8 @@ Agregar margen horizontal
 Controla el margen horizontal de un elemento mediante las utilidades mx-{size}.
 
 ...
+
+Agregar margen vertical
+Controle el margen vertical de un elemento mediante las utilidades my-{size}.
+
+...
