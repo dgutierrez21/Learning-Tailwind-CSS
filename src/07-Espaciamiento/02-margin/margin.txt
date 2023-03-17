@@ -18,3 +18,8 @@ Controla el margen en un lado de un elemento usando las utilidades m{t|r|b|l}-{s
 Por ejemplo, mt-6 agregaría 1.5rem de margen a la parte superior de un elemento, mr-4 agregaría 1rem de margen a la derecha de un elemento, mb-8 agregaría 2rem de margen a la parte inferior de un elemento, y mb-8 agregaría 0.5rem de margen a la izquierda de un elemento1.5rem 1rem 2rem ml-2
 
 ...
+
+Agregar margen horizontal
+Controla el margen horizontal de un elemento mediante las utilidades mx-{size}.
+
+...
