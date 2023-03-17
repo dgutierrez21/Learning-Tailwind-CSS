@@ -20,3 +20,8 @@ Agregar espacio vertical entre los niños
 Controle el espacio vertical entre los elementos utilizando las utilidades space-y-{amount}.
 
 ...
+
+Invertir el orden de los niños
+Si los elementos están en orden inverso (por ejemplo, flex-row-reverse o flex-col-reverse), utilice las utilidades space-x-reverse o space-x-reverse para asegurarse de que el espacio se agrega al lado correcto de cada elemento.flex-row-reverse space-y-reverse
+
+...
