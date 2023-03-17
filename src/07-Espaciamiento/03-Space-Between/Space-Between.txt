@@ -15,3 +15,8 @@ Agregar espacio horizontal entre los niños
 Controle el espacio horizontal entre elementos utilizando las utilidades space-x-{amount}.
 
 ...
+
+Agregar espacio vertical entre los niños
+Controle el espacio vertical entre los elementos utilizando las utilidades space-y-{amount}.
+
+...
