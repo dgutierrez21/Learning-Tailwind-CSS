@@ -43,3 +43,6 @@ Para esas situaciones, es mejor usar las "gap utilities" cuando sea posible, o a
     <div class="m-2 ..."></div>
   </div>
 </div>
+
+No se puede emparejar con dividir utilidades
+Las utilidades space-* no están diseñadas para funcionar junto con las "utilidades divididas". Para esas situaciones, considere agregar utilidades de margen / relleno a los niños en su lugar.
