@@ -18,3 +18,8 @@ Controle el relleno en un lado de un elemento usando las utilidades p{t|r|b|l}-{
 Por ejemplo, pt-6 agregaría 1.5rem de relleno a la parte superior de un elemento, pr-4 agregaría 1rem de relleno a la derecha de un elemento, pb-8 agregaría 2rem de relleno a la parte inferior de un elemento, y pl-2 agregaría 0.5rem de relleno a la izquierda de un elemento1.5rem 1rem
 
 ...
+
+Agregar padding horizontal
+Controle el relleno horizontal de un elemento mediante las utilidades px-{size}.
+
+...
