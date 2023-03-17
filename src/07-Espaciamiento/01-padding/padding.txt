@@ -23,3 +23,8 @@ Agregar padding horizontal
 Controle el relleno horizontal de un elemento mediante las utilidades px-{size}.
 
 ...
+
+Agregar padding vertical
+Controle el relleno vertical de un elemento utilizando las utilidades py-{size}.
+
+...
