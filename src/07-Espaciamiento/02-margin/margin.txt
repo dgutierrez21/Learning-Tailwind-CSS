@@ -28,3 +28,8 @@ Agregar margen vertical
 Controle el margen vertical de un elemento mediante las utilidades my-{size}.
 
 ...
+
+Añadir margen a todos los lados
+Controle el margen en todos los lados de un elemento utilizando las utilidades m-{size}
+
+...
