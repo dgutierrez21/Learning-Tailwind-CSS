@@ -15,3 +15,8 @@ Anchos fijos
 Utilice w-{number} o w-px para establecer un elemento en un ancho fijo.
 
 ...
+
+Anchos porcentuales
+Utilice w-{fraction} o w-full para establecer un elemento en un ancho basado en porcentajes.
+
+...
