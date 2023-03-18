@@ -7,3 +7,10 @@ min-w-full  |  min-width: 100%;
 min-w-min  |  min-width: min-content;
 min-w-max  |  min-width: max-content;
 min-w-fit  |  min-width: fit-content;
+
+Establecer el ancho mínimo
+Establezca el ancho mínimo de un elemento utilizando las utilidades min-w-{width}.
+
+<span class="min-w-full ...">
+  <!-- ... -->
+</span>
