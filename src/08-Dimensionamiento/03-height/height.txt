@@ -20,3 +20,10 @@ Altura completa
 Utilice h-full para establecer la altura de un elemento en el 100% de su padre, siempre que el elemento primario tenga una altura definida.
 
 ...
+
+Altura de la ventana gráfica
+Utilice la h-screen para hacer que un elemento abarque toda la altura de la ventana gráfica.
+
+<div class="h-screen">
+  <!-- ... -->
+</div>
