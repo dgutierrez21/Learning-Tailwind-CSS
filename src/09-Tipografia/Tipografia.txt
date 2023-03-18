@@ -9,3 +9,8 @@ font-sans  |  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSyst
 font-serif  |  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 
 font-mono  |  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+Configuración de la familia de fuentes
+Puede controlar el tipo de letra del texto mediante las utilidades de la familia de fuentes.
+
+...
