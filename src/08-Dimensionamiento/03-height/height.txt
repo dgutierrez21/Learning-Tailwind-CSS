@@ -15,3 +15,8 @@ Alturas fijas
 Utilice h-h-{number} o h-px para establecer un elemento en una altura fija.
 
 ...
+
+Altura completa
+Utilice h-full para establecer la altura de un elemento en el 100% de su padre, siempre que el elemento primario tenga una altura definida.
+
+...
