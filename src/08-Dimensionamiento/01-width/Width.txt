@@ -1,0 +1,12 @@
+Width
+Utilidades para establecer el ancho de un elemento.
+
+Clase  |  Propiedades
+w-0  |  width: 0px;
+w-px  |  width: 1px;
+w-0.5  |  width: 0.125rem; /* 2px */
+w-1  |  width: 0.25rem; /* 4px */
+w-1.5  |  width: 0.375rem; /* 6px */
+w-2  |  width: 0.5rem; /* 8px */
+w-2.5  |  width: 0.625rem; /* 10px */
+w-3  |  width: 0.75rem; /* 12px */
