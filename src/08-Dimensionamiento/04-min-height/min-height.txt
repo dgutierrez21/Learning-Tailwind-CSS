@@ -8,3 +8,12 @@ min-h-screen  |  min-height: 100vh;
 min-h-min  |  min-height: min-content;
 min-h-max  |  min-height: max-content;
 min-h-fit  |  min-height: fit-content;
+
+Establecer la altura mínima
+Establezca la altura mínima de un elemento mediante las utilidades min-h-0, min-h-full, min-h-screen
+
+<div class="h-48">
+  <div class="h-24 min-h-full">
+    <!-- ... -->
+  </div>
+</div>
