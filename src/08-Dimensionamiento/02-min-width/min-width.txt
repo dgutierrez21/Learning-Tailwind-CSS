@@ -14,3 +14,12 @@ Establezca el ancho mínimo de un elemento utilizando las utilidades min-w-{widt
 <span class="min-w-full ...">
   <!-- ... -->
 </span>
+
+...
+
+Valores arbitrarios
+Si necesita usar un valor de min-width único que no tiene sentido incluir en su tema, use corchetes para generar una propiedad sobre la marcha utilizando cualquier valor arbitrario.
+
+<div class="min-w-[50%]">
+  <!-- ... -->
+</div>
