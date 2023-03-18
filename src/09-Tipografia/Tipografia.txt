@@ -29,3 +29,8 @@ text-lg  |  font-size: 1.125rem; /* 18px */
             line-height: 1.75rem; /* 28px */
 text-xl  |  font-size: 1.25rem; /* 20px */
             line-height: 1.75rem; /* 28px */
+
+Configuración del tamaño de fuente
+Controle el tamaño de fuente de un elemento mediante las utilidades text-{size}.
+
+...
