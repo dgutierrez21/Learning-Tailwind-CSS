@@ -29,3 +29,10 @@ Utilice w-screen para hacer que un elemento abarque todo el ancho de la ventana 
 </div>
 
 ...
+
+Restablecimiento del ancho
+La utilidad w-auto puede ser útil si necesita eliminar el ancho asignado de un elemento bajo una condición específica, como en un punto de interrupción particular:
+
+<div class="w-full md:w-auto">
+  <!-- ... -->
+</div>
