@@ -20,3 +20,12 @@ Anchos porcentuales
 Utilice w-{fraction} o w-full para establecer un elemento en un ancho basado en porcentajes.
 
 ...
+
+Ancho de la ventana gráfica
+Utilice w-screen para hacer que un elemento abarque todo el ancho de la ventana gráfica.
+
+<div class="w-screen">
+  <!-- ... -->
+</div>
+
+...
