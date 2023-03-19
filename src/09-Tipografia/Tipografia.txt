@@ -232,3 +232,26 @@ Configuración de la alineación del texto
 Controla la alineación del texto de un elemento mediante las utilidades text-left, text-center, text-right y text-justify.
 
 ...
+
+Color del texto
+Utilidades para controlar el color del texto de un elemento.
+
+Class  |  Properties
+
+text-inherit  |  color: inherit;
+
+text-current  |  color: currentColor;
+
+text-transparent  |  color: transparent;
+
+text-black  |  color: rgb(0 0 0);
+
+text-white  |  color: rgb(255 255 255);
+
+text-slate-50  |  color: rgb(248 250 252);
+
+text-slate-100  |  color: rgb(241 245 249);
+
+text-slate-200  |  color: rgb(226 232 240);
+
+Referencia completa en https://tailwindcss.com/docs/text-color
