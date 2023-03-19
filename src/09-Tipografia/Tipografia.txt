@@ -260,3 +260,8 @@ Configuración del color del texto
 Controle el color del texto de un elemento mediante las utilidades text-{color}.
 
 ...
+
+Cambiar la opacidad
+Controle la opacidad del color del texto de un elemento mediante el modificador de opacidad de color.
+
+...
