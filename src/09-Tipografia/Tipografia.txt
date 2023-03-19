@@ -130,3 +130,10 @@ Fracciones apiladas
 Utilice la utilidad de fracciones apiladas para reemplazar los números separados por una barra diagonal con stacked-fractions comunes. Esto corresponde a la característica afrc OpenType. Muy pocas fuentes parecen admitir esta característica: hemos usado Ubuntu Mono aquí.
 
 ...
+
+Restablecimiento de variantes de fuentes numéricas
+Utilice la propiedad de normal-nums para restablecer las variantes de fuente numérica. Esto suele ser útil para restablecer una característica de fuente en un punto de interrupción determinado:
+
+<p class="slashed-zero tabular-nums md:normal-nums ...">
+  12345
+</p>
