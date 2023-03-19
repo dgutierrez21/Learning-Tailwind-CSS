@@ -309,3 +309,14 @@ Controle la opacidad del color de decoración de texto de un elemento mediante e
 Puede usar cualquier valor definido en la escala de opacidad o usar valores arbitrarios si necesita desviarse de los tokens de diseño.
 
 <strong class="underline decoration-sky-500/[.33]"></strong>
+
+Estilo de decoración de texto
+Utilidades para controlar el estilo de las decoraciones de texto.
+
+
+Clase  |  Propiedades
+decoration-solid  |  text-decoration-style: solid;
+decoration-double  |  text-decoration-style: double;
+decoration-dotted  |  text-decoration-style: dotted;
+decoration-dashed  |  text-decoration-style: dashed;
+decoration-wavy  |  text-decoration-style: wavy;
