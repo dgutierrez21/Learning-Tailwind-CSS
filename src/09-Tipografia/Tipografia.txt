@@ -320,3 +320,8 @@ decoration-double  |  text-decoration-style: double;
 decoration-dotted  |  text-decoration-style: dotted;
 decoration-dashed  |  text-decoration-style: dashed;
 decoration-wavy  |  text-decoration-style: wavy;
+
+Configuración del estilo de decoración de texto
+Usar las utilidades decoration-{style} para cambiar el estilo de la decoración de texto de un elemento.
+
+...
