@@ -295,3 +295,17 @@ decoration-slate-100  |  text-decoration-color: #f1f5f9;
 decoration-slate-200  |  text-decoration-color: #e2e8f0;
 
 Referencia de colores completa en https://tailwindcss.com/docs/text-decoration-color
+
+Configuración del color de decoración del texto
+Usar las utilidades decoration-{color} para cambiar el color de la decoración de texto de un elemento.
+
+...
+
+Cambiar la opacidad
+Controle la opacidad del color de decoración de texto de un elemento mediante el modificador de opacidad de color.
+
+...
+
+Puede usar cualquier valor definido en la escala de opacidad o usar valores arbitrarios si necesita desviarse de los tokens de diseño.
+
+<strong class="underline decoration-sky-500/[.33]"></strong>
