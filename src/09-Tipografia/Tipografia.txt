@@ -227,3 +227,8 @@ text-right  |  text-align: right;
 text-justify  |  text-align: justify;
 text-start  |  text-align: start;
 text-end  |  text-align: end;
+
+Configuración de la alineación del texto
+Controla la alineación del texto de un elemento mediante las utilidades text-left, text-center, text-right y text-justify.
+
+...
