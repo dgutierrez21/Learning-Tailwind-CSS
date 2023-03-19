@@ -255,3 +255,8 @@ text-slate-100  |  color: rgb(241 245 249);
 text-slate-200  |  color: rgb(226 232 240);
 
 Referencia completa en https://tailwindcss.com/docs/text-color
+
+Configuración del color del texto
+Controle el color del texto de un elemento mediante las utilidades text-{color}.
+
+...
