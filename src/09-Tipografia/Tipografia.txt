@@ -279,3 +279,19 @@ Decoración del texto
 Controle cómo se decora el texto con las utilidades de "underline, "no-underline" y "line-through".
 
 ...
+
+Color de decoración del texto
+Utilidades para controlar el color de las decoraciones de texto.
+
+​
+Clase  |  Propiedades
+decoration-inherit  |  text-decoration-color: inherit;
+decoration-current  |  text-decoration-color: currentColor;
+decoration-transparent  |  text-decoration-color: transparent;
+decoration-black  |  text-decoration-color: #000;
+decoration-white  |  text-decoration-color: #fff;
+decoration-slate-50  |  text-decoration-color: #f8fafc;
+decoration-slate-100  |  text-decoration-color: #f1f5f9;
+decoration-slate-200  |  text-decoration-color: #e2e8f0;
+
+Referencia de colores completa en https://tailwindcss.com/docs/text-decoration-color
