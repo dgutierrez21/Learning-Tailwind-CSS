@@ -41,3 +41,8 @@ Utilidades para controlar el estilo del texto.
 Clase  |  Propiedades
 italic  |  font-style: italic;
 not-italic  |  font-style: normal;
+
+Texto en cursiva
+La utilidad cursiva se puede utilizar para poner el texto en italic. Del mismo modo, la utilidad not-italic se puede usar para mostrar texto normalmente, generalmente para restablecer el texto en cursiva en diferentes puntos de interrupción.
+
+...
