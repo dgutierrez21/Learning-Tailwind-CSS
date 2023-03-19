@@ -211,3 +211,8 @@ Utilidades para controlar la posición de viñetas/números en listas.
 Clase  |  Propiedades
 list-inside  |  list-style-position: inside;
 list-outside  |  list-style-position: outside;
+
+Establecer la posición del estilo de lista
+Controle la posición de los marcadores y la sangría de texto en una lista mediante las utilidades list-inside y list-outside.
+
+...
