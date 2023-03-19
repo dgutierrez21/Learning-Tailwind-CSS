@@ -186,3 +186,8 @@ Alturas de línea relativas
 Utilice las utilidades leading-none, leading-tight, leading-snug, leading-normal, leading-relaxed y leading-loose para dar a un elemento una altura de línea relativa basada en su tamaño de fuente actual.
 
 ...
+
+Alturas de línea fijas
+Utilice las utilidades leading-{size} para asignar a un elemento una altura de línea fija, independientemente del tamaño de fuente actual. Estos son útiles cuando se necesita un control muy preciso sobre el tamaño final de un elemento.
+
+...
