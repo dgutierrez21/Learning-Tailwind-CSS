@@ -79,3 +79,54 @@ proportional-nums  |  font-variant-numeric: proportional-nums;
 tabular-nums  |  font-variant-numeric: tabular-nums;
 diagonal-fractions  |  font-variant-numeric: diagonal-fractions;
 stacked-fractions  |  font-variant-numeric: stacked-fractions;
+
+Aplicación de variantes numéricas
+Utilice las font-variant-numeric para habilitar glifos adicionales para números, fracciones y marcadores ordinales (en fuentes que los admitan).
+
+Estas utilidades son componibles para que pueda habilitar varias características font-variant-numeric combinando varias clases en su HTML:
+
+<p class="ordinal slashed-zero tabular-nums ...">
+  1234567890
+</p>
+
+Tenga en cuenta que muchas fuentes no admiten estas características (el soporte de fracciones apiladas, por ejemplo, es especialmente raro), por lo que algunas de estas utilidades pueden no tener ningún efecto dependiendo de la familia de fuentes que esté utilizando.
+
+Ordinal
+Utilice la utilidad ordinal para habilitar glifos especiales para los marcadores ordinal.
+
+...
+
+Cero cortado
+Utilice la utilidad slashed-zero para forzar un 0 con una barra; esto es útil cuando se necesita una distinción clara entre O y 0.
+
+...
+
+Figuras de forro
+Utilice la utilidad lining-nums para utilizar los glifos numéricos alineados por su línea base. Esto corresponde a la característica lnum OpenType. Este es el valor predeterminado para la mayoría de las fuentes.
+
+...
+
+Figuras de estilo antiguo
+Utilice la utilidad oldstyle-nums para utilizar glifos numéricos donde algunos números tienen descendientes. Esto corresponde a la característica onum OpenType.
+
+...
+
+Cifras proporcionales
+Utilice la utilidad proportional-nums para utilizar glifos numéricos que tengan anchos proporcionales (en lugar de uniformes/tabulares). Esto corresponde a la característica pnum OpenType.
+
+...
+
+Figuras tabulares
+Utilice la utilidad tabular-nums para utilizar glifos numéricos que tengan anchos uniformes/tabulares (en lugar de proporcionales). Esto corresponde a la característica tnum OpenType.
+
+...
+
+Fracciones diagonales
+Utilice la utilidad de fracciones diagonales para reemplazar números separados por una barra diagonal por diagonal-fractions comunes. Esto corresponde a la característica frac OpenType.
+
+...
+
+Fracciones apiladas
+Utilice la utilidad de fracciones apiladas para reemplazar los números separados por una barra diagonal con stacked-fractions comunes. Esto corresponde a la característica afrc OpenType. Muy pocas fuentes parecen admitir esta característica: hemos usado Ubuntu Mono aquí.
+
+...
