@@ -358,3 +358,12 @@ Configuración del desplazamiento del subrayado
 Utilice las utilidades underline-offset-{width} para cambiar el desplazamiento de un subrayado de texto.
 
 ...
+
+Transformación de texto
+Utilidades para controlar la transformación de texto.
+
+Clase  |  Propiedades
+uppercase  |  text-transform: uppercase;
+lowercase  |  text-transform: lowercase;
+capitalize  |  text-transform: capitalize;
+normal-case  |  text-transform: none;
