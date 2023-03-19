@@ -353,3 +353,8 @@ underline-offset-1  |  text-underline-offset: 1px;
 underline-offset-2  |  text-underline-offset: 2px;
 underline-offset-4  |  text-underline-offset: 4px;
 underline-offset-8  |  text-underline-offset: 8px;
+
+Configuración del desplazamiento del subrayado
+Utilice las utilidades underline-offset-{width} para cambiar el desplazamiento de un subrayado de texto.
+
+...
