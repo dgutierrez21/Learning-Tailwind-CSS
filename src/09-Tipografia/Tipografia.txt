@@ -34,3 +34,10 @@ Configuración del tamaño de fuente
 Controle el tamaño de fuente de un elemento mediante las utilidades text-{size}.
 
 ...
+
+Estilo de fuente
+Utilidades para controlar el estilo del texto.
+
+Clase  |  Propiedades
+italic  |  font-style: italic;
+not-italic  |  font-style: normal;
