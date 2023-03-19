@@ -148,3 +148,8 @@ tracking-normal  |  letter-spacing: 0em;
 tracking-wide  |  letter-spacing: 0.025em;
 tracking-wider  |  letter-spacing: 0.05em;
 tracking-widest  |  letter-spacing: 0.1em;
+
+Configuración del espaciado entre letras
+Controle el espaciado entre letras de un elemento mediante las utilidades tracking-{size}.
+
+...
