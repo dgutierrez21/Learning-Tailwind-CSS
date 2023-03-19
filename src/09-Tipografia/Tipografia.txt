@@ -181,3 +181,8 @@ leading-snug  |  line-height: 1.375;
 leading-normal  |  line-height: 1.5;
 leading-relaxed  |  line-height: 1.625;
 leading-loose  |  line-height: 2;
+
+Alturas de línea relativas
+Utilice las utilidades leading-none, leading-tight, leading-snug, leading-normal, leading-relaxed y leading-loose para dar a un elemento una altura de línea relativa basada en su tamaño de fuente actual.
+
+...
