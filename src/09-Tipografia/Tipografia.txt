@@ -325,3 +325,15 @@ Configuración del estilo de decoración de texto
 Usar las utilidades decoration-{style} para cambiar el estilo de la decoración de texto de un elemento.
 
 ...
+
+Grosor de la decoración del texto
+Utilidades para controlar el grosor de las decoraciones de texto.
+
+Clase  |  Propiedades
+decoration-auto  |  text-decoration-thickness: auto;
+decoration-from-font  |  text-decoration-thickness: from-font;
+decoration-0  |  text-decoration-thickness: 0px;
+decoration-1  |  text-decoration-thickness: 1px;
+decoration-2  |  text-decoration-thickness: 2px;
+decoration-4  |  text-decoration-thickness: 4px;
+decoration-8  |  text-decoration-thickness: 8px;
