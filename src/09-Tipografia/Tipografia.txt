@@ -216,3 +216,14 @@ Establecer la posición del estilo de lista
 Controle la posición de los marcadores y la sangría de texto en una lista mediante las utilidades list-inside y list-outside.
 
 ...
+
+Alinear texto
+Utilidades para controlar la alineación del texto.
+
+Clase  |  Propiedades
+text-left  |  text-align: left;
+text-center  |  text-align: center;
+text-right  |  text-align: right;
+text-justify  |  text-align: justify;
+text-start  |  text-align: start;
+text-end  |  text-align: end;
