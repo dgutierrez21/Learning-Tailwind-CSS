@@ -367,3 +367,8 @@ uppercase  |  text-transform: uppercase;
 lowercase  |  text-transform: lowercase;
 capitalize  |  text-transform: capitalize;
 normal-case  |  text-transform: none;
+
+Transformación de texto
+Las utilidades "uppercase" y "lowercase" pondrán el texto en mayúsculas y minúsculas respectivamente, mientras que la utilidad "capitalize" convertirá el texto a mayúsculas. La utilidad "normal-case" puede utilizarse para conservar las mayúsculas y minúsculas originales, normalmente para restablecer las mayúsculas en distintos puntos de corte.
+
+...
