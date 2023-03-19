@@ -153,3 +153,12 @@ Configuración del espaciado entre letras
 Controle el espaciado entre letras de un elemento mediante las utilidades tracking-{size}.
 
 ...
+
+Uso de valores negativos
+Para utilizar un valor de espaciado entre letras negativo, anteponga el nombre de la clase con un guión para convertirlo en un valor negativo.
+
+El uso de valores negativos no tiene mucho sentido con la escala de espaciado de letras que Tailwind incluye fuera de la caja, pero si ha optado por personalizar su escala de espaciado de letras para usar números en lugar de palabras descriptivas como "ancho", el modificador de valor negativo puede ser útil.
+
+
+.HTML
+<p class="-tracking-2">The quick brown fox ...</p>
