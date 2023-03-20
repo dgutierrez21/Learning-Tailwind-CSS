@@ -535,3 +535,12 @@ Hacer referencia a un valor de atributo
 Estas utilidades de contenido incluso admiten características CSS como la función attr() que puede usar para hacer referencia a un valor almacenado en un atributo:
 
 ...
+
+Uso de espacios y guiones bajos
+Dado que el espacio en blanco denota el final de una clase en HTML, reemplace los espacios de un valor arbitrario con un guión bajo:
+
+...
+
+Si necesitas incluir un guión bajo real, puedes hacerlo escapándolo con una barra diagonal inversa:
+
+...
