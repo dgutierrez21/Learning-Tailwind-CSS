@@ -528,3 +528,10 @@ Utilice las utilidades content-{value} junto con los modificadores de variante b
 Fuera de la caja, content-none es la única utilidad de contenido preconfigurada disponible. Y aunque puede agregar utilidades adicionales personalizando su tema, generalmente tiene más sentido usar un valor arbitrario.
 
 Utilice la notación entre corchetes para definir cualquier valor de contenido arbitrario sobre la marcha.
+
+...
+
+Hacer referencia a un valor de atributo
+Estas utilidades de contenido incluso admiten características CSS como la función attr() que puede usar para hacer referencia a un valor almacenado en un atributo:
+
+...
