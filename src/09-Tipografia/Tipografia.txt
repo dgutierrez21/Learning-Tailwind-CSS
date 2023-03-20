@@ -521,3 +521,10 @@ Utilidades para controlar el contenido de los pseudoelementos antes y después.
 
 Clase  |  Propiedades
 content-none  |  content: none;
+
+Establecer el contenido de un pseudoelemento
+Utilice las utilidades content-{value} junto con los modificadores de variante before y after para establecer el contenido de los pseudoelementos ::::before y :::after.
+
+Fuera de la caja, content-none es la única utilidad de contenido preconfigurada disponible. Y aunque puede agregar utilidades adicionales personalizando su tema, generalmente tiene más sentido usar un valor arbitrario.
+
+Utilice la notación entre corchetes para definir cualquier valor de contenido arbitrario sobre la marcha.
