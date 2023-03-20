@@ -400,3 +400,15 @@ indent-16  |  text-indent: 4rem; /* 64px */
 indent-20  |  text-indent: 5rem; /* 80px */
 
 Referencia completa en https://tailwindcss.com/docs/text-indent#class-reference
+
+Agregar una sangría de texto
+Use las utilidades indent-{width} para establecer la cantidad de espacio vacío (sangría) que se muestra antes del texto de un bloque.
+
+...
+
+Uso de valores negativos
+Para usar un valor de sangría de texto negativo, anteponga el nombre de la clase con un guión para convertirlo en un valor negativo.
+
+<div class="-indent-8">
+  So I started to walk into the water. I won't lie to...
+</div>
