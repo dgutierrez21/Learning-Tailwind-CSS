@@ -19,3 +19,8 @@ Configuración del color de fondo
 Controle el color de fondo de un elemento mediante las utilidades bg-{color}.
 
 ...
+
+Cambiar la opacidad
+Controle la opacidad del color de fondo de un elemento mediante el modificador de opacidad de color.
+
+...
