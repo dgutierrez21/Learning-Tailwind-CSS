@@ -5,3 +5,20 @@ Clase  |  Propiedades
 bg-fixed	background-attachment: fixed;
 bg-local	background-attachment: local;
 bg-scroll	background-attachment: scroll;
+
+Uso básico
+Fijo
+Utilice bg-fixed para corregir la imagen de fondo relativa a la ventana gráfica.
+
+...
+
+Local
+Utilice bg-local para desplazarse por la imagen de fondo con el contenedor y la ventanilla.
+
+...
+
+Scroll
+
+Utilice bg-scroll para desplazar la imagen de fondo con la ventana gráfica, pero no con el contenedor.
+
+...
