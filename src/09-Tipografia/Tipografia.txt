@@ -465,3 +465,28 @@ whitespace-nowrap  |  white-space: nowrap;
 whitespace-pre  |  white-space: pre;
 whitespace-pre-line  |  white-space: pre-line;
 whitespace-pre-wrap  |  white-space: pre-wrap;
+
+Normal
+Utilice el whitespace-normal para hacer que el texto se ajuste normalmente dentro de un elemento. Las nuevas líneas y espacios se colapsarán.
+
+...
+
+Sin envoltura
+Utilice whitespace-nowrap para evitar que el texto se ajuste dentro de un elemento. Las nuevas líneas y espacios se colapsarán.
+
+...
+
+Pre
+Utilice whitespace-pre para conservar nuevas líneas y espacios dentro de un elemento. El texto no se ajustará.
+
+...
+
+Pre Línea
+Utilice whitespace-pre-line para conservar las nuevas líneas, pero no los espacios dentro de un elemento. El texto se ajustará normalmente.
+
+...
+
+Pre Wrap
+Utilice el whitespace-pre-wrap espacios en blanco para conservar las nuevas líneas y espacios dentro de un elemento. El texto se ajustará normalmente.
+
+...
