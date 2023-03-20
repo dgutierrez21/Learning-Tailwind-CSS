@@ -1,0 +1,7 @@
+Background Attachment
+Utilidades para controlar cómo se comporta una imagen de fondo al desplazarse.
+
+Clase  |  Propiedades
+bg-fixed	background-attachment: fixed;
+bg-local	background-attachment: local;
+bg-scroll	background-attachment: scroll;
