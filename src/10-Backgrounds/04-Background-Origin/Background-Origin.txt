@@ -5,3 +5,8 @@ Class  |  Properties
 bg-origin-border  |  background-origin: border-box;
 bg-origin-padding  |  background-origin: padding-box;
 bg-origin-content  |  background-origin: content-box;
+
+Establecer el Background Origin
+Utilice bg-origin-border, bg-origin-padding y bg-origin-content para controlar dónde se muestra el fondo de un elemento.
+
+...
