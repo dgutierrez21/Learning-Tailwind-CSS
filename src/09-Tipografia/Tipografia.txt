@@ -500,3 +500,18 @@ break-normal  |  overflow-wrap: normal;
 break-words  |  overflow-wrap: break-word;
 break-all  |  word-break: break-all;
 break-keep  |  word-break: keep-all;
+
+Normal
+Use break-normal para agregar saltos de línea solo en puntos de salto de palabra normales.
+
+...
+
+Romper palabras
+Use break-words de línea a mitad de palabra si es necesario.
+
+...
+
+Romper todo
+Use break-all para agregar saltos de línea siempre que sea necesario, sin tratar de preservar palabras completas.
+
+...
