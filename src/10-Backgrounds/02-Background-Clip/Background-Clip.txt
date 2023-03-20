@@ -11,3 +11,8 @@ Configuración background clip
 Utilice las utilidades bg-clip-{keyword} para controlar el cuadro delimitador del fondo de un elemento.
 
 ...
+
+Recortar a texto
+Utilice bg-clip-text para recortar el fondo de un elemento para que coincida con la forma del texto. Útil para efectos en los que desea que una imagen de fondo sea visible a través del texto.
+
+...
