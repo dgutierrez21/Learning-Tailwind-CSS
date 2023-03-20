@@ -425,3 +425,33 @@ align-text-top  |  vertical-align: text-top;
 align-text-bottom  |  vertical-align: text-bottom;
 align-sub  |  vertical-align: sub;
 align-super  |  vertical-align: super;
+
+Referencia 
+Utilice align-baseline la línea base de un elemento con la línea base de su padre.
+
+...
+​
+Arriba
+Utilice align-top la parte superior de un elemento y sus descendientes con la parte superior de toda la línea.
+
+...
+​
+Medio
+Utilice align-middle el centro de un elemento con la línea base más la mitad de la altura x del padre.
+
+...
+
+Fondo
+Utilice align-bottom la parte inferior de un elemento y sus descendientes con la parte inferior de toda la línea.
+
+...
+​
+Texto superior
+Utilice align-text-top la parte superior de un elemento con la parte superior de la fuente del elemento principal.
+
+...
+​
+Texto inferior
+Utilice align-text-bottom la parte inferior de un elemento con la parte inferior de la fuente del elemento principal.
+
+...
