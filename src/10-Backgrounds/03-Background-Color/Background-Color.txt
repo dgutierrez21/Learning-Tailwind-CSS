@@ -14,3 +14,8 @@ bg-slate-200  |  background-color: rgb(226 232 240);
 bg-slate-300  |  background-color: rgb(203 213 225);
 
 Referencia completa de colores en https://tailwindcss.com/docs/background-color
+
+Configuración del color de fondo
+Controle el color de fondo de un elemento mediante las utilidades bg-{color}.
+
+...
