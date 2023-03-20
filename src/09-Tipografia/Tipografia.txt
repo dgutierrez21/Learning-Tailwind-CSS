@@ -455,3 +455,13 @@ Texto inferior
 Utilice align-text-bottom la parte inferior de un elemento con la parte inferior de la fuente del elemento principal.
 
 ...
+
+Espacios
+Utilidades para controlar la propiedad de espacio en blanco de un elemento.
+
+Clase  |  Propiedades
+whitespace-normal  |  white-space: normal;
+whitespace-nowrap  |  white-space: nowrap;
+whitespace-pre  |  white-space: pre;
+whitespace-pre-line  |  white-space: pre-line;
+whitespace-pre-wrap  |  white-space: pre-wrap;
