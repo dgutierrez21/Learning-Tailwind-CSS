@@ -1,0 +1,7 @@
+Background Origin
+Utilidades para controlar cómo se coloca el fondo de un elemento en relación con los bordes, el relleno y el contenido.
+
+Class  |  Properties
+bg-origin-border  |  background-origin: border-box;
+bg-origin-padding  |  background-origin: padding-box;
+bg-origin-content  |  background-origin: content-box;
