@@ -515,3 +515,9 @@ Romper todo
 Use break-all para agregar saltos de línea siempre que sea necesario, sin tratar de preservar palabras completas.
 
 ...
+
+Contenido
+Utilidades para controlar el contenido de los pseudoelementos antes y después.
+
+Clase  |  Propiedades
+content-none  |  content: none;
