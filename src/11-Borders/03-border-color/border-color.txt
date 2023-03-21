@@ -21,3 +21,8 @@ Cambiar la opacidad
 Controle la opacidad del color del borde de un elemento mediante el modificador de opacidad de color.
 
 ...
+
+Lados individuales
+Utilice las utilidades border-{side}-{color} para establecer el color del borde para un lado de un elemento.
+
+...
