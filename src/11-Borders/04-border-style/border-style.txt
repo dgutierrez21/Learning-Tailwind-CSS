@@ -13,3 +13,8 @@ Establecer el estilo de borde
 Use border-{style} para controlar el estilo de los bordes de un elemento.
 
 ...
+
+Sin estilo
+Use border-none para eliminar un estilo de borde existente de un elemento.
+
+...
