@@ -18,3 +18,8 @@ Esquinas redondeadas
 Utilice utilidades como .rounded-sm, .rounded o .rounded-lg para aplicar diferentes tamaños de radio de borde a un elemento.
 
 ...
+
+Botones de píldora
+Utilice la utilidad rounded-full para crear botones de píldora.
+
+...
