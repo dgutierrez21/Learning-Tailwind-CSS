@@ -23,3 +23,8 @@ Lados individuales
 Utilice las utilidades border-{side}, border-{side}-0, border-{side}-2, border-{side}-4 o border-{side}-8 para definir la anchura del borde de un lado de un elemento.
 
 ...
+
+Lados horizontal y vertical
+Utilice las utilidades border-{x|y}-{width} para establecer el ancho del borde en dos lados de un elemento al mismo tiempo.
+
+...
