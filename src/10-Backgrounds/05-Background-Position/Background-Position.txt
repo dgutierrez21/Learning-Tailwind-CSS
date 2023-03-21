@@ -11,3 +11,8 @@ bg-right  |  background-position: right;
 bg-right-bottom  |  background-position: right bottom;
 bg-right-top  |  background-position: right top;
 bg-top  |  background-position: top;
+
+Configuración de background position
+Utilice las utilidades bg-{side} para controlar la posición de la imagen de fondo de un elemento.
+
+...
