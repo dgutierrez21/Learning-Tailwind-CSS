@@ -23,3 +23,10 @@ Botones de píldora
 Utilice la utilidad rounded-full para crear botones de píldora.
 
 ...
+
+Sin redondeo
+Utilice rounded-none para quitar un radio de borde existente de un elemento.
+
+Esto se usa más comúnmente para eliminar un radio de borde que se aplicó en un punto de interrupción más pequeño.
+
+...
