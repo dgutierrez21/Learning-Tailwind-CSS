@@ -1,0 +1,7 @@
+Background Size
+Utilidades para controlar el tamaño de fondo de la imagen de fondo de un elemento.
+
+Clase  |  Propiedades
+bg-auto  |  background-size: auto;
+bg-cover  |  background-size: cover;
+bg-contain  |  background-size: contain;
