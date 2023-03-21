@@ -13,3 +13,8 @@ Repetir
 Utilice bg-repeat para repetir la imagen de fondo tanto vertical como horizontalmente.
 
 ...
+
+Sin repetición
+Use bg-no-repeat cuando no desee repetir la imagen de fondo.
+
+...
