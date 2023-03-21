@@ -28,3 +28,8 @@ Lados horizontal y vertical
 Utilice las utilidades border-{x|y}-{width} para establecer el ancho del borde en dos lados de un elemento al mismo tiempo.
 
 ...
+
+Entre elementos
+También puede añadir bordes entre elementos hijos utilizando las utilidades divide-{x/y}-{width} y divide-{color}.
+
+...
