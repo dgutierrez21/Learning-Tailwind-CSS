@@ -35,3 +35,8 @@ Redondear los lados por separado
 Usa rounded-{t|r|b|l}{-size?} solo un lado de un elemento.
 
 ...
+
+Redondear esquinas por separado
+Use rounded-{tl|tr|br|bl}{-size?} solo una esquina de un elemento.
+
+...
