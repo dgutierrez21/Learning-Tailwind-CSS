@@ -33,3 +33,15 @@ Entre elementos
 También puede añadir bordes entre elementos hijos utilizando las utilidades divide-{x/y}-{width} y divide-{color}.
 
 ...
+
+Utilización sin Preflight
+Si ha desactivado Preflight en su proyecto, tendrá que incluir una utilidad de estilo de borde cada vez que utilice una de las utilidades de ancho de borde para que el borde realmente tenga efecto:
+
+<div class="border-4 border-indigo-500 ...">
+<div class="border-4 border-solid border-indigo-500 ...">
+  <!-- ... -->
+</div>
+
+Esto se debe a que los navegadores establecen el estilo de borde de la mayoría de los elementos en ninguno por defecto, por lo que añadir un ancho de borde por sí solo no es suficiente para generar un borde.
+
+Preflight aplica un restablecimiento de borde global que establece el estilo de borde como sólido y el ancho de borde como 0, que es lo que hace posible añadir un borde a un elemento utilizando sólo una utilidad de ancho de borde en proyectos que utilizan Preflight.
