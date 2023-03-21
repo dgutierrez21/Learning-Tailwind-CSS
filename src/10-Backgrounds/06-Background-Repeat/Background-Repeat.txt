@@ -18,3 +18,8 @@ Sin repetición
 Use bg-no-repeat cuando no desee repetir la imagen de fondo.
 
 ...
+
+Repetir horizontalmente
+Utilice bg-repeat-x para repetir la imagen de fondo sólo horizontalmente.
+
+...
