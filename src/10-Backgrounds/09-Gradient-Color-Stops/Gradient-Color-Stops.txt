@@ -51,3 +51,8 @@ Los degradados se desvanecen a transparentes de forma predeterminada, sin necesi
 <div class="bg-gradient-to-r from-blue-500">
   <!-- ... -->
 </div>
+
+Desplazar, enfocar y otros estados
+Tailwind permite aplicar condicionalmente clases de utilidad en diferentes estados mediante modificadores de variantes. Por ejemplo, use hover:from-pink-500 Para aplicar sólo la utilidad from-pink-500 en cernerse.
+
+...
