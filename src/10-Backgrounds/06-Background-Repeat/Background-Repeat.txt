@@ -23,3 +23,8 @@ Repetir horizontalmente
 Utilice bg-repeat-x para repetir la imagen de fondo sólo horizontalmente.
 
 ...
+
+Repetir verticalmente
+Utilice bg-repeat-y para repetir la imagen de fondo sólo verticalmente.
+
+...
