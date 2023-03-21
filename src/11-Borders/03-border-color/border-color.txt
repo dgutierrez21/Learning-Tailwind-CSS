@@ -16,3 +16,8 @@ Configuración del color del borde
 Controle el color del borde de un elemento mediante las utilidades border-{color}.
 
 ...
+
+Cambiar la opacidad
+Controle la opacidad del color del borde de un elemento mediante el modificador de opacidad de color.
+
+...
