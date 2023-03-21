@@ -26,3 +26,6 @@ Lados individuales
 Utilice las utilidades border-{side}-{color} para establecer el color del borde para un lado de un elemento.
 
 ...
+
+Lados horizontales y verticales
+Utilice las utilidades border-{x|y}-{color} para establecer el color del borde en dos lados de un elemento al mismo tiempo.
