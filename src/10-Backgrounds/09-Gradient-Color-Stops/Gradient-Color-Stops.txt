@@ -36,3 +36,18 @@ Agregue un color intermedio a un degradado mediante las utilidades via-{color}.
 Los degradados con from-{color} y via-{color} se desvanecerán a transparente por defecto si no está presente to-{color}.
 
 ...
+
+Desvanecimiento a transparente
+Los degradados se desvanecen a transparentes de forma predeterminada, sin necesidad de agregar to-transparent explícitamente. Tailwind calcula inteligentemente el valor "transparente" correcto para usar en función del color inicial para evitar un error en Safari < 15.4 que hace que el desvanecimiento simplemente de la palabra clave transparent se desvanezca a través del gris, que se ve horrible.
+
+❌ No agregues 'to-transparent' explícitamente
+
+<div class="bg-gradient-to-r from-blue-500 to-transparent">
+  <!-- ... -->
+</div>
+
+✅ Solo especifique un color de color y fundido a transparente automáticamente
+
+<div class="bg-gradient-to-r from-blue-500">
+  <!-- ... -->
+</div>
