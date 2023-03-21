@@ -13,3 +13,8 @@ rounded-3xl  |  border-radius: 1.5rem; /* 24px */
 rounded-full  |  border-radius: 9999px;
 
 Referencia completa en https://tailwindcss.com/docs/border-radius
+
+Esquinas redondeadas
+Utilice utilidades como .rounded-sm, .rounded o .rounded-lg para aplicar diferentes tamaños de radio de borde a un elemento.
+
+...
