@@ -1,0 +1,10 @@
+Background Repeat
+Utilidades para controlar la repetición de la imagen de fondo de un elemento.
+
+Clase  |  Propiedades
+bg-repeat  |  background-repeat: repeat;
+bg-no-repeat  |  background-repeat: no-repeat;
+bg-repeat-x  |  background-repeat: repeat-x;
+bg-repeat-y  |  background-repeat: repeat-y;
+bg-repeat-round  |  background-repeat: round;
+bg-repeat-space  |  background-repeat: space;
