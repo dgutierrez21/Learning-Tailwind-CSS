@@ -8,3 +8,8 @@ bg-repeat-x  |  background-repeat: repeat-x;
 bg-repeat-y  |  background-repeat: repeat-y;
 bg-repeat-round  |  background-repeat: round;
 bg-repeat-space  |  background-repeat: space;
+
+Repetir
+Utilice bg-repeat para repetir la imagen de fondo tanto vertical como horizontalmente.
+
+...
