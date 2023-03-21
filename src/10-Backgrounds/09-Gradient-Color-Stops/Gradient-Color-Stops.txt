@@ -29,3 +29,10 @@ Establezca el color final de un degradado mediante las utilidades to-{color}.
 Por defecto, los degradados no se desvanecen a partir de un color transparente. Para difuminar desde transparente, invierta la dirección del degradado y utilice una utilidad from-{color}.
 
 ...
+
+Color medio
+Agregue un color intermedio a un degradado mediante las utilidades via-{color}.
+
+Los degradados con from-{color} y via-{color} se desvanecerán a transparente por defecto si no está presente to-{color}.
+
+...
