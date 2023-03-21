@@ -8,3 +8,8 @@ border-dotted  |  border-style: dotted;
 border-double  |  border-style: double;
 border-hidden  |  border-style: hidden;
 border-none  |  border-style: none;
+
+Establecer el estilo de borde
+Use border-{style} para controlar el estilo de los bordes de un elemento.
+
+...
