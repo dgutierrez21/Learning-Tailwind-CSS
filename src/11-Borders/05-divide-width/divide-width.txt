@@ -29,3 +29,8 @@ Agregar bordes entre hijos horizontales
 Agregue bordes entre elementos horizontales utilizando las utilidades divide-x-{width}.
 
 ...
+
+Agregar bordes entre hijos apilados
+Agregue bordes entre elementos apilados mediante las utilidades divide-y-{width}.
+
+...
