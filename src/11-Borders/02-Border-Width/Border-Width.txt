@@ -18,3 +18,8 @@ Todos los lados
 Utilice las utilidades border, border-0, border-2, border-4 o border-8 para definir el ancho del borde de todos los lados de un elemento.
 
 ...
+
+Lados individuales
+Utilice las utilidades border-{side}, border-{side}-0, border-{side}-2, border-{side}-4 o border-{side}-8 para definir la anchura del borde de un lado de un elemento.
+
+...
