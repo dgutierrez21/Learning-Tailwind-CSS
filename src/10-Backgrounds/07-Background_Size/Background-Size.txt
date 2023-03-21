@@ -10,3 +10,8 @@ Automático
 Utilice bg-auto para mostrar la imagen de fondo en su tamaño predeterminado.
 
 ...
+
+Cubrir
+Utilice bg-cover para escalar la imagen de fondo hasta que llene la capa de fondo.
+
+...
