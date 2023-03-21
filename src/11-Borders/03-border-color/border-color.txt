@@ -1,0 +1,13 @@
+Border Color
+Utilidades para controlar el color de los bordes de un elemento.
+
+Clase  |  Propiedades
+
+border-inherit  |  border-color: inherit;
+border-current  |  border-color: currentColor;
+border-transparent  |  border-color: transparent;
+border-black  |  border-color: rgb(0 0 0);
+border-white  |  border-color: rgb(255 255 255);
+border-slate-50  |  border-color: rgb(248 250 252);
+border-slate-100  |  border-color: rgb(241 245 249);
+border-slate-200  |  border-color: rgb(226 232 240);
