@@ -34,3 +34,8 @@ Agregar bordes entre hijos apilados
 Agregue bordes entre elementos apilados mediante las utilidades divide-y-{width}.
 
 ...
+
+Invertir el orden de los hijos
+Si los elementos están en orden inverso (por ejemplo, flex-row-reverse o flex-col-reverse), utilice las utilidades divide-x-reverse o divide-x-reverse para asegurarse de que el borde se agrega al lado correcto de cada elemento.divide-y-reverse
+
+...
