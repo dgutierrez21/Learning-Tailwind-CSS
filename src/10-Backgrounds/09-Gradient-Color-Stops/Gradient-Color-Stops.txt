@@ -1,0 +1,19 @@
+Gradient Color Stops
+Utilidades para controlar los topes de color en los degradados de fondo.
+
+Class  |  Properties
+
+from-inherit  |  --tw-gradient-from: inherit;
+                --tw-gradient-to: rgb(255 255 255 / 0);
+                --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+from-current  |  --tw-gradient-from: currentColor;
+                --tw-gradient-to: rgb(255 255 255 / 0);
+                --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+from-transparent  |  --tw-gradient-from: transparent;
+                --tw-gradient-to: rgb(0 0 0 / 0);
+                --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+from-black  |  --tw-gradient-from: #000;
+                --tw-gradient-to: rgb(0 0 0 / 0);
+                --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+
+Referencia completa en https://tailwindcss.com/docs/gradient-color-stops
