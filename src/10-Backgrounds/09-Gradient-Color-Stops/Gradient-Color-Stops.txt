@@ -22,3 +22,10 @@ Color inicial
 Establezca el color inicial de un degradado mediante las utilidades from-{color}.
 
 ...
+
+Color final
+Establezca el color final de un degradado mediante las utilidades to-{color}.
+
+Por defecto, los degradados no se desvanecen a partir de un color transparente. Para difuminar desde transparente, invierta la dirección del degradado y utilice una utilidad from-{color}.
+
+...
