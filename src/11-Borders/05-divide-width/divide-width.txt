@@ -24,3 +24,8 @@ divide-y > * + *	border-top-width: 1px;
                     border-bottom-width: 0px;
 divide-y-reverse > * + *	--tw-divide-y-reverse: 1;
 divide-x-reverse > * + *	--tw-divide-x-reverse: 1;
+
+Agregar bordes entre hijos horizontales
+Agregue bordes entre elementos horizontales utilizando las utilidades divide-x-{width}.
+
+...
