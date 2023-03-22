@@ -7,3 +7,10 @@ outline-1  |  outline-width: 1px;
 outline-2  |  outline-width: 2px;
 outline-4  |  outline-width: 4px;
 outline-8  |  outline-width: 8px;
+
+Configuración del ancho del contorno
+Utilice las utilidades outline-{width} para cambiar el ancho del contorno de un elemento.
+
+El ancho de contorno predeterminado es 3px.
+
+...
