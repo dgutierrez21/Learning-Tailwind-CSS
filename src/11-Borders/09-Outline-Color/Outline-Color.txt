@@ -1,0 +1,15 @@
+Outline Color
+Utilidades para controlar el color del contorno de un elemento.
+
+
+Class  |  Properties
+outline-inherit  |  outline-color: inherit;
+outline-current  |  outline-color: currentColor;
+outline-transparent  |  outline-color: transparent;
+outline-black  |  outline-color: #000;
+outline-white  |  outline-color: #fff;
+outline-slate-50  |  outline-color: #f8fafc;
+outline-slate-100  |  outline-color: #f1f5f9;
+outline-slate-200  |  outline-color: #e2e8f0;
+outline-slate-300  |  outline-color: #cbd5e1;
+outline-slate-400  |  outline-color: #94a3b8;
