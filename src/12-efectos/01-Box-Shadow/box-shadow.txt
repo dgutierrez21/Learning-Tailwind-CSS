@@ -15,3 +15,8 @@ Agregar una sombra exterior
 Utilice las utilidades shadow-sm, shadow, shadow-md, shadow-lg, shadow-xl o shadow-2xl para aplicar sombras de caja exterior de distintos tamaños a un elemento.
 
 ...
+
+Agregar una sombra interior
+Utilice la utilidad shadow-inner para aplicar una sombra de cuadro de inserción sutil a un elemento. Esto puede ser útil para cosas como controles de formularios o pozos.
+
+...
