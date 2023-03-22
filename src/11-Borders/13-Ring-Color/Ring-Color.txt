@@ -1,0 +1,13 @@
+Ring Color
+Utilidades para configurar el color de los anillos de contorno.
+
+Clase
+Propiedades
+ring-inherit	--tw-ring-color: inherit;
+ring-current	--tw-ring-color: currentColor;
+ring-transparent	--tw-ring-color: transparent;
+ring-black	--tw-ring-color: rgb(0 0 0);
+ring-white	--tw-ring-color: rgb(255 255 255);
+ring-slate-50	--tw-ring-color: rgb(248 250 252);
+ring-slate-100	--tw-ring-color: rgb(241 245 249);
+ring-slate-200	--tw-ring-color: rgb(226 232 240);
