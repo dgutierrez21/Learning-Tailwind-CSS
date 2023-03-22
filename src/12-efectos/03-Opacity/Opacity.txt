@@ -17,3 +17,8 @@ opacity-80  |  opacity: 0.8;
 opacity-90  |  opacity: 0.9;
 opacity-95  |  opacity: 0.95;
 opacity-100  |  opacity: 1;
+
+Cambiar la opacidad de un elemento
+Controle la opacidad de un elemento utilizando las utilidades opacity-{cantidad}.
+
+...
