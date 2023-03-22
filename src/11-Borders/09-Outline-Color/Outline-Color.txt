@@ -18,3 +18,8 @@ Configuración del color del contorno
 Utilice las utilidades outline-{color} para cambiar el color del contorno de un elemento.
 
 ...
+
+Cambiar la opacidad
+Controle la opacidad del color de contorno de un elemento con el modificador de opacidad de color
+
+...
