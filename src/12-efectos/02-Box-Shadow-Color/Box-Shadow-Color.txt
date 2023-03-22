@@ -10,3 +10,8 @@ shadow-white  |  --tw-shadow-color: #fff;
 shadow-slate-50  |  --tw-shadow-color: #f8fafc;
 shadow-slate-100  |  --tw-shadow-color: #f1f5f9;
 shadow-slate-200  |  --tw-shadow-color: #e2e8f0;
+
+Configuración del color de sombra del cuadro
+Utilice las utilidades shadow-{color} para cambiar el color de una sombra de cuadro existente. De forma predeterminada, las sombras de color tienen una opacidad del 100%, pero puede ajustarla utilizando el modificador de opacidad.
+
+...
