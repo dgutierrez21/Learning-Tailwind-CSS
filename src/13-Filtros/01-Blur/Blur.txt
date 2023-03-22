@@ -10,3 +10,8 @@ blur-lg  |  filter: blur(16px);
 blur-xl  |  filter: blur(24px);
 blur-2xl  |  filter: blur(40px);
 blur-3xl  |  filter: blur(64px);
+
+Desenfoque de elementos
+Utilice las utilidades blur-{cantidad} para desenfocar un elemento.
+
+...
