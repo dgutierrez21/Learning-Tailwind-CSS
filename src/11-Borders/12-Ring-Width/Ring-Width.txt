@@ -18,3 +18,8 @@ Utilice las utilidades ring-{width} para aplicar una sombra de caja sólida de u
 Las utilidades de anillo se componen correctamente con utilidades shadow-{size} normales y se pueden combinar en el mismo elemento.
 
 También puede controlar el color, la opacidad y el desplazamiento de los anillos mediante las utilidades ringColor, ringOpacity y ringOffsetWidth.
+
+Anillos de enfoque
+Las utilidades de ancho de anillo facilitan el uso de anillos de enfoque personalizados al agregar focus: al comienzo de cualquier utilidad ring-{width}.
+
+...
