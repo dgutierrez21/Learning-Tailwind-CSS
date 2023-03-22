@@ -17,3 +17,8 @@ Configuración del ancho de desplazamiento del anillo
 Utilice las utilidades ring-offset-{width} para simular un desplazamiento añadiendo sombra de cuadro blanca sólida y aumentando el grosor del anillo de contorno adjunto para acomodar el desplazamiento.
 
 ...
+
+Cambio del color de desplazamiento
+En realidad, no se puede compensar una sombra de cuadro en CSS, por lo que tenemos que falsificarla usando una sombra de color sólido que coincida con el color de fondo principal. Usamos blanco de forma predeterminada, pero si está agregando un desplazamiento de anillo sobre un color de fondo diferente, debe usar las utilidades ring-offset-{color} para que coincida con el color de fondo principal:
+
+...
