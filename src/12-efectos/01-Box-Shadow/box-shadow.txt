@@ -20,3 +20,8 @@ Agregar una sombra interior
 Utilice la utilidad shadow-inner para aplicar una sombra de cuadro de inserción sutil a un elemento. Esto puede ser útil para cosas como controles de formularios o pozos.
 
 ...
+
+Eliminación de la sombra
+Utilice shadow-none para quitar una sombra de cuadro existente de un elemento. Esto se usa más comúnmente para eliminar una sombra que se aplicó en un punto de interrupción más pequeño.
+
+...
