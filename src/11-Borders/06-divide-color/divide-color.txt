@@ -1,0 +1,13 @@
+Divide Color
+Utilidades para controlar el color del borde entre elementos.
+
+Clase  |  Propiedades
+
+divide-inherit > * + *	border-color: inherit;
+divide-current > * + *	border-color: currentColor;
+divide-transparent > * + *	border-color: transparent;
+divide-black > * + *	border-color: rgb(0 0 0);
+divide-white > * + *	border-color: rgb(255 255 255);
+divide-slate-50 > * + *	border-color: rgb(248 250 252);
+divide-slate-100 > * + *	border-color: rgb(241 245 249);
+divide-slate-200 > * + *	border-color: rgb(226 232 240);
