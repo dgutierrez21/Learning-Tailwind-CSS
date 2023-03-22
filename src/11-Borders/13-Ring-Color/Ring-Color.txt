@@ -11,3 +11,8 @@ ring-white	--tw-ring-color: rgb(255 255 255);
 ring-slate-50	--tw-ring-color: rgb(248 250 252);
 ring-slate-100	--tw-ring-color: rgb(241 245 249);
 ring-slate-200	--tw-ring-color: rgb(226 232 240);
+
+Configuración del color del anillo
+Utilice las utilidades ring-{color} para establecer el color de un anillo de contorno.
+
+...
