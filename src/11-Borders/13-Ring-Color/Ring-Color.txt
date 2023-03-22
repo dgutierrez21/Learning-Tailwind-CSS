@@ -16,3 +16,8 @@ Configuración del color del anillo
 Utilice las utilidades ring-{color} para establecer el color de un anillo de contorno.
 
 ...
+
+Cambiar la opacidad
+Controle la opacidad del color de fondo de un elemento mediante el modificador de opacidad de color.
+
+...
