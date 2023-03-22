@@ -16,3 +16,8 @@ Configuración del color de división
 Controle el color del borde entre los elementos mediante las utilidades divide-{color}.
 
 ...
+
+Cambiar la opacidad
+Controle la opacidad del color de división mediante el modificador de opacidad de color.
+
+...
