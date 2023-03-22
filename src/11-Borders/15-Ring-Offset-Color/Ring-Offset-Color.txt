@@ -18,3 +18,8 @@ ring-offset-slate-100  |  --tw-ring-offset-color: #f1f5f9;
                         box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
 ring-offset-slate-200  |  --tw-ring-offset-color: #e2e8f0;
                         box-shadow: 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color), var(--tw-ring-shadow);
+
+Configuración del color de desplazamiento del anillo
+Utilice las utilidades ring-offset-{color} para cambiar el color de un desplazamiento de anillo. Por lo general, esto se hace para tratar de hacer coincidir el desplazamiento con el color de fondo principal, ya que los verdaderos desplazamientos de sombra de caja no son realmente posibles en CSS.
+
+...
