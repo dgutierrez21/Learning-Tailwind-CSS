@@ -18,3 +18,10 @@ Cambio del brillo del elemento
 Utilice las utilidades brightness-{amount?} para controlar el brillo de un elemento.
 
 ...
+
+Eliminación de filtros
+Para eliminar todos los filtros de un elemento a la vez, utilice la utilidad filter-none
+
+...
+
+Esto puede ser útil cuando desea quitar filtros condicionalmente, como al pasar el cursor o en un punto de interrupción determinado.
