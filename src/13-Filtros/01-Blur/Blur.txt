@@ -15,3 +15,11 @@ Desenfoque de elementos
 Utilice las utilidades blur-{cantidad} para desenfocar un elemento.
 
 ...
+
+Eliminación de filtros
+Para eliminar todos los filtros de un elemento a la vez, utilice la utilidad filter-none
+<div class="blur-md invert brightness-150 md:filter-none">
+  <!-- ... -->
+</div>
+
+Esto puede ser útil cuando desea quitar filtros condicionalmente, como al pasar el cursor o en un punto de interrupción determinado.
