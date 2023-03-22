@@ -9,3 +9,8 @@ contrast-100  |  filter: contrast(1);
 contrast-125  |  filter: contrast(1.25);
 contrast-150  |  filter: contrast(1.5);
 contrast-200  |  filter: contrast(2);
+
+Cambio del contraste de elementos
+Utilice las utilidades contrast-{amount?} para controlar el contraste de un elemento.
+
+...
