@@ -13,3 +13,8 @@ outline-slate-100  |  outline-color: #f1f5f9;
 outline-slate-200  |  outline-color: #e2e8f0;
 outline-slate-300  |  outline-color: #cbd5e1;
 outline-slate-400  |  outline-color: #94a3b8;
+
+Configuración del color del contorno
+Utilice las utilidades outline-{color} para cambiar el color del contorno de un elemento.
+
+...
