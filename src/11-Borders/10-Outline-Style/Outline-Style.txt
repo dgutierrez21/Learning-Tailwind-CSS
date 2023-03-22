@@ -8,3 +8,8 @@ outline	        |  outline-style: solid;
 outline-dashed  |  outline-style: dashed;
 outline-dotted  |  outline-style: dotted;
 outline-double  |  outline-style: double;
+
+Configuración del estilo de contorno
+Utilice las utilidades outline-{style} para cambiar el estilo del contorno de un elemento.
+
+...
