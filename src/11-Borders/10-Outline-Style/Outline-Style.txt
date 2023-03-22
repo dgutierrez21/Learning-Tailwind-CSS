@@ -13,3 +13,12 @@ Configuración del estilo de contorno
 Utilice las utilidades outline-{style} para cambiar el estilo del contorno de un elemento.
 
 ...
+
+Eliminación de contornos
+Utilice outline-none para ocultar el contorno predeterminado del navegador en los elementos seleccionados.
+
+Se recomienda encarecidamente aplicar su propio estilo de enfoque para la accesibilidad al usar esta utilidad.
+
+...
+
+La utilidad outline-none se implementa utilizando un contorno transparente debajo del capó para garantizar que los elementos sigan visiblemente enfocados para los usuarios del modo de alto contraste de Windows.
