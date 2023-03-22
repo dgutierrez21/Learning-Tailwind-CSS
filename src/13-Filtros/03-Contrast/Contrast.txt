@@ -14,3 +14,8 @@ Cambio del contraste de elementos
 Utilice las utilidades contrast-{amount?} para controlar el contraste de un elemento.
 
 ...
+
+Eliminación de filtros
+Para eliminar todos los filtros de un elemento a la vez, utilice la utilidad filter-none
+
+...
