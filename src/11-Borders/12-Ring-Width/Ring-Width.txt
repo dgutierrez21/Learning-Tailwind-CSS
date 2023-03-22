@@ -23,3 +23,8 @@ Anillos de enfoque
 Las utilidades de ancho de anillo facilitan el uso de anillos de enfoque personalizados al agregar focus: al comienzo de cualquier utilidad ring-{width}.
 
 ...
+
+Anillos insertados
+Utilice la utilidad ring-inset para forzar que un anillo se renderice en el interior de un elemento en lugar del exterior. Esto puede ser útil para elementos en el borde de la pantalla donde parte del anillo no sería visible.
+
+...
