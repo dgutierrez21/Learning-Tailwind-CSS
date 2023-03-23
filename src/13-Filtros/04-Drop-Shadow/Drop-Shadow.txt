@@ -14,3 +14,12 @@ Agregar una sombra paralela
 Utilice las utilidades drop-shadow-{amount} para agregar una sombra paralela a un elemento.
 
 ...
+
+Eliminación de filtros
+Para eliminar todos los filtros de un elemento a la vez, utilice la utilidad filter-none
+<div class="blur-md invert drop-shadow-xl md:filter-none">
+  <!-- ... -->
+</div>
+Esto puede ser útil cuando desea quitar filtros condicionalmente, como al pasar el cursor o en un punto de interrupción determinado.
+
+...
