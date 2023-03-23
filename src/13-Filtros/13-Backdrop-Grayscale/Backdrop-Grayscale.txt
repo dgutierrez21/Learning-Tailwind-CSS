@@ -1,0 +1,6 @@
+Backdrop Grayscale
+Utilidades para aplicar filtros de escala de grises de fondo a un elemento.
+
+Clase  |  Propiedades
+backdrop-grayscale-0  |  backdrop-filter: grayscale(0);
+backdrop-grayscale  |  backdrop-filter: grayscale(100%);
