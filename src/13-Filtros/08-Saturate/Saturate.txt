@@ -7,3 +7,8 @@ saturate-50  |  filter: saturate(.5);
 saturate-100  |  filter: saturate(1);
 saturate-150  |  filter: saturate(1.5);
 saturate-200  |  filter: saturate(2);
+
+Cambio de la saturación de elementos
+Utilice las utilidades saturate-{amount} de un elemento.
+
+...
