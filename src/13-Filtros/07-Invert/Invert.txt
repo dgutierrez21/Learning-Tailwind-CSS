@@ -1,0 +1,6 @@
+Invert
+Utilidades para aplicar filtros invertidos a un elemento.
+
+Clase  |  Propiedades
+invert-0  |  filter: invert(0);
+invert  |  filter: invert(100%);
