@@ -4,3 +4,8 @@ Utilidades para aplicar filtros sepia a un elemento.
 Clase  |  Propiedades
 sepia-0  |  filter: sepia(0);
 sepia  |  filter: sepia(100%);
+
+Adición de filtros sepia
+Utilice las utilidades sepia y sepia-0 para controlar si un elemento debe representarse como sepia o a todo color.
+
+...
