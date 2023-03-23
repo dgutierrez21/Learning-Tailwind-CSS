@@ -13,3 +13,8 @@ backdrop-brightness-110  |  backdrop-filter: brightness(1.1);
 backdrop-brightness-125  |  backdrop-filter: brightness(1.25);
 backdrop-brightness-150  |  backdrop-filter: brightness(1.5);
 backdrop-brightness-200  |  backdrop-filter: brightness(2);
+
+Control del brillo del fondo
+Utilice las utilidades backdrop-brightness-{amount?} para controlar el brillo del fondo de un elemento.
+
+...
