@@ -4,3 +4,8 @@ Utilidades para aplicar filtros de escala de grises a un elemento.
 Clase  |  Propiedades
 grayscale-0  |  filter: grayscale(0);
 grayscale  |  filter: grayscale(100%);
+
+Creación de un elemento en escala de grises
+Utilice las utilidades escala de grises y escala de grises-0 para controlar si un elemento debe representarse como grayscale-0 o a todo color.grayscale
+
+...
