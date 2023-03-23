@@ -10,3 +10,8 @@ backdrop-blur-lg  |  backdrop-filter: blur(16px);
 backdrop-blur-xl  |  backdrop-filter: blur(24px);
 backdrop-blur-2xl  |  backdrop-filter: blur(40px);
 backdrop-blur-3xl  |  backdrop-filter: blur(64px);
+
+Desenfoque detrás de un elemento
+Utilice las utilidades backdrop-blur-{amount?} para controlar el desenfoque del fondo de un elemento.
+
+...
