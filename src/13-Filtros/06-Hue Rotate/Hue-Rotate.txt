@@ -13,3 +13,10 @@ Rotación del tono de un elemento
 Utilice las utilidades hue-rotate-{amount} para rotar el tono de un elemento.
 
 ...
+
+Uso de valores negativos
+Para utilizar un valor de rotación de tono negativo, anteponga el nombre de la clase con un guión para convertirlo en un valor negativo.
+
+<div class="-hue-rotate-60 ...">
+  <!-- ... -->
+</div>
