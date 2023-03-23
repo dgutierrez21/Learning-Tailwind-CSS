@@ -9,3 +9,8 @@ backdrop-contrast-100  |  backdrop-filter: contrast(1);
 backdrop-contrast-125  |  backdrop-filter: contrast(1.25);
 backdrop-contrast-150  |  backdrop-filter: contrast(1.5);
 backdrop-contrast-200  |  backdrop-filter: contrast(2);
+
+Control del contraste del fondo
+Utilice las utilidades backdrop-contrast-{amount?} para controlar el contraste de fondo de un elemento.
+
+...
