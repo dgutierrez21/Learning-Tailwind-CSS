@@ -4,3 +4,8 @@ Utilidades para aplicar filtros de escala de grises de fondo a un elemento.
 Clase  |  Propiedades
 backdrop-grayscale-0  |  backdrop-filter: grayscale(0);
 backdrop-grayscale  |  backdrop-filter: grayscale(100%);
+
+Creación de un elemento en escala de grises
+Utilice las utilidades backdrop-grayscale para controlar si el fondo de un elemento debe representarse como escala de grises o a todo color.backdrop-grayscale-0
+
+...
