@@ -58,3 +58,8 @@ Señal
 Agregue la utilidad animate-ping para hacer que un elemento se escale y se desvanezca como un ping de radar o una ondulación de agua, útil para cosas como insignias de notificación.
 
 ...
+
+Rebote
+Agregue la utilidad animate-bounce para hacer que un elemento rebote hacia arriba y hacia abajo, útil para cosas como indicadores de "desplazamiento hacia abajo".
+
+...
