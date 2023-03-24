@@ -17,3 +17,8 @@ backdrop-opacity-80  |  backdrop-filter: opacity(0.8);
 backdrop-opacity-90  |  backdrop-filter: opacity(0.9);
 backdrop-opacity-95  |  backdrop-filter: opacity(0.95);
 backdrop-opacity-100  |  backdrop-filter: opacity(1);
+
+Control de la opacidad de los filtros de fondo
+Utilice las utilidades backdrop-opacity-{amount} para controlar la opacidad de otros filtros de fondo aplicados a un elemento.
+
+...
