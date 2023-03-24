@@ -42,3 +42,8 @@ Uso de valores negativos
 Para utilizar un valor de escala negativo, anteponga el nombre de la clase con un guión para convertirlo en un valor negativo.
 
 ...
+
+Eliminación de transformaciones
+Para quitar todas las transformaciones de un elemento a la vez, utilice la utilidad transform-none
+
+...
