@@ -38,3 +38,7 @@ Utilice las utilidades scale-{percentage}, scale-x-{percentage} y scale-y-{perce
 
 ...
 
+Uso de valores negativos
+Para utilizar un valor de escala negativo, anteponga el nombre de la clase con un guión para convertirlo en un valor negativo.
+
+...
