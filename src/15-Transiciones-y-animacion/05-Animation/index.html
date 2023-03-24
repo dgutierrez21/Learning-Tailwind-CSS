@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body class="p-10 bg-slate-800 font-mono font-bold">
-    <div class="space-x-10">
+    <div class="space-x-10 flex justify-center">
       <button class="p-4 bg-sky-500 text-white text-2xl rounded-2xl">
         <svg
           class="h-10 w-10 text-white inline animate-spin"
@@ -42,6 +42,19 @@
           alt=""
         />
         Guardando...
+      </button>
+      <button
+        class="inline-flex p-4 bg-black border-2 border-white text-white text-2xl rounded-2xl"
+      >
+        <span class="relative flex h-3 w-3 -top-[0.5rem] -right-[7.2rem]">
+          <span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"
+          ></span>
+          <span
+            class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"
+          ></span>
+        </span>
+        Mensajes
       </button>
     </div>
   </body>

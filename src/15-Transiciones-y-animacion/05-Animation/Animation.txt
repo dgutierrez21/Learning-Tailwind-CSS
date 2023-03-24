@@ -53,3 +53,8 @@ Giro
 Agregue la utilidad animate-spin para agregar una animación de giro lineal a elementos como los indicadores de carga.
 
 ...
+
+Señal
+Agregue la utilidad animate-ping para hacer que un elemento se escale y se desvanezca como un ping de radar o una ondulación de agua, útil para cosas como insignias de notificación.
+
+...
