@@ -4,3 +4,8 @@ Utilidades para controlar el algoritmo de diseño de tablas.
 Clase  |  Propiedades
 table-auto  |  table-layout: auto;
 table-fixed  |  table-layout: fixed;
+
+Automático
+Utilice table-auto para permitir que la tabla ajuste automáticamente el tamaño de las columnas para que se ajusten al contenido de la celda.
+
+...
