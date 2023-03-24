@@ -1,0 +1,6 @@
+Border Collapse
+Utilidades para controlar si los bordes de tabla deben contraerse o separarse.
+
+Clase  |  Propiedades
+border-collapse  |  border-collapse: collapse;
+border-separate  |  border-collapse: separate;
