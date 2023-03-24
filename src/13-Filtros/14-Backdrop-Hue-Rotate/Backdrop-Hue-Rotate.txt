@@ -8,3 +8,8 @@ backdrop-hue-rotate-30  |  backdrop-filter: hue-rotate(30deg);
 backdrop-hue-rotate-60  |  backdrop-filter: hue-rotate(60deg);
 backdrop-hue-rotate-90  |  backdrop-filter: hue-rotate(90deg);
 backdrop-hue-rotate-180  |  backdrop-filter: hue-rotate(180deg);
+
+Rotación del tono del fondo
+Utilice las utilidades backdrop-hue-rotate-{amount} para rotar el tono del fondo de un elemento.
+
+...
