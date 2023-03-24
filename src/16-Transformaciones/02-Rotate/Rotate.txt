@@ -11,3 +11,8 @@ rotate-12  |  transform: rotate(12deg);
 rotate-45  |  transform: rotate(45deg);
 rotate-90  |  transform: rotate(90deg);
 rotate-180  |  transform: rotate(180deg);
+
+Rotación de un elemento
+Utilice las utilidades rotate-{angle} para rotar un elemento.
+
+...
