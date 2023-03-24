@@ -9,3 +9,10 @@ Automático
 Utilice table-auto para permitir que la tabla ajuste automáticamente el tamaño de las columnas para que se ajusten al contenido de la celda.
 
 ...
+
+Fijo
+Utilice table-fixed para permitir que la tabla omita el contenido y utilice anchos fijos para las columnas. El ancho de la primera fila establecerá los anchos de columna para toda la tabla.
+
+Puede establecer manualmente los anchos para algunas columnas y el resto del ancho disponible se dividirá uniformemente entre las columnas sin ancho explícito.
+
+...
