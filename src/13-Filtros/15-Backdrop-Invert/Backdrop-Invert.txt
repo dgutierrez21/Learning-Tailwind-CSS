@@ -4,3 +4,8 @@ Utilidades para aplicar filtros invertidos de fondo a un elemento.
 Clase  |  Propiedades
 backdrop-invert-0	backdrop-filter: invert(0);
 backdrop-invert	backdrop-filter: invert(100%);
+
+Invertir el fondo de un elemento
+Utilice las utilidades backdrop-invert y backdrop-invert-0 para controlar si un elemento debe procesarse con colores de fondo invertidos o normalmente.backdrop-invert
+
+...
