@@ -32,3 +32,9 @@ scale-y-125  |  transform: scaleY(1.25);
 scale-150  |  transform: scale(1.5);
 scale-x-150  |  transform: scaleX(1.5);
 scale-y-150  |  transform: scaleY(1.5);
+
+Escalado de un elemento
+Utilice las utilidades scale-{percentage}, scale-x-{percentage} y scale-y-{percentage} para escalar un elemento.
+
+...
+
