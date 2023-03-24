@@ -10,3 +10,8 @@ duration-300  |  transition-duration: 300ms;
 duration-500  |  transition-duration: 500ms;
 duration-700  |  transition-duration: 700ms;
 duration-1000  |  transition-duration: 1000ms;
+
+Cambio de la duración de la transición
+Utilice las utilidades duration-{amount} para controlar la duración de transición de un elemento.
+
+...
