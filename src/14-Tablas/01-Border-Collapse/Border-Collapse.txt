@@ -9,3 +9,8 @@ Colapso
 Utilice border-collapse para combinar bordes de celda adyacentes en un solo borde cuando sea posible. Tenga en cuenta que esto incluye la contracción de los bordes en la etiqueta <table> de nivel superior.
 
 ...
+
+Separar
+Utilice border-separate para forzar a cada celda a mostrar sus propios bordes separados.
+
+...
