@@ -47,3 +47,12 @@ Eliminación de transformaciones
 Para quitar todas las transformaciones de un elemento a la vez, utilice la utilidad transform-none
 
 ...
+
+Aceleración de hardware
+Si la transición funciona mejor cuando la GPU la representa en lugar de la CPU, puede forzar la aceleración de hardware agregando la utilidad transform-gpu:
+
+<div class="scale-150 transform-gpu">
+  <!-- ... -->
+</div>
+
+Use transform-cpu para forzar que las cosas vuelvan a la CPU si necesita deshacer esto condicionalmente.
