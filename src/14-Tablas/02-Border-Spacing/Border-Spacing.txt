@@ -12,3 +12,8 @@ border-spacing-0.5  |  border-spacing: 0.125rem 0.125rem;
 border-spacing-x-0.5  |  border-spacing: 0.125rem var(--tw-border-spacing-y);
 border-spacing-y-0.5  |  border-spacing: var(--tw-border-spacing-x) 0.125rem;
 border-spacing-1  |  border-spacing: 0.25rem 0.25rem;
+
+Configuración del espaciado entre bordes
+Usar el border-spacing bordes para controlar el espacio entre los bordes de las celdas de la tabla con bordes separados.
+
+...
