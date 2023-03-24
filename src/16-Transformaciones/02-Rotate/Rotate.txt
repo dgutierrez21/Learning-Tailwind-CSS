@@ -16,3 +16,8 @@ Rotación de un elemento
 Utilice las utilidades rotate-{angle} para rotar un elemento.
 
 ...
+
+Uso de valores negativos
+Para utilizar un valor de rotación negativo, anteponga un guión al nombre de la clase para convertirlo en un valor negativo.
+
+...
