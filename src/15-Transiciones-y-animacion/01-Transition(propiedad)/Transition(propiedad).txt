@@ -32,3 +32,10 @@ Control de propiedades transicionadas
 Utilice las utilidades transition-{properties} para especificar qué propiedades deben realizar la transición cuando cambien.
 
 ....
+
+Prefers-reduced-motion
+Para situaciones en las que el usuario ha especificado que prefiere un movimiento reducido, puede aplicar animaciones y transiciones condicionalmente utilizando las variantes motion-safe y motion-reduce:
+
+<button class="transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none ...">
+  Hover me
+</button>
