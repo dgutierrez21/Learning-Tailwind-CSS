@@ -4,3 +4,8 @@ Utilidades para controlar si los bordes de tabla deben contraerse o separarse.
 Clase  |  Propiedades
 border-collapse  |  border-collapse: collapse;
 border-separate  |  border-collapse: separate;
+
+Colapso
+Utilice border-collapse para combinar bordes de celda adyacentes en un solo borde cuando sea posible. Tenga en cuenta que esto incluye la contracción de los bordes en la etiqueta <table> de nivel superior.
+
+...
