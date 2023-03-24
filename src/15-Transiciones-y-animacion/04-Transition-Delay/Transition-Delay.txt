@@ -10,3 +10,8 @@ delay-300  |  transition-delay: 300ms;
 delay-500  |  transition-delay: 500ms;
 delay-700  |  transition-delay: 700ms;
 delay-1000  |  transition-delay: 1000ms;
+
+Retrasar las transiciones
+Utilice las utilidades delay-{amount} para controlar el retardo de transición de un elemento.
+
+...
