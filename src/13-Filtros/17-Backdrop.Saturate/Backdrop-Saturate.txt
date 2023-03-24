@@ -7,3 +7,8 @@ backdrop-saturate-50  |  backdrop-filter: saturate(.5);
 backdrop-saturate-100  |  backdrop-filter: saturate(1);
 backdrop-saturate-150  |  backdrop-filter: saturate(1.5);
 backdrop-saturate-200  |  backdrop-filter: saturate(2);
+
+Cambio de la saturación del fondo
+Utilice las utilidades backdrop-saturate-{amount} del fondo de un elemento.
+
+...
