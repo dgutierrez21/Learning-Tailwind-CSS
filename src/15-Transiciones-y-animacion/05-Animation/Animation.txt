@@ -63,3 +63,13 @@ Rebote
 Agregue la utilidad animate-bounce para hacer que un elemento rebote hacia arriba y hacia abajo, útil para cosas como indicadores de "desplazamiento hacia abajo".
 
 ...
+
+Prefers-reduced-motion
+Para situaciones en las que el usuario ha especificado que prefiere movimiento reducido, puedes aplicar animaciones y transiciones condicionalmente utilizando las variantes motion-safe y motion-reduce:
+
+<button type="button" class="bg-indigo-600 ..." disabled>
+  <svg class="motion-safe:animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24">
+    <!-- ... -->
+  </svg>
+  Procesando
+</button>
