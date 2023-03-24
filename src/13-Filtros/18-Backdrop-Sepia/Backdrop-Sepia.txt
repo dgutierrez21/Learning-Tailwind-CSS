@@ -4,3 +4,8 @@ Utilidades para aplicar filtros sepia de fondo a un elemento.
 Clase  |  Propiedades
 backdrop-sepia-0  |  backdrop-filter: sepia(0);
 backdrop-sepia  |  backdrop-filter: sepia(100%);
+
+Adición de filtros sepia de fondo
+Utilice las utilidades backdrop-sepia y backdrop-sepia-0 para controlar si el fondo de un elemento debe representarse como backdrop-sepia o a todo color.
+
+...
