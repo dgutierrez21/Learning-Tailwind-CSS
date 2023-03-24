@@ -1,0 +1,6 @@
+Backdrop Sepia
+Utilidades para aplicar filtros sepia de fondo a un elemento.
+
+Clase  |  Propiedades
+backdrop-sepia-0  |  backdrop-filter: sepia(0);
+backdrop-sepia  |  backdrop-filter: sepia(100%);
