@@ -27,3 +27,8 @@ transition-shadow  |  transition-property: box-shadow;
 transition-transform  |  transition-property: transform;
                     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                     transition-duration: 150ms;
+
+Control de propiedades transicionadas
+Utilice las utilidades transition-{properties} para especificar qué propiedades deben realizar la transición cuando cambien.
+
+....
