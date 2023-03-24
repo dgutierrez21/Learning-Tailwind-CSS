@@ -1,0 +1,14 @@
+Border Spacing
+Utilidades para controlar el espaciado entre los bordes de tabla.
+
+Clase  |  Propiedades
+border-spacing-0  |  border-spacing: 0px 0px;
+border-spacing-x-0  |  border-spacing: 0px var(--tw-border-spacing-y);
+border-spacing-y-0  |  border-spacing: var(--tw-border-spacing-x) 0px;
+border-spacing-px  |  border-spacing: 1px 1px;
+border-spacing-x-px  |  border-spacing: 1px var(--tw-border-spacing-y);
+border-spacing-y-px  |  border-spacing: var(--tw-border-spacing-x) 1px;
+border-spacing-0.5  |  border-spacing: 0.125rem 0.125rem;
+border-spacing-x-0.5  |  border-spacing: 0.125rem var(--tw-border-spacing-y);
+border-spacing-y-0.5  |  border-spacing: var(--tw-border-spacing-x) 0.125rem;
+border-spacing-1  |  border-spacing: 0.25rem 0.25rem;
