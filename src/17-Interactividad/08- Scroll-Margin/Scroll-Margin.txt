@@ -1,1 +1,16 @@
-https://tailwindcss.com/docs/accent-color
+Scroll Margin
+Utilidades para controlar el desplazamiento alrededor de los elementos de un contenedor snap.
+
+Clase  |  Propiedades
+scroll-m-0  |  scroll-margin: 0px;
+scroll-mx-0  |  scroll-margin-left: 0px;
+                scroll-margin-right: 0px;
+scroll-my-0  |  scroll-margin-top: 0px;
+                scroll-margin-bottom: 0px;
+scroll-mt-0  |  scroll-margin-top: 0px;
+scroll-mr-0  |  scroll-margin-right: 0px;
+scroll-mb-0  |  scroll-margin-bottom: 0px;
+scroll-ml-0  |  scroll-margin-left: 0px;
+scroll-m-px  |  scroll-margin: 1px;
+scroll-mx-px  |  scroll-margin-left: 1px;
+                 scroll-margin-right: 1px;
