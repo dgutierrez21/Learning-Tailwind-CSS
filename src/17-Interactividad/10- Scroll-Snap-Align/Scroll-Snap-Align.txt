@@ -11,3 +11,8 @@ Ajuste al principio
 Utilice la utilidad snap-start para ajustar un elemento a su inicio cuando se desplaza dentro de un contenedor de ajustes.
 
 ...
+
+Ajuste al centro
+Utilice la utilidad snap-center para ajustar un elemento a su centro cuando se desplaza dentro de un contenedor de snap.
+
+...
