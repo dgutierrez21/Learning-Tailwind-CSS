@@ -1,1 +1,12 @@
-https://tailwindcss.com/docs/accent-color
+Caret Color
+Utilidades para controlar el color del cursor de entrada de texto.
+
+Clase  |  Propiedades
+caret-inherit  |  caret-color: inherit;
+caret-current  |  caret-color: currentColor;
+caret-transparent  |  caret-color: transparent;
+caret-black  |  caret-color: #000;
+caret-white  |  caret-color: #fff;
+caret-slate-50  |  caret-color: #f8fafc;
+caret-slate-100  |  caret-color: #f1f5f9;
+caret-slate-200  |  caret-color: #e2e8f0;
