@@ -3,3 +3,8 @@ Utilidades para suprimir el estilo de control de formulario nativo.
 
 Clase  |  Propiedades
 appearance-none  |  appearance: none;
+
+Eliminación de la apariencia predeterminada del elemento
+Use appearance-none para restablecer cualquier estilo específico del navegador en un elemento. Esta utilidad se utiliza a menudo al crear componentes de formulario personalizados.
+
+...
