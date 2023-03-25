@@ -73,3 +73,8 @@ cursor-nwse-resize  |  cursor: nwse-resize;
 cursor-zoom-in  |  cursor: zoom-in;
 
 cursor-zoom-out  |  cursor: zoom-out;
+
+Configuración del estilo del cursor
+Utilice el cursor-{style} para controlar qué cursor se muestra al pasar el cursor sobre un elemento.
+
+...
