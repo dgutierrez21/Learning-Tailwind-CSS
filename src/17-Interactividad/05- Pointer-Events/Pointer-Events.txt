@@ -4,3 +4,10 @@ Utilidades para controlar si un elemento responde a eventos de puntero.
 Clase  |  Propiedades
 pointer-events-none  |  pointer-events: none;
 pointer-events-auto  |  pointer-events: auto;
+
+Control del comportamiento de los eventos de puntero
+Utilice pointer-events-auto para volver al comportamiento predeterminado del explorador para los eventos de puntero (como :hover y click).
+
+Utilice pointer-events-none para hacer que un elemento ignore los eventos de puntero. Los eventos de puntero seguirán activándose en los elementos secundarios y pasarán a los elementos que están "debajo" del destino.
+
+...
