@@ -1,1 +1,17 @@
-https://tailwindcss.com/docs/accent-color
+Scroll Padding
+Utilidades para controlar el desplazamiento de un elemento dentro de un contenedor de ajustes.
+
+Clase  |  Propiedades
+scroll-p-0  |  scroll-padding: 0px;
+scroll-px-0  |  scroll-padding-left: 0px;
+                scroll-padding-right: 0px;
+scroll-py-0  |  scroll-padding-top: 0px;
+                scroll-padding-bottom: 0px;
+scroll-pt-0  |  scroll-padding-top: 0px;
+scroll-pr-0  |  scroll-padding-right: 0px;
+scroll-pb-0  |  scroll-padding-bottom: 0px;
+scroll-pl-0  |  scroll-padding-left: 0px;
+scroll-p-px  |  scroll-padding: 1px;
+scroll-px-px  |  scroll-padding-left: 1px;
+                 scroll-padding-right: 1px;
+...
