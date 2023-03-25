@@ -1,1 +1,5 @@
-https://tailwindcss.com/docs/accent-color
+Appearance
+Utilidades para suprimir el estilo de control de formulario nativo.
+
+Clase  |  Propiedades
+appearance-none  |  appearance: none;
