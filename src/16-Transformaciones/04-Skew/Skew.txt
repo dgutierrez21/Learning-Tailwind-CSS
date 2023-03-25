@@ -14,3 +14,8 @@ skew-x-6  |  transform: skewX(6deg);
 skew-y-6  |  transform: skewY(6deg);
 skew-x-12  |  transform: skewX(12deg);
 skew-y-12  |  transform: skewY(12deg);
+
+Sesgar un elemento
+Utilice las utilidades skew-x-{amount} y skew-y-{amount} para sesgar un elemento.
+
+...
