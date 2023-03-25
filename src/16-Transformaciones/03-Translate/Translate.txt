@@ -19,3 +19,8 @@ Trasladar un elemento
 Utilice las utilidades translate-x-{amount} y translate-y-{amount} para trasladar un elemento.
 
 ...
+
+Eliminación de transformaciones
+Para quitar todas las transformaciones de un elemento a la vez, utilice la utilidad transform-none
+
+...
