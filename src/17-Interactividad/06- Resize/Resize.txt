@@ -21,3 +21,8 @@ Cambio de tamaño horizontal
 Utilice resize-x para hacer que un elemento sea redimensionable horizontalmente.
 
 ...
+
+Prevención del cambio de tamaño
+Utilice resize-none para evitar que un elemento sea redimensionable.
+
+...
