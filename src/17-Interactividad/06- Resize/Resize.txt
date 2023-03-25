@@ -16,3 +16,8 @@ Cambio de tamaño vertical
 Utilice resize-y para hacer que un elemento sea verticalmente redimensionable.
 
 ...
+
+Cambio de tamaño horizontal
+Utilice resize-x para hacer que un elemento sea redimensionable horizontalmente.
+
+...
