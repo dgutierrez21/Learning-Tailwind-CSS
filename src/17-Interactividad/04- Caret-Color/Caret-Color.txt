@@ -10,3 +10,8 @@ caret-white  |  caret-color: #fff;
 caret-slate-50  |  caret-color: #f8fafc;
 caret-slate-100  |  caret-color: #f1f5f9;
 caret-slate-200  |  caret-color: #e2e8f0;
+
+Configuración del color de intercalación
+Utilice las utilidades caret-{color} para cambiar el color del cursor de entrada de texto.
+
+...
