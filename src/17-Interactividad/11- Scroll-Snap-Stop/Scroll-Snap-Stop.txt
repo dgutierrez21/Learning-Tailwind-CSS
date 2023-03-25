@@ -9,3 +9,8 @@ Forzar paradas de posición de snap
 Utilice la utilidad snap-always junto con la utilidad snap-mandatory para forzar que un contenedor snap se detenga siempre en un elemento antes de que el usuario pueda continuar desplazándose hasta el siguiente elemento.
 
 ...
+
+Saltar paradas de posición de ajuste
+Utilice la utilidad snap-normal para permitir que un contenedor snap se salte las posibles posiciones de snap de desplazamiento.
+
+...
