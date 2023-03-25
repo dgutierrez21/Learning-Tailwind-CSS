@@ -15,3 +15,8 @@ scroll-p-px  |  scroll-padding: 1px;
 scroll-px-px  |  scroll-padding-left: 1px;
                  scroll-padding-right: 1px;
 ...
+
+Configuración del relleno de desplazamiento
+Utilice las utilidades scroll-p{side}-{size} para establecer el desplazamiento de desplazamiento de un elemento dentro de un contenedor de ajustes.
+
+...
