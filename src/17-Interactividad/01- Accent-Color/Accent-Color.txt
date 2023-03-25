@@ -1,0 +1,13 @@
+Accent Color
+Utilidades para controlar el color acentuado de un control de formulario.
+
+Clase  |  Propiedades
+accent-inherit  |  accent-color: inherit;
+accent-current  |  accent-color: currentColor;
+accent-transparent  |  accent-color: transparent;
+accent-black  |  accent-color: #000;
+accent-white  |  accent-color: #fff;
+accent-slate-50  |  accent-color: #f8fafc;
+accent-slate-100  |  accent-color: #f1f5f9;
+accent-slate-200  |  accent-color: #e2e8f0;
+...
