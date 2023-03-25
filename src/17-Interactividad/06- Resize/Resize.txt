@@ -11,3 +11,8 @@ Cambio de tamaño en todas las direcciones
 Utilice resize para hacer que un elemento sea horizontal y verticalmente redimensionable.
 
 ...
+
+Cambio de tamaño vertical
+Utilice resize-y para hacer que un elemento sea verticalmente redimensionable.
+
+...
