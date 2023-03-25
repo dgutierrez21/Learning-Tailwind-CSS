@@ -1,1 +1,6 @@
-https://tailwindcss.com/docs/accent-color
+Pointer Events
+Utilidades para controlar si un elemento responde a eventos de puntero.
+
+Clase  |  Propiedades
+pointer-events-none  |  pointer-events: none;
+pointer-events-auto  |  pointer-events: auto;
