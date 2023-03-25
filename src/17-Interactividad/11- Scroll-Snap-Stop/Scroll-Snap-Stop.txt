@@ -1,1 +1,6 @@
-https://tailwindcss.com/docs/accent-color
+Scroll Snap Stop
+Utilidades para controlar si puede omitir posibles posiciones de ajuste.
+
+Clase  |  Propiedades
+snap-normal  |  scroll-snap-stop: normal;
+snap-always  |  scroll-snap-stop: always;
