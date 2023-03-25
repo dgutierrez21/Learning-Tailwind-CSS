@@ -1,1 +1,8 @@
-https://tailwindcss.com/docs/accent-color
+Resize
+Utilidades para controlar cómo se puede cambiar el tamaño de un elemento.
+
+Clase  |  Propiedades
+resize-none  |  resize: none;
+resize-y  |  resize: vertical;
+resize-x  |  resize: horizontal;
+resize  |  resize: both;
