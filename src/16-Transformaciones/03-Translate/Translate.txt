@@ -1,0 +1,16 @@
+Translate
+Utilidades para trasladar elementos con transformación.
+
+Clase  |  Propiedades
+translate-x-0  |  transform: translateX(0px);
+translate-y-0  |  transform: translateY(0px);
+translate-x-px  |  transform: translateX(1px);
+translate-y-px  |  transform: translateY(1px);
+translate-x-0.5  |  transform: translateX(0.125rem);
+translate-y-0.5  |  transform: translateY(0.125rem);
+translate-x-1  |  transform: translateX(0.25rem);
+translate-y-1  |  transform: translateY(0.25rem);
+translate-x-1.5  |  transform: translateX(0.375rem);
+translate-y-1.5  |  transform: translateY(0.375rem);
+translate-x-2  |  transform: translateX(0.5rem);
+translate-y-2  |  transform: translateY(0.5rem);
