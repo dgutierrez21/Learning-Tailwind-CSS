@@ -14,3 +14,8 @@ scroll-ml-0  |  scroll-margin-left: 0px;
 scroll-m-px  |  scroll-margin: 1px;
 scroll-mx-px  |  scroll-margin-left: 1px;
                  scroll-margin-right: 1px;
+
+Configuración del margen de desplazamiento
+Utilice las utilidades scroll-m{side}-{size} para establecer el desplazamiento del desplazamiento alrededor de los elementos dentro de un contenedor de ajustes.
+
+...
