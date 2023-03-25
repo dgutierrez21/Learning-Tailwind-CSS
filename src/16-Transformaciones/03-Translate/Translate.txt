@@ -14,3 +14,8 @@ translate-x-1.5  |  transform: translateX(0.375rem);
 translate-y-1.5  |  transform: translateY(0.375rem);
 translate-x-2  |  transform: translateX(0.5rem);
 translate-y-2  |  transform: translateY(0.5rem);
+
+Trasladar un elemento
+Utilice las utilidades translate-x-{amount} y translate-y-{amount} para trasladar un elemento.
+
+...
