@@ -11,3 +11,8 @@ accent-slate-50  |  accent-color: #f8fafc;
 accent-slate-100  |  accent-color: #f1f5f9;
 accent-slate-200  |  accent-color: #e2e8f0;
 ...
+
+Configuración del color de énfasis
+Utilice las utilidades accent-{color} para cambiar el color de énfasis de un elemento. Esto es útil para aplicar estilos a elementos como casillas de verificación y grupos de radio al anular el color predeterminado del navegador.
+
+...
