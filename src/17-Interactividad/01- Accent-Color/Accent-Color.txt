@@ -16,3 +16,8 @@ Configuración del color de énfasis
 Utilice las utilidades accent-{color} para cambiar el color de énfasis de un elemento. Esto es útil para aplicar estilos a elementos como casillas de verificación y grupos de radio al anular el color predeterminado del navegador.
 
 ...
+
+Cambiar la opacidad
+Si bien es posible controlar la opacidad del color de acento usando el modificador de opacidad del color, el valor alfa rgba()() solo es compatible con Firefox en este momento (última prueba en noviembre de 2021).
+
+...
