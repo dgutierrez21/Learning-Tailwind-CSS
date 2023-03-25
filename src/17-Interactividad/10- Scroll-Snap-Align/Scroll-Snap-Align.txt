@@ -16,3 +16,8 @@ Ajuste al centro
 Utilice la utilidad snap-center para ajustar un elemento a su centro cuando se desplaza dentro de un contenedor de snap.
 
 ...
+
+Ajuste hasta el final
+Utilice la utilidad snap-end para ajustar un elemento hasta su final cuando se desplaza dentro de un contenedor de snap.
+
+...
