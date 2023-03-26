@@ -6,3 +6,8 @@ select-none  |  user-select: none;
 select-text  |  user-select: text;
 select-all  |  user-select: all;
 select-auto  |  user-select: auto;
+
+Deshabilitar la selección de texto
+Utilice select-none para evitar la selección de texto en un elemento y sus elementos secundarios
+
+...
