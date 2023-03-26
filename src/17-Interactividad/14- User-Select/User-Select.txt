@@ -1,1 +1,8 @@
-https://tailwindcss.com/docs/accent-color
+User Select
+Utilidades para controlar si el usuario puede seleccionar texto en un elemento.
+
+Clase  |  Propiedades
+select-none  |  user-select: none;
+select-text  |  user-select: text;
+select-all  |  user-select: all;
+select-auto  |  user-select: auto;
