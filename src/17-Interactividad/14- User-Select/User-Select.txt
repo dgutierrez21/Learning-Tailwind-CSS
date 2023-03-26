@@ -16,3 +16,8 @@ Permitir la selección de texto
 Utilice select-text para permitir la selección de texto en un elemento y sus elementos secundarios.
 
 ...
+
+Seleccionar todo el texto con un solo clic
+Utilice select-all para seleccionar automáticamente todo el texto de un elemento cuando un usuario hace clic.
+
+...
