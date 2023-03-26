@@ -8,3 +8,10 @@ snap-y  |  scroll-snap-type: y var(--tw-scroll-snap-strictness);
 snap-both  |  scroll-snap-type: both var(--tw-scroll-snap-strictness);
 snap-mandatory	--tw  |  scroll-snap-strictness: mandatory;
 snap-proximity	--tw  |  scroll-snap-strictness: proximity;
+
+Ajuste de desplazamiento horizontal
+Utilice la utilidad snap-x para habilitar el ajuste de desplazamiento horizontal dentro de un elemento.
+
+Para que el ajuste de desplazamiento funcione, también debe establecer la alineación del ajuste de desplazamiento en los hijos dentro del elemento.
+
+...
