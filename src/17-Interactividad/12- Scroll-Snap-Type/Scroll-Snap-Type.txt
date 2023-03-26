@@ -20,3 +20,8 @@ Ajuste de desplazamiento obligatorio
 Utilice la utilidad snap-mandatory para forzar que un contenedor de snap siempre se detenga en un punto de snap.
 
 ...
+
+Ajuste de desplazamiento de proximidad
+Utilice la utilidad snap-proximity para hacer que un contenedor de instantáneas se detenga en puntos de presión que estén muy cerca. Este es el valor predeterminado del navegador.
+
+...
