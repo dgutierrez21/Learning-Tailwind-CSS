@@ -21,3 +21,8 @@ Seleccionar todo el texto con un solo clic
 Utilice select-all para seleccionar automáticamente todo el texto de un elemento cuando un usuario hace clic.
 
 ...
+
+Uso del comportamiento de selección automática
+Utilice select-auto para utilizar el comportamiento predeterminado del explorador para seleccionar texto. Útil para deshacer otras clases como ..select-none en diferentes puntos de interrupción.
+
+...
