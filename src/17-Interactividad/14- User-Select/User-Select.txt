@@ -11,3 +11,8 @@ Deshabilitar la selección de texto
 Utilice select-none para evitar la selección de texto en un elemento y sus elementos secundarios
 
 ...
+
+Permitir la selección de texto
+Utilice select-text para permitir la selección de texto en un elemento y sus elementos secundarios.
+
+...
