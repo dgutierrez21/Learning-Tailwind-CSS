@@ -6,3 +6,14 @@ will-change-auto  |  will-change: auto;
 will-change-scroll  |  will-change: scroll-position;
 will-change-contents  |  will-change: contents;
 will-change-transform  |  will-change: transform;
+
+Optimización con will change
+Utilice will-change-scroll, will-change-contents y will-change-transform para optimizar un elemento que se espera que cambie en un futuro próximo, indicando al navegador que prepare la animación necesaria antes de que comience realmente.
+
+<div class="overflow-auto will-change-scroll">
+  <!-- ... -->
+</div>
+
+Se recomienda aplicar estas utilidades justo antes de que un elemento cambie, y eliminarlo poco después de que termine utilizando will-change-auto.
+
+La propiedad will-change está pensada para ser utilizada como último recurso cuando se trata de problemas de rendimiento conocidos. Evite utilizar estas utilidades demasiado, o simplemente en previsión de problemas de rendimiento, ya que en realidad podría causar que la página sea menos performante.
