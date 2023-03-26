@@ -15,3 +15,8 @@ Utilice la utilidad snap-x para habilitar el ajuste de desplazamiento horizontal
 Para que el ajuste de desplazamiento funcione, también debe establecer la alineación del ajuste de desplazamiento en los hijos dentro del elemento.
 
 ...
+
+Ajuste de desplazamiento obligatorio
+Utilice la utilidad snap-mandatory para forzar que un contenedor de snap siempre se detenga en un punto de snap.
+
+...
